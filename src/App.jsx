@@ -1,5 +1,7 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import a1 from '../data/a1.json'
+import a2 from '../data/a2.json'
+import b1 from '../data/b1.json'
 import b2 from '../data/b2.json'
 import c1 from '../data/c1.json'
 import c2 from '../data/c2.json'
@@ -7,7 +9,7 @@ import WordCard from './WordCard.jsx'
 import { useFavorites } from './useFavorites.js'
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
-const WORDS_BY_LEVEL = { A1: a1, B2: b2, C1: c1, C2: c2 }
+const WORDS_BY_LEVEL = { A1: a1, A2: a2, B1: b1, B2: b2, C1: c1, C2: c2 }
 const ALL_WORDS = Object.values(WORDS_BY_LEVEL).flat()
 
 const POS_FILTERS = [
@@ -19,12 +21,14 @@ const POS_FILTERS = [
   { key: 'etc', label: '기타' },
 ]
 const MAIN_POS = ['NOM', 'VER', 'ADJ', 'ADV']
+const PAGE_SIZE = 30
 
 export default function App() {
   const [level, setLevel] = useState('A1')
   const [query, setQuery] = useState('')
   const [pos, setPos] = useState('all')
   const [onlyFavorites, setOnlyFavorites] = useState(false)
+  const [page, setPage] = useState(1)
   const { favorites, toggleFavorite, isFavorite } = useFavorites()
 
   const isFavoritesView = level === 'FAVORITES'
@@ -42,6 +46,19 @@ export default function App() {
       )
     })
   }, [words, query, pos, onlyFavorites, favorites, isFavoritesView])
+
+  useEffect(() => {
+    setPage(1)
+  }, [level, query, pos, onlyFavorites])
+
+  const totalPages = Math.max(1, Math.ceil(visible.length / PAGE_SIZE))
+  const currentPage = Math.min(page, totalPages)
+  const paginated = visible.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
+
+  const goToPage = (p) => {
+    setPage(Math.min(Math.max(1, p), totalPages))
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   return (
     <div className="app">
@@ -98,10 +115,11 @@ export default function App() {
       <p className="count">
         {visible.length}개 단어
         {(onlyFavorites || isFavoritesView) && ' (즐겨찾기)'}
+        {totalPages > 1 && ` · ${currentPage}/${totalPages} 페이지`}
       </p>
 
       <main className="word-list">
-        {visible.map((w) => (
+        {paginated.map((w) => (
           <WordCard
             key={`${w.level}-${w.id}`}
             word={w}
@@ -114,6 +132,26 @@ export default function App() {
           <p className="empty">조건에 맞는 단어가 없어요.</p>
         )}
       </main>
+
+      {totalPages > 1 && (
+        <nav className="pager">
+          <button
+            className="pager-btn"
+            disabled={currentPage === 1}
+            onClick={() => goToPage(currentPage - 1)}
+          >
+            ← 이전
+          </button>
+          <span className="pager-status">{currentPage} / {totalPages}</span>
+          <button
+            className="pager-btn"
+            disabled={currentPage === totalPages}
+            onClick={() => goToPage(currentPage + 1)}
+          >
+            다음 →
+          </button>
+        </nav>
+      )}
     </div>
   )
 }
