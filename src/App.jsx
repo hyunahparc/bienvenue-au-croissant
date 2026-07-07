@@ -1,12 +1,13 @@
 import { useMemo, useState } from 'react'
 import a1 from '../data/a1.json'
 import b2 from '../data/b2.json'
+import c1 from '../data/c1.json'
 import c2 from '../data/c2.json'
 import WordCard from './WordCard.jsx'
 import { useFavorites } from './useFavorites.js'
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
-const WORDS_BY_LEVEL = { A1: a1, B2: b2, C2: c2 }
+const WORDS_BY_LEVEL = { A1: a1, B2: b2, C1: c1, C2: c2 }
 const ALL_WORDS = Object.values(WORDS_BY_LEVEL).flat()
 
 const POS_FILTERS = [
@@ -45,7 +46,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>🥐 Croissant</h1>
+        <h1>🥐 Bienvenue au croissant</h1>
         <p className="tagline">프랑스어 단어장 · FLELex 빈도순</p>
       </header>
 
@@ -77,7 +78,7 @@ export default function App() {
         <input
           type="search"
           className="search"
-          placeholder="프랑스어나 한국어 뜻으로 검색"
+          placeholder="프랑스어, 한국어 뜻으로 검색"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -91,14 +92,6 @@ export default function App() {
               {f.label}
             </button>
           ))}
-          {!isFavoritesView && (
-            <button
-              className={`chip star-chip ${onlyFavorites ? 'active' : ''}`}
-              onClick={() => setOnlyFavorites((v) => !v)}
-            >
-              ★ 이 레벨만
-            </button>
-          )}
         </div>
       </div>
 

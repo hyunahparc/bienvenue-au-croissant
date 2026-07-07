@@ -1,11 +1,23 @@
 const GENDER_LABEL = { m: '남성', f: '여성', mf: '남·여' }
 
+function highlightWord(text, word) {
+  const idx = text.toLowerCase().indexOf(word.toLowerCase())
+  if (idx === -1) return text
+  return (
+    <>
+      {text.slice(0, idx)}
+      <strong>{text.slice(idx, idx + word.length)}</strong>
+      {text.slice(idx + word.length)}
+    </>
+  )
+}
+
 export default function WordCard({ word, favorite, onToggleFavorite, showLevel }) {
   const isNoun = word.pos === 'NOM'
   const genderClass = isNoun ? `gender-${word.gender}` : ''
 
   return (
-    <article className={`card ${genderClass}`}>
+    <article className="card">
       <div className="card-head">
         {showLevel ? (
           <span className="level-badge">{word.level}</span>
@@ -30,11 +42,15 @@ export default function WordCard({ word, favorite, onToggleFavorite, showLevel }
         </button>
       </div>
 
-      <p className="korean">{word.korean.join(' · ')}</p>
+      <div className="korean">
+        {word.korean.map((k, i) => (
+          <p className="korean-sense" key={i}>{k}</p>
+        ))}
+      </div>
 
       {word.examples.map((ex, i) => (
         <div className="example" key={i}>
-          <p className="ex-fr">{ex.fr}</p>
+          <p className="ex-fr">{highlightWord(ex.fr, word.french)}</p>
           <p className="ex-ko">{ex.ko}</p>
         </div>
       ))}

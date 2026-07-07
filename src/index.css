@@ -144,14 +144,9 @@ body {
 .card {
   background: var(--card);
   border: 1px solid var(--line);
-  border-left: 4px solid var(--line);
   border-radius: 14px;
   padding: 16px 18px;
 }
-
-.card.gender-m { border-left-color: var(--masc); }
-.card.gender-f { border-left-color: var(--fem); }
-.card.gender-mf { border-left-color: var(--mf); }
 
 .card-head {
   display: flex;
@@ -205,9 +200,11 @@ body {
   white-space: nowrap;
 }
 
-.gender-badge.gender-m { background: var(--masc-soft); color: var(--masc); }
-.gender-badge.gender-f { background: var(--fem-soft); color: var(--fem); }
-.gender-badge.gender-mf { background: var(--mf-soft); color: var(--mf); }
+.gender-badge {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
 
 .star {
   margin-left: auto;
@@ -226,6 +223,14 @@ body {
   font-size: 1.02rem;
 }
 
+.korean-sense {
+  margin: 0;
+}
+
+.korean-sense + .korean-sense {
+  margin-top: 4px;
+}
+
 .example {
   margin-top: 10px;
   padding: 10px 14px;
@@ -237,6 +242,11 @@ body {
   margin: 0;
   font-style: italic;
   font-family: Georgia, serif;
+}
+
+.ex-fr strong {
+  font-style: normal;
+  font-weight: 700;
 }
 
 .ex-ko {
