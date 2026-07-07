@@ -1,11 +1,12 @@
 import { useMemo, useState } from 'react'
 import a1 from '../data/a1.json'
+import b2 from '../data/b2.json'
 import c2 from '../data/c2.json'
 import WordCard from './WordCard.jsx'
 import { useFavorites } from './useFavorites.js'
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
-const WORDS_BY_LEVEL = { A1: a1, C2: c2 }
+const WORDS_BY_LEVEL = { A1: a1, B2: b2, C2: c2 }
 const ALL_WORDS = Object.values(WORDS_BY_LEVEL).flat()
 
 const POS_FILTERS = [
