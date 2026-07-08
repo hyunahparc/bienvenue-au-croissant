@@ -24,6 +24,9 @@ const POS_FILTERS = [
 const MAIN_POS = ['NOM', 'VER', 'ADJ', 'ADV']
 const PAGE_SIZE = 30
 
+const stripAccents = (str) =>
+  str.normalize('NFD').replace(/[̀-ͯ]/g, '')
+
 export default function App() {
   const [level, setLevel] = useState('A1')
   const [query, setQuery] = useState('')
@@ -53,7 +56,7 @@ export default function App() {
       // (예문은 검색 대상에서 제외)
       return /[ㄱ-힝]/.test(q)
         ? w.korean.some((k) => k.toLowerCase().includes(q))
-        : w.french.toLowerCase().includes(q)
+        : stripAccents(w.french.toLowerCase()).includes(stripAccents(q))
     })
   }, [searchScope, trimmedQuery, pos, highlights, isHighlightsView, seenFilter, seen])
 
@@ -96,7 +99,7 @@ export default function App() {
     <div className="app">
       <header className="header">
         <h1>
-          <img src="/logo_brown.png" alt="" className="logo" />
+          <img src="/logo-brown.png" alt="" className="logo" />
           <button
             type="button"
             className="title-btn"
@@ -106,14 +109,14 @@ export default function App() {
           >
             <span className="title-text">bienvenue au croissant</span>
           </button>
-          <img src="/logo_brown.png" alt="" className="logo" />
+          <img src="/logo-brown.png" alt="" className="logo" />
         </h1>
       </header>
 
       <input
         type="search"
         className="search search-global"
-        placeholder="단어 또는 뜻으로 검색하기"
+        placeholder="단어 또는 뜻으로 검색하기 (모든 레벨)"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
@@ -249,6 +252,15 @@ export default function App() {
           </nav>
         )}
       </div>
+
+      <footer className="footer">
+        <p>© {new Date().getFullYear()} bienvenue au croissant. All rights reserved.</p>
+        <p>
+          Word frequency data: <a href="https://cental.uclouvain.be/cefrlex/flelex/download/" target="_blank" rel="noopener noreferrer">FLELex</a>
+          {' '}(Pintard, A. &amp; François, T. 2020) ·{' '}
+          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>
+        </p>
+      </footer>
     </div>
   )
 }
