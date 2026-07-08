@@ -320,10 +320,6 @@ body {
   padding: 2px 8px;
   border-radius: 999px;
   white-space: nowrap;
-}
-
-.gender-badge {
-  background: var(--card);
   border: 1px solid var(--line);
   color: var(--muted);
 }
