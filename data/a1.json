@@ -1,102 +1,7679 @@
 [
-{"id":1,"french":"le","pos":"DET:ART","posKo":"관사","gender":null,"article":null,"korean":["그, ~라는 것 (남성 단수 정관사)"],"examples":[{"fr":"Le chat dort sur le canapé.","ko":"고양이가 소파에서 자고 있다."}],"level":"A1","rank":1},
-{"id":2,"french":"de","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~의","~에서(부터)"],"examples":[{"fr":"C'est le livre de Marie.","ko":"이것은 마리의 책이다."}],"level":"A1","rank":2},
-{"id":3,"french":"être","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["~이다","있다, 존재하다"],"examples":[{"fr":"Je suis coréenne.","ko":"나는 한국인이다."}],"level":"A1","rank":3},
-{"id":4,"french":"un","pos":"DET:ART","posKo":"관사","gender":null,"article":null,"korean":["하나의 (남성 단수 부정관사)","숫자 1"],"examples":[{"fr":"J'ai un frère.","ko":"나는 남자 형제가 한 명 있다."}],"level":"A1","rank":4},
-{"id":5,"french":"et","pos":"KON","posKo":"접속사","gender":null,"article":null,"korean":["그리고, ~와/과"],"examples":[{"fr":"J'aime le pain et le fromage.","ko":"나는 빵과 치즈를 좋아한다."}],"level":"A1","rank":5},
-{"id":6,"french":"du","pos":"PRP:det","posKo":"전치사+관사","gender":null,"article":null,"korean":["~의 (de+le 축약형)","약간의 (부분관사)"],"examples":[{"fr":"Je bois du café le matin.","ko":"나는 아침에 커피를 마신다."}],"level":"A1","rank":6},
-{"id":7,"french":"à","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~에, ~에서","~에게","~로"],"examples":[{"fr":"Je vais à Paris.","ko":"나는 파리에 간다."}],"level":"A1","rank":7},
-{"id":8,"french":"avoir","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["가지다, 있다","(나이가) ~살이다"],"examples":[{"fr":"Elle a deux chats.","ko":"그녀는 고양이 두 마리를 키운다."}],"level":"A1","rank":8},
-{"id":9,"french":"il","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["그","그것 (비인칭 주어)"],"examples":[{"fr":"Il est médecin.","ko":"그는 의사이다."}],"level":"A1","rank":9},
-{"id":10,"french":"ce","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["이것, 그것 (c'est의 ce)"],"examples":[{"fr":"C'est une bonne idée.","ko":"그거 좋은 생각이다."}],"level":"A1","rank":10},
-{"id":11,"french":"je","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["나는, 내가"],"examples":[{"fr":"Je parle un peu français.","ko":"나는 프랑스어를 조금 한다."}],"level":"A1","rank":11},
-{"id":12,"french":"ne","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["~않다 (ne ... pas 부정 구문)"],"examples":[{"fr":"Je ne comprends pas.","ko":"나는 이해하지 못한다."}],"level":"A1","rank":12},
-{"id":13,"french":"en","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~에서, ~에 (나라·계절·연도)","~으로 (재료·수단)"],"examples":[{"fr":"Nous habitons en France.","ko":"우리는 프랑스에 산다."}],"level":"A1","rank":13},
-{"id":14,"french":"se","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["자기 자신을/에게 (재귀대명사)"],"examples":[{"fr":"Il se lève à sept heures.","ko":"그는 7시에 일어난다."}],"level":"A1","rank":14},
-{"id":15,"french":"que","pos":"KON","posKo":"접속사","gender":null,"article":null,"korean":["~라는 것, ~라고 (종속절 접속사)"],"examples":[{"fr":"Je pense que tu as raison.","ko":"나는 네가 옳다고 생각한다."}],"level":"A1","rank":15},
-{"id":16,"french":"dans","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~안에","~후에 (시간)"],"examples":[{"fr":"Les clés sont dans mon sac.","ko":"열쇠는 내 가방 안에 있다."}],"level":"A1","rank":16},
-{"id":17,"french":"son","pos":"DET:POS","posKo":"소유형용사","gender":null,"article":null,"korean":["그의, 그녀의 (남성 단수 명사 앞)"],"examples":[{"fr":"Elle cherche son téléphone.","ko":"그녀는 자기 휴대폰을 찾고 있다."}],"level":"A1","rank":17},
-{"id":18,"french":"pas","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["~않다 (ne ... pas 부정 구문)"],"examples":[{"fr":"Il ne mange pas de viande.","ko":"그는 고기를 먹지 않는다."}],"level":"A1","rank":18},
-{"id":19,"french":"au","pos":"PRP:det","posKo":"전치사+관사","gender":null,"article":null,"korean":["~에, ~로 (à+le 축약형)"],"examples":[{"fr":"On va au cinéma ce soir.","ko":"우리는 오늘 저녁 영화관에 간다."}],"level":"A1","rank":19},
-{"id":20,"french":"qui","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["누구","~하는 (관계대명사 주격)"],"examples":[{"fr":"Qui est là ?","ko":"거기 누구세요?"}],"level":"A1","rank":20},
-{"id":21,"french":"pour","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~을 위해","~을 향해, ~행"],"examples":[{"fr":"Ce cadeau est pour toi.","ko":"이 선물은 너를 위한 거야."}],"level":"A1","rank":21},
-{"id":22,"french":"vous","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["당신(들), 너희 (존칭·복수)"],"examples":[{"fr":"Vous parlez anglais ?","ko":"영어 하세요?"}],"level":"A1","rank":22},
-{"id":23,"french":"elle","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["그녀","그것 (여성 명사 지칭)"],"examples":[{"fr":"Elle habite à Lyon.","ko":"그녀는 리옹에 산다."}],"level":"A1","rank":23},
-{"id":24,"french":"faire","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["하다","만들다","(날씨가) ~하다"],"examples":[{"fr":"Qu'est-ce que tu fais ce week-end ?","ko":"이번 주말에 뭐 해?"}],"level":"A1","rank":24},
-{"id":25,"french":"plus","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["더, 더 많이","더 이상 ~않다 (ne ... plus)"],"examples":[{"fr":"Il fait plus chaud aujourd'hui.","ko":"오늘이 더 덥다."}],"level":"A1","rank":25},
-{"id":26,"french":"on","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["우리 (구어)","사람들, 누군가"],"examples":[{"fr":"On mange ensemble ce midi ?","ko":"오늘 점심 같이 먹을까?"}],"level":"A1","rank":26},
-{"id":27,"french":"mais","pos":"KON","posKo":"접속사","gender":null,"article":null,"korean":["그러나, 하지만"],"examples":[{"fr":"C'est cher, mais c'est bon.","ko":"비싸지만 맛있다."}],"level":"A1","rank":27},
-{"id":28,"french":"que","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["무엇을 (의문대명사)","~하는 (관계대명사 목적격)"],"examples":[{"fr":"Que veux-tu boire ?","ko":"뭐 마실래?"}],"level":"A1","rank":28},
-{"id":29,"french":"sur","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~위에","~에 관해"],"examples":[{"fr":"Le livre est sur la table.","ko":"책이 탁자 위에 있다."}],"level":"A1","rank":29},
-{"id":30,"french":"par","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~에 의해","~을 지나서, ~을 통해"],"examples":[{"fr":"Nous passons par le parc.","ko":"우리는 공원을 지나서 간다."}],"level":"A1","rank":30},
-{"id":31,"french":"tout","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["모든 것, 전부"],"examples":[{"fr":"Tout va bien.","ko":"다 잘 되고 있어."}],"level":"A1","rank":31},
-{"id":32,"french":"avec","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~와 함께","~을 가지고"],"examples":[{"fr":"Je viens avec toi.","ko":"나는 너와 같이 갈게."}],"level":"A1","rank":32},
-{"id":33,"french":"aller","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["가다","(상태가) ~하다 (Ça va)"],"examples":[{"fr":"Nous allons à la plage demain.","ko":"우리는 내일 해변에 간다."}],"level":"A1","rank":33},
-{"id":34,"french":"dire","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["말하다"],"examples":[{"fr":"Elle dit toujours la vérité.","ko":"그녀는 항상 진실을 말한다."}],"level":"A1","rank":34},
-{"id":35,"french":"me","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["나를, 나에게"],"examples":[{"fr":"Tu me téléphones ce soir ?","ko":"오늘 저녁에 나한테 전화할래?"}],"level":"A1","rank":35},
-{"id":36,"french":"pouvoir","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["~할 수 있다","~해도 된다"],"examples":[{"fr":"Je peux vous aider ?","ko":"도와드릴까요?"}],"level":"A1","rank":36},
-{"id":37,"french":"lui","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["그에게, 그녀에게","그 (강세형)"],"examples":[{"fr":"Je lui donne un livre.","ko":"나는 그에게 책을 준다."}],"level":"A1","rank":37},
-{"id":38,"french":"nous","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["우리, 우리를, 우리에게"],"examples":[{"fr":"Nous sommes en vacances.","ko":"우리는 휴가 중이다."}],"level":"A1","rank":38},
-{"id":39,"french":"mon","pos":"DET:POS","posKo":"소유형용사","gender":null,"article":null,"korean":["나의 (남성 단수 명사 앞)"],"examples":[{"fr":"Voici mon père.","ko":"이분이 우리 아버지야."}],"level":"A1","rank":39},
-{"id":40,"french":"ou","pos":"KON","posKo":"접속사","gender":null,"article":null,"korean":["또는, 아니면"],"examples":[{"fr":"Tu préfères le thé ou le café ?","ko":"차가 좋아, 커피가 좋아?"}],"level":"A1","rank":40},
-{"id":41,"french":"y","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["거기에, 그곳에 (장소 대명사)"],"examples":[{"fr":"J'y vais tout de suite.","ko":"지금 바로 거기 갈게."}],"level":"A1","rank":41},
-{"id":42,"french":"bien","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["잘","아주, 꽤"],"examples":[{"fr":"Elle chante très bien.","ko":"그녀는 노래를 아주 잘한다."}],"level":"A1","rank":42},
-{"id":43,"french":"très","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["매우, 아주"],"examples":[{"fr":"Ce film est très intéressant.","ko":"이 영화는 매우 흥미롭다."}],"level":"A1","rank":43},
-{"id":44,"french":"tu","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["너는, 네가"],"examples":[{"fr":"Tu as quel âge ?","ko":"너 몇 살이야?"}],"level":"A1","rank":44},
-{"id":45,"french":"voir","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["보다","만나다"],"examples":[{"fr":"On se voit demain ?","ko":"내일 볼까?"}],"level":"A1","rank":45},
-{"id":46,"french":"leur","pos":"DET:POS","posKo":"소유형용사","gender":null,"article":null,"korean":["그들의"],"examples":[{"fr":"Les enfants aiment leur école.","ko":"아이들은 자기네 학교를 좋아한다."}],"level":"A1","rank":46},
-{"id":47,"french":"autre","pos":"ADJ","posKo":"형용사","gender":null,"article":null,"korean":["다른, 또 하나의"],"examples":[{"fr":"Je voudrais une autre couleur.","ko":"다른 색으로 주세요."}],"level":"A1","rank":47},
-{"id":48,"french":"cela","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["그것, 저것 (구어체 ça)"],"examples":[{"fr":"Cela ne me dérange pas.","ko":"그건 상관없어요."}],"level":"A1","rank":48},
-{"id":49,"french":"vouloir","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["원하다, ~하고 싶다"],"examples":[{"fr":"Je veux apprendre le français.","ko":"나는 프랑스어를 배우고 싶다."}],"level":"A1","rank":49},
-{"id":50,"french":"tout","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["완전히, 아주"],"examples":[{"fr":"Il habite tout près d'ici.","ko":"그는 여기서 아주 가까이 산다."}],"level":"A1","rank":50},
-{"id":51,"french":"moi","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["나 (강세형)"],"examples":[{"fr":"Moi, j'adore les croissants.","ko":"나는 크루아상을 정말 좋아해."}],"level":"A1","rank":51},
-{"id":52,"french":"aussi","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["~도, 또한","~만큼 (비교)"],"examples":[{"fr":"Moi aussi, je suis fatigué.","ko":"나도 피곤해."}],"level":"A1","rank":52},
-{"id":53,"french":"an","pos":"NOM","posKo":"명사","gender":"m","article":"un","korean":["해, 년","~살 (나이)"],"examples":[{"fr":"Elle a vingt ans.","ko":"그녀는 스무 살이다."}],"level":"A1","rank":53},
-{"id":54,"french":"homme","pos":"NOM","posKo":"명사","gender":"m","article":"un","korean":["남자","인간, 사람"],"examples":[{"fr":"Cet homme travaille avec mon père.","ko":"저 남자는 우리 아버지와 함께 일한다."}],"level":"A1","rank":54},
-{"id":55,"french":"le","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["그를, 그것을 (직접목적어 대명사)"],"examples":[{"fr":"Ce gâteau, je le mange demain.","ko":"이 케이크는 내일 먹을 거야."}],"level":"A1","rank":55},
-{"id":56,"french":"grand","pos":"ADJ","posKo":"형용사","gender":null,"article":null,"korean":["큰","키가 큰","위대한"],"examples":[{"fr":"Ils ont une grande maison.","ko":"그들은 큰 집을 갖고 있다."}],"level":"A1","rank":56},
-{"id":57,"french":"en","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["그것을, 그중에서 (부분 대명사)"],"examples":[{"fr":"Du pain ? Oui, j'en veux bien.","ko":"빵? 응, 좀 먹을래."}],"level":"A1","rank":57},
-{"id":58,"french":"savoir","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["알다","~할 줄 알다"],"examples":[{"fr":"Je ne sais pas nager.","ko":"나는 수영할 줄 모른다."}],"level":"A1","rank":58},
-{"id":59,"french":"si","pos":"KON","posKo":"접속사","gender":null,"article":null,"korean":["만약 ~라면","~인지 (아닌지)"],"examples":[{"fr":"Si tu veux, on part ensemble.","ko":"원하면 같이 출발하자."}],"level":"A1","rank":59},
-{"id":60,"french":"comme","pos":"KON","posKo":"접속사","gender":null,"article":null,"korean":["~처럼, ~같이","~로서","~때문에"],"examples":[{"fr":"Il parle comme son père.","ko":"그는 자기 아버지처럼 말한다."}],"level":"A1","rank":60},
-{"id":61,"french":"jour","pos":"NOM","posKo":"명사","gender":"m","article":"un","korean":["날, 하루","낮"],"examples":[{"fr":"Quel jour sommes-nous ?","ko":"오늘 무슨 요일이지?"}],"level":"A1","rank":61},
-{"id":62,"french":"venir","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["오다","(venir de) 막 ~했다"],"examples":[{"fr":"Tu viens chez moi ce soir ?","ko":"오늘 저녁 우리 집에 올래?"}],"level":"A1","rank":62},
-{"id":63,"french":"où","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["어디에","~하는 곳 (관계부사)"],"examples":[{"fr":"Où est la gare ?","ko":"역이 어디예요?"}],"level":"A1","rank":63},
-{"id":64,"french":"petit","pos":"ADJ","posKo":"형용사","gender":null,"article":null,"korean":["작은","어린"],"examples":[{"fr":"J'habite dans un petit appartement.","ko":"나는 작은 아파트에 산다."}],"level":"A1","rank":64},
-{"id":65,"french":"prendre","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["잡다, 가지다","(교통수단을) 타다","먹다, 마시다"],"examples":[{"fr":"Je prends le bus pour aller au travail.","ko":"나는 버스를 타고 출근한다."}],"level":"A1","rank":65},
-{"id":66,"french":"devoir","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["~해야 한다","~임에 틀림없다"],"examples":[{"fr":"Tu dois finir tes devoirs.","ko":"너는 숙제를 끝내야 해."}],"level":"A1","rank":66},
-{"id":67,"french":"passer","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["지나가다, 들르다","(시간을) 보내다"],"examples":[{"fr":"Nous passons l'été en Bretagne.","ko":"우리는 여름을 브르타뉴에서 보낸다."}],"level":"A1","rank":67},
-{"id":68,"french":"sans","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~없이"],"examples":[{"fr":"Un café sans sucre, s'il vous plaît.","ko":"설탕 없는 커피 주세요."}],"level":"A1","rank":68},
-{"id":69,"french":"femme","pos":"NOM","posKo":"명사","gender":"f","article":"une","korean":["여자","아내"],"examples":[{"fr":"Sa femme est professeure.","ko":"그의 아내는 교사이다."}],"level":"A1","rank":69},
-{"id":70,"french":"alors","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["그러면, 자","그때, 그래서"],"examples":[{"fr":"Alors, on commence ?","ko":"자, 시작할까?"}],"level":"A1","rank":70},
-{"id":71,"french":"là","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["거기, 저기","여기 (구어)"],"examples":[{"fr":"Mets ton sac là.","ko":"가방을 거기에 놔."}],"level":"A1","rank":71},
-{"id":72,"french":"quelque","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["몇몇의, 어떤 (quelques: 몇 개의)"],"examples":[{"fr":"Il reste quelques places.","ko":"자리가 몇 개 남아 있다."}],"level":"A1","rank":72},
-{"id":73,"french":"quand","pos":"KON","posKo":"접속사","gender":null,"article":null,"korean":["~할 때","언제"],"examples":[{"fr":"Quand il pleut, je reste à la maison.","ko":"비가 오면 나는 집에 있는다."}],"level":"A1","rank":73},
-{"id":74,"french":"heure","pos":"NOM","posKo":"명사","gender":"f","article":"une","korean":["시간","~시 (시각)"],"examples":[{"fr":"Il est quelle heure ?","ko":"지금 몇 시야?"}],"level":"A1","rank":74},
-{"id":75,"french":"peu","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["조금, 별로 (un peu: 약간)"],"examples":[{"fr":"Elle parle peu.","ko":"그녀는 말이 적다."}],"level":"A1","rank":75},
-{"id":76,"french":"votre","pos":"DET:POS","posKo":"소유형용사","gender":null,"article":null,"korean":["당신의, 너희의"],"examples":[{"fr":"Quel est votre nom ?","ko":"성함이 어떻게 되세요?"}],"level":"A1","rank":76},
-{"id":77,"french":"trouver","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["찾다, 발견하다","~라고 생각하다"],"examples":[{"fr":"Je ne trouve pas mes lunettes.","ko":"안경을 못 찾겠어."}],"level":"A1","rank":77},
-{"id":78,"french":"parler","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["말하다, 이야기하다"],"examples":[{"fr":"Elle parle trois langues.","ko":"그녀는 3개 언어를 한다."}],"level":"A1","rank":78},
-{"id":79,"french":"temps","pos":"NOM","posKo":"명사","gender":"m","article":"un","korean":["시간","날씨"],"examples":[{"fr":"Je n'ai pas le temps aujourd'hui.","ko":"오늘은 시간이 없어."}],"level":"A1","rank":79},
-{"id":80,"french":"encore","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["아직, 여전히","또, 다시"],"examples":[{"fr":"Il dort encore.","ko":"그는 아직 자고 있다."}],"level":"A1","rank":80},
-{"id":81,"french":"falloir","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["~해야 한다, ~이 필요하다 (비인칭 il faut)"],"examples":[{"fr":"Il faut partir maintenant.","ko":"지금 떠나야 해."}],"level":"A1","rank":81},
-{"id":82,"french":"comme","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["얼마나, 정말 (감탄)"],"examples":[{"fr":"Comme c'est beau !","ko":"정말 아름답다!"}],"level":"A1","rank":82},
-{"id":83,"french":"mettre","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["놓다, 넣다","(옷을) 입다","(시간이) 걸리다"],"examples":[{"fr":"Elle met son manteau.","ko":"그녀는 코트를 입는다."}],"level":"A1","rank":83},
-{"id":84,"french":"non","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["아니, 아니요"],"examples":[{"fr":"Non merci, ça va.","ko":"아니요 괜찮아요."}],"level":"A1","rank":84},
-{"id":85,"french":"bon","pos":"ADJ","posKo":"형용사","gender":null,"article":null,"korean":["좋은","맛있는","옳은"],"examples":[{"fr":"Ce restaurant est très bon.","ko":"이 식당 정말 맛있다."}],"level":"A1","rank":85},
-{"id":86,"french":"monde","pos":"NOM","posKo":"명사","gender":"m","article":"un","korean":["세계, 세상","사람들 (du monde: 많은 사람)"],"examples":[{"fr":"Il y a beaucoup de monde ici.","ko":"여기 사람이 많다."}],"level":"A1","rank":86},
-{"id":87,"french":"notre","pos":"DET:POS","posKo":"소유형용사","gender":null,"article":null,"korean":["우리의"],"examples":[{"fr":"Voici notre nouvelle maison.","ko":"여기가 우리 새 집이야."}],"level":"A1","rank":87},
-{"id":88,"french":"vie","pos":"NOM","posKo":"명사","gender":"f","article":"une","korean":["삶, 인생","생활"],"examples":[{"fr":"La vie est belle.","ko":"인생은 아름답다."}],"level":"A1","rank":88},
-{"id":89,"french":"celui","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["그것, ~의 것 (지시대명사)"],"examples":[{"fr":"Je préfère celui-ci.","ko":"나는 이게 더 좋아."}],"level":"A1","rank":89},
-{"id":90,"french":"donner","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["주다"],"examples":[{"fr":"Elle donne de l'eau aux plantes.","ko":"그녀는 화초에 물을 준다."}],"level":"A1","rank":90},
-{"id":91,"french":"aimer","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["사랑하다","좋아하다"],"examples":[{"fr":"J'aime beaucoup ce quartier.","ko":"나는 이 동네가 정말 좋아."}],"level":"A1","rank":91},
-{"id":92,"french":"nouveau","pos":"ADJ","posKo":"형용사","gender":null,"article":null,"korean":["새로운 (여성형: nouvelle)"],"examples":[{"fr":"Il a un nouveau travail.","ko":"그는 새 직장을 구했다."}],"level":"A1","rank":92},
-{"id":93,"french":"te","pos":"PRO","posKo":"대명사","gender":null,"article":null,"korean":["너를, 너에게"],"examples":[{"fr":"Je te rappelle plus tard.","ko":"나중에 다시 전화할게."}],"level":"A1","rank":93},
-{"id":94,"french":"enfant","pos":"NOM","posKo":"명사","gender":"mf","article":"un/une","korean":["아이, 어린이","자녀"],"examples":[{"fr":"Les enfants jouent dans le jardin.","ko":"아이들이 정원에서 놀고 있다."}],"level":"A1","rank":94},
-{"id":95,"french":"toujours","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["항상, 언제나","여전히"],"examples":[{"fr":"Il arrive toujours en retard.","ko":"그는 항상 늦게 온다."}],"level":"A1","rank":95},
-{"id":96,"french":"puis","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["그다음에, 그러고 나서"],"examples":[{"fr":"Je me douche, puis je prends le petit-déjeuner.","ko":"나는 샤워를 하고 나서 아침을 먹는다."}],"level":"A1","rank":96},
-{"id":97,"french":"chez","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~의 집에(서)","~네, ~에게 (가게·나라)"],"examples":[{"fr":"On dîne chez mes parents dimanche.","ko":"일요일에 부모님 댁에서 저녁 먹어."}],"level":"A1","rank":97},
-{"id":98,"french":"demander","pos":"VER","posKo":"동사","gender":null,"article":null,"korean":["묻다, 질문하다","요청하다"],"examples":[{"fr":"Je peux vous demander quelque chose ?","ko":"뭐 하나 여쭤봐도 될까요?"}],"level":"A1","rank":98},
-{"id":99,"french":"entre","pos":"PRP","posKo":"전치사","gender":null,"article":null,"korean":["~사이에"],"examples":[{"fr":"La pharmacie est entre la banque et le café.","ko":"약국은 은행과 카페 사이에 있다."}],"level":"A1","rank":99},
-{"id":100,"french":"beaucoup","pos":"ADV","posKo":"부사","gender":null,"article":null,"korean":["많이, 매우 (beaucoup de: 많은)"],"examples":[{"fr":"Merci beaucoup !","ko":"정말 고마워요!"}],"level":"A1","rank":100}
+  {
+    "id": 1,
+    "french": "le",
+    "pos": "DET:ART",
+    "posKo": "관사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그, ~라는 것 (남성 단수 정관사)"
+    ],
+    "examples": [
+      {
+        "fr": "Le chat dort sur le canapé.",
+        "ko": "고양이가 소파에서 자고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 1
+  },
+  {
+    "id": 2,
+    "french": "de",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~의",
+      "~에서(부터)"
+    ],
+    "examples": [
+      {
+        "fr": "C'est le livre de Marie.",
+        "ko": "이것은 마리의 책이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 2
+  },
+  {
+    "id": 3,
+    "french": "être",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~이다",
+      "있다, 존재하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je suis coréenne.",
+        "ko": "나는 한국인이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 3
+  },
+  {
+    "id": 4,
+    "french": "un",
+    "pos": "DET:ART",
+    "posKo": "관사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "하나의 (남성 단수 부정관사)",
+      "숫자 1"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai un frère.",
+        "ko": "나는 남자 형제가 한 명 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 4
+  },
+  {
+    "id": 5,
+    "french": "et",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그리고, ~와/과"
+    ],
+    "examples": [
+      {
+        "fr": "J'aime le pain et le fromage.",
+        "ko": "나는 빵과 치즈를 좋아한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 5
+  },
+  {
+    "id": 6,
+    "french": "du",
+    "pos": "PRP:det",
+    "posKo": "전치사+관사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~의 (de+le 축약형)",
+      "약간의 (부분관사)"
+    ],
+    "examples": [
+      {
+        "fr": "Je bois du café le matin.",
+        "ko": "나는 아침에 커피를 마신다."
+      }
+    ],
+    "level": "A1",
+    "rank": 6
+  },
+  {
+    "id": 7,
+    "french": "à",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~에, ~에서",
+      "~에게",
+      "~로"
+    ],
+    "examples": [
+      {
+        "fr": "Je vais à Paris.",
+        "ko": "나는 파리에 간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 7
+  },
+  {
+    "id": 8,
+    "french": "avoir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "가지다, 있다",
+      "(나이가) ~살이다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle a deux chats.",
+        "ko": "그녀는 고양이 두 마리를 키운다."
+      }
+    ],
+    "level": "A1",
+    "rank": 8
+  },
+  {
+    "id": 9,
+    "french": "il",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그",
+      "그것 (비인칭 주어)"
+    ],
+    "examples": [
+      {
+        "fr": "Il est médecin.",
+        "ko": "그는 의사이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 9
+  },
+  {
+    "id": 10,
+    "french": "ce",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "이것, 그것 (c'est의 ce)"
+    ],
+    "examples": [
+      {
+        "fr": "C'est une bonne idée.",
+        "ko": "그거 좋은 생각이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 10
+  },
+  {
+    "id": 11,
+    "french": "je",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "나는, 내가"
+    ],
+    "examples": [
+      {
+        "fr": "Je parle un peu français.",
+        "ko": "나는 프랑스어를 조금 한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 11
+  },
+  {
+    "id": 12,
+    "french": "ne",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~않다 (ne ... pas 부정 구문)"
+    ],
+    "examples": [
+      {
+        "fr": "Je ne comprends pas.",
+        "ko": "나는 이해하지 못한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 12
+  },
+  {
+    "id": 13,
+    "french": "en",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~에서, ~에 (나라·계절·연도)",
+      "~으로 (재료·수단)"
+    ],
+    "examples": [
+      {
+        "fr": "Nous habitons en France.",
+        "ko": "우리는 프랑스에 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 13
+  },
+  {
+    "id": 14,
+    "french": "se",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "자기 자신을/에게 (재귀대명사)"
+    ],
+    "examples": [
+      {
+        "fr": "Il se lève à sept heures.",
+        "ko": "그는 7시에 일어난다."
+      }
+    ],
+    "level": "A1",
+    "rank": 14
+  },
+  {
+    "id": 15,
+    "french": "que",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~라는 것, ~라고 (종속절 접속사)"
+    ],
+    "examples": [
+      {
+        "fr": "Je pense que tu as raison.",
+        "ko": "나는 네가 옳다고 생각한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 15
+  },
+  {
+    "id": 16,
+    "french": "dans",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~안에",
+      "~후에 (시간)"
+    ],
+    "examples": [
+      {
+        "fr": "Les clés sont dans mon sac.",
+        "ko": "열쇠는 내 가방 안에 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 16
+  },
+  {
+    "id": 17,
+    "french": "son",
+    "pos": "DET:POS",
+    "posKo": "소유형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그의, 그녀의 (남성 단수 명사 앞)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle cherche son téléphone.",
+        "ko": "그녀는 자기 휴대폰을 찾고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 17
+  },
+  {
+    "id": 18,
+    "french": "pas",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~않다 (ne ... pas 부정 구문)"
+    ],
+    "examples": [
+      {
+        "fr": "Il ne mange pas de viande.",
+        "ko": "그는 고기를 먹지 않는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 18
+  },
+  {
+    "id": 19,
+    "french": "au",
+    "pos": "PRP:det",
+    "posKo": "전치사+관사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~에, ~로 (à+le 축약형)"
+    ],
+    "examples": [
+      {
+        "fr": "On va au cinéma ce soir.",
+        "ko": "우리는 오늘 저녁 영화관에 간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 19
+  },
+  {
+    "id": 20,
+    "french": "qui",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "누구",
+      "~하는 (관계대명사 주격)"
+    ],
+    "examples": [
+      {
+        "fr": "Qui est là ?",
+        "ko": "거기 누구세요?"
+      }
+    ],
+    "level": "A1",
+    "rank": 20
+  },
+  {
+    "id": 21,
+    "french": "pour",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~을 위해",
+      "~을 향해, ~행"
+    ],
+    "examples": [
+      {
+        "fr": "Ce cadeau est pour toi.",
+        "ko": "이 선물은 너를 위한 거야."
+      }
+    ],
+    "level": "A1",
+    "rank": 21
+  },
+  {
+    "id": 22,
+    "french": "vous",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "당신(들), 너희 (존칭·복수)"
+    ],
+    "examples": [
+      {
+        "fr": "Vous parlez anglais ?",
+        "ko": "영어 하세요?"
+      }
+    ],
+    "level": "A1",
+    "rank": 22
+  },
+  {
+    "id": 23,
+    "french": "elle",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그녀",
+      "그것 (여성 명사 지칭)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle habite à Lyon.",
+        "ko": "그녀는 리옹에 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 23
+  },
+  {
+    "id": 24,
+    "french": "faire",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "하다",
+      "만들다",
+      "(날씨가) ~하다"
+    ],
+    "examples": [
+      {
+        "fr": "Qu'est-ce que tu fais ce week-end ?",
+        "ko": "이번 주말에 뭐 해?"
+      }
+    ],
+    "level": "A1",
+    "rank": 24
+  },
+  {
+    "id": 25,
+    "french": "plus",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "더, 더 많이",
+      "더 이상 ~않다 (ne ... plus)"
+    ],
+    "examples": [
+      {
+        "fr": "Il fait plus chaud aujourd'hui.",
+        "ko": "오늘이 더 덥다."
+      }
+    ],
+    "level": "A1",
+    "rank": 25
+  },
+  {
+    "id": 26,
+    "french": "on",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "우리 (구어)",
+      "사람들, 누군가"
+    ],
+    "examples": [
+      {
+        "fr": "On mange ensemble ce midi ?",
+        "ko": "오늘 점심 같이 먹을까?"
+      }
+    ],
+    "level": "A1",
+    "rank": 26
+  },
+  {
+    "id": 27,
+    "french": "mais",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그러나, 하지만"
+    ],
+    "examples": [
+      {
+        "fr": "C'est cher, mais c'est bon.",
+        "ko": "비싸지만 맛있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 27
+  },
+  {
+    "id": 28,
+    "french": "que",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "무엇을 (의문대명사)",
+      "~하는 (관계대명사 목적격)"
+    ],
+    "examples": [
+      {
+        "fr": "Que veux-tu boire ?",
+        "ko": "뭐 마실래?"
+      }
+    ],
+    "level": "A1",
+    "rank": 28
+  },
+  {
+    "id": 29,
+    "french": "sur",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~위에",
+      "~에 관해"
+    ],
+    "examples": [
+      {
+        "fr": "Le livre est sur la table.",
+        "ko": "책이 탁자 위에 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 29
+  },
+  {
+    "id": 30,
+    "french": "par",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~에 의해",
+      "~을 지나서, ~을 통해"
+    ],
+    "examples": [
+      {
+        "fr": "Nous passons par le parc.",
+        "ko": "우리는 공원을 지나서 간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 30
+  },
+  {
+    "id": 31,
+    "french": "tout",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "모든 것, 전부"
+    ],
+    "examples": [
+      {
+        "fr": "Tout va bien.",
+        "ko": "다 잘 되고 있어."
+      }
+    ],
+    "level": "A1",
+    "rank": 31
+  },
+  {
+    "id": 32,
+    "french": "avec",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~와 함께",
+      "~을 가지고"
+    ],
+    "examples": [
+      {
+        "fr": "Je viens avec toi.",
+        "ko": "나는 너와 같이 갈게."
+      }
+    ],
+    "level": "A1",
+    "rank": 32
+  },
+  {
+    "id": 33,
+    "french": "aller",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "가다",
+      "(상태가) ~하다 (Ça va)"
+    ],
+    "examples": [
+      {
+        "fr": "Nous allons à la plage demain.",
+        "ko": "우리는 내일 해변에 간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 33
+  },
+  {
+    "id": 34,
+    "french": "dire",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "말하다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle dit toujours la vérité.",
+        "ko": "그녀는 항상 진실을 말한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 34
+  },
+  {
+    "id": 35,
+    "french": "me",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "나를, 나에게"
+    ],
+    "examples": [
+      {
+        "fr": "Tu me téléphones ce soir ?",
+        "ko": "오늘 저녁에 나한테 전화할래?"
+      }
+    ],
+    "level": "A1",
+    "rank": 35
+  },
+  {
+    "id": 36,
+    "french": "pouvoir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~할 수 있다",
+      "~해도 된다"
+    ],
+    "examples": [
+      {
+        "fr": "Je peux vous aider ?",
+        "ko": "도와드릴까요?"
+      }
+    ],
+    "level": "A1",
+    "rank": 36
+  },
+  {
+    "id": 37,
+    "french": "lui",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그에게, 그녀에게",
+      "그 (강세형)"
+    ],
+    "examples": [
+      {
+        "fr": "Je lui donne un livre.",
+        "ko": "나는 그에게 책을 준다."
+      }
+    ],
+    "level": "A1",
+    "rank": 37
+  },
+  {
+    "id": 38,
+    "french": "nous",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "우리, 우리를, 우리에게"
+    ],
+    "examples": [
+      {
+        "fr": "Nous sommes en vacances.",
+        "ko": "우리는 휴가 중이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 38
+  },
+  {
+    "id": 39,
+    "french": "mon",
+    "pos": "DET:POS",
+    "posKo": "소유형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "나의 (남성 단수 명사 앞)"
+    ],
+    "examples": [
+      {
+        "fr": "Voici mon père.",
+        "ko": "이분이 우리 아버지야."
+      }
+    ],
+    "level": "A1",
+    "rank": 39
+  },
+  {
+    "id": 40,
+    "french": "ou",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "또는, 아니면"
+    ],
+    "examples": [
+      {
+        "fr": "Tu préfères le thé ou le café ?",
+        "ko": "차가 좋아, 커피가 좋아?"
+      }
+    ],
+    "level": "A1",
+    "rank": 40
+  },
+  {
+    "id": 41,
+    "french": "y",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "거기에, 그곳에 (장소 대명사)"
+    ],
+    "examples": [
+      {
+        "fr": "J'y vais tout de suite.",
+        "ko": "지금 바로 거기 갈게."
+      }
+    ],
+    "level": "A1",
+    "rank": 41
+  },
+  {
+    "id": 42,
+    "french": "bien",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "잘",
+      "아주, 꽤"
+    ],
+    "examples": [
+      {
+        "fr": "Elle chante très bien.",
+        "ko": "그녀는 노래를 아주 잘한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 42
+  },
+  {
+    "id": 43,
+    "french": "très",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "매우, 아주"
+    ],
+    "examples": [
+      {
+        "fr": "Ce film est très intéressant.",
+        "ko": "이 영화는 매우 흥미롭다."
+      }
+    ],
+    "level": "A1",
+    "rank": 43
+  },
+  {
+    "id": 44,
+    "french": "tu",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "너는, 네가"
+    ],
+    "examples": [
+      {
+        "fr": "Tu as quel âge ?",
+        "ko": "너 몇 살이야?"
+      }
+    ],
+    "level": "A1",
+    "rank": 44
+  },
+  {
+    "id": 45,
+    "french": "voir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "보다",
+      "만나다"
+    ],
+    "examples": [
+      {
+        "fr": "On se voit demain ?",
+        "ko": "내일 볼까?"
+      }
+    ],
+    "level": "A1",
+    "rank": 45
+  },
+  {
+    "id": 46,
+    "french": "leur",
+    "pos": "DET:POS",
+    "posKo": "소유형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그들의"
+    ],
+    "examples": [
+      {
+        "fr": "Les enfants aiment leur école.",
+        "ko": "아이들은 자기네 학교를 좋아한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 46
+  },
+  {
+    "id": 47,
+    "french": "autre",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "다른, 또 하나의"
+    ],
+    "examples": [
+      {
+        "fr": "Je voudrais une autre couleur.",
+        "ko": "다른 색으로 주세요."
+      }
+    ],
+    "level": "A1",
+    "rank": 47
+  },
+  {
+    "id": 48,
+    "french": "cela",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그것, 저것 (구어체 ça)"
+    ],
+    "examples": [
+      {
+        "fr": "Cela ne me dérange pas.",
+        "ko": "그건 상관없어요."
+      }
+    ],
+    "level": "A1",
+    "rank": 48
+  },
+  {
+    "id": 49,
+    "french": "vouloir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "원하다, ~하고 싶다"
+    ],
+    "examples": [
+      {
+        "fr": "Je veux apprendre le français.",
+        "ko": "나는 프랑스어를 배우고 싶다."
+      }
+    ],
+    "level": "A1",
+    "rank": 49
+  },
+  {
+    "id": 50,
+    "french": "tout",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "완전히, 아주"
+    ],
+    "examples": [
+      {
+        "fr": "Il habite tout près d'ici.",
+        "ko": "그는 여기서 아주 가까이 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 50
+  },
+  {
+    "id": 51,
+    "french": "moi",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "나 (강세형)"
+    ],
+    "examples": [
+      {
+        "fr": "Moi, j'adore les croissants.",
+        "ko": "나는 크루아상을 정말 좋아해."
+      }
+    ],
+    "level": "A1",
+    "rank": 51
+  },
+  {
+    "id": 52,
+    "french": "aussi",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~도, 또한",
+      "~만큼 (비교)"
+    ],
+    "examples": [
+      {
+        "fr": "Moi aussi, je suis fatigué.",
+        "ko": "나도 피곤해."
+      }
+    ],
+    "level": "A1",
+    "rank": 52
+  },
+  {
+    "id": 53,
+    "french": "an",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "해, 년",
+      "~살 (나이)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle a vingt ans.",
+        "ko": "그녀는 스무 살이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 53
+  },
+  {
+    "id": 54,
+    "french": "homme",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "남자",
+      "인간, 사람"
+    ],
+    "examples": [
+      {
+        "fr": "Cet homme travaille avec mon père.",
+        "ko": "저 남자는 우리 아버지와 함께 일한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 54
+  },
+  {
+    "id": 55,
+    "french": "le",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그를, 그것을 (직접목적어 대명사)"
+    ],
+    "examples": [
+      {
+        "fr": "Ce gâteau, je le mange demain.",
+        "ko": "이 케이크는 내일 먹을 거야."
+      }
+    ],
+    "level": "A1",
+    "rank": 55
+  },
+  {
+    "id": 56,
+    "french": "grand",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "큰",
+      "키가 큰",
+      "위대한"
+    ],
+    "examples": [
+      {
+        "fr": "Ils ont une grande maison.",
+        "ko": "그들은 큰 집을 갖고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 56
+  },
+  {
+    "id": 57,
+    "french": "en",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그것을, 그중에서 (부분 대명사)"
+    ],
+    "examples": [
+      {
+        "fr": "Du pain ? Oui, j'en veux bien.",
+        "ko": "빵? 응, 좀 먹을래."
+      }
+    ],
+    "level": "A1",
+    "rank": 57
+  },
+  {
+    "id": 58,
+    "french": "savoir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "알다",
+      "~할 줄 알다"
+    ],
+    "examples": [
+      {
+        "fr": "Je ne sais pas nager.",
+        "ko": "나는 수영할 줄 모른다."
+      }
+    ],
+    "level": "A1",
+    "rank": 58
+  },
+  {
+    "id": 59,
+    "french": "si",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "만약 ~라면",
+      "~인지 (아닌지)"
+    ],
+    "examples": [
+      {
+        "fr": "Si tu veux, on part ensemble.",
+        "ko": "원하면 같이 출발하자."
+      }
+    ],
+    "level": "A1",
+    "rank": 59
+  },
+  {
+    "id": 60,
+    "french": "comme",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~처럼, ~같이",
+      "~로서",
+      "~때문에"
+    ],
+    "examples": [
+      {
+        "fr": "Il parle comme son père.",
+        "ko": "그는 자기 아버지처럼 말한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 60
+  },
+  {
+    "id": 61,
+    "french": "jour",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "날, 하루",
+      "낮"
+    ],
+    "examples": [
+      {
+        "fr": "Quel jour sommes-nous ?",
+        "ko": "오늘 무슨 요일이지?"
+      }
+    ],
+    "level": "A1",
+    "rank": 61
+  },
+  {
+    "id": 62,
+    "french": "venir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "오다",
+      "(venir de) 막 ~했다"
+    ],
+    "examples": [
+      {
+        "fr": "Tu viens chez moi ce soir ?",
+        "ko": "오늘 저녁 우리 집에 올래?"
+      }
+    ],
+    "level": "A1",
+    "rank": 62
+  },
+  {
+    "id": 63,
+    "french": "où",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "어디에",
+      "~하는 곳 (관계부사)"
+    ],
+    "examples": [
+      {
+        "fr": "Où est la gare ?",
+        "ko": "역이 어디예요?"
+      }
+    ],
+    "level": "A1",
+    "rank": 63
+  },
+  {
+    "id": 64,
+    "french": "petit",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "작은",
+      "어린"
+    ],
+    "examples": [
+      {
+        "fr": "J'habite dans un petit appartement.",
+        "ko": "나는 작은 아파트에 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 64
+  },
+  {
+    "id": 65,
+    "french": "prendre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "잡다, 가지다",
+      "(교통수단을) 타다",
+      "먹다, 마시다"
+    ],
+    "examples": [
+      {
+        "fr": "Je prends le bus pour aller au travail.",
+        "ko": "나는 버스를 타고 출근한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 65
+  },
+  {
+    "id": 66,
+    "french": "devoir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~해야 한다",
+      "~임에 틀림없다"
+    ],
+    "examples": [
+      {
+        "fr": "Tu dois finir tes devoirs.",
+        "ko": "너는 숙제를 끝내야 해."
+      }
+    ],
+    "level": "A1",
+    "rank": 66
+  },
+  {
+    "id": 67,
+    "french": "passer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "지나가다, 들르다",
+      "(시간을) 보내다"
+    ],
+    "examples": [
+      {
+        "fr": "Nous passons l'été en Bretagne.",
+        "ko": "우리는 여름을 브르타뉴에서 보낸다."
+      }
+    ],
+    "level": "A1",
+    "rank": 67
+  },
+  {
+    "id": 68,
+    "french": "sans",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~없이"
+    ],
+    "examples": [
+      {
+        "fr": "Un café sans sucre, s'il vous plaît.",
+        "ko": "설탕 없는 커피 주세요."
+      }
+    ],
+    "level": "A1",
+    "rank": 68
+  },
+  {
+    "id": 69,
+    "french": "femme",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "여자",
+      "아내"
+    ],
+    "examples": [
+      {
+        "fr": "Sa femme est professeure.",
+        "ko": "그의 아내는 교사이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 69
+  },
+  {
+    "id": 70,
+    "french": "alors",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그러면, 자",
+      "그때, 그래서"
+    ],
+    "examples": [
+      {
+        "fr": "Alors, on commence ?",
+        "ko": "자, 시작할까?"
+      }
+    ],
+    "level": "A1",
+    "rank": 70
+  },
+  {
+    "id": 71,
+    "french": "là",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "거기, 저기",
+      "여기 (구어)"
+    ],
+    "examples": [
+      {
+        "fr": "Mets ton sac là.",
+        "ko": "가방을 거기에 놔."
+      }
+    ],
+    "level": "A1",
+    "rank": 71
+  },
+  {
+    "id": 72,
+    "french": "quelque",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "몇몇의, 어떤 (quelques: 몇 개의)"
+    ],
+    "examples": [
+      {
+        "fr": "Il reste quelques places.",
+        "ko": "자리가 몇 개 남아 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 72
+  },
+  {
+    "id": 73,
+    "french": "quand",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~할 때",
+      "언제"
+    ],
+    "examples": [
+      {
+        "fr": "Quand il pleut, je reste à la maison.",
+        "ko": "비가 오면 나는 집에 있는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 73
+  },
+  {
+    "id": 74,
+    "french": "heure",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "시간",
+      "~시 (시각)"
+    ],
+    "examples": [
+      {
+        "fr": "Il est quelle heure ?",
+        "ko": "지금 몇 시야?"
+      }
+    ],
+    "level": "A1",
+    "rank": 74
+  },
+  {
+    "id": 75,
+    "french": "peu",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "조금, 별로 (un peu: 약간)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle parle peu.",
+        "ko": "그녀는 말이 적다."
+      }
+    ],
+    "level": "A1",
+    "rank": 75
+  },
+  {
+    "id": 76,
+    "french": "votre",
+    "pos": "DET:POS",
+    "posKo": "소유형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "당신의, 너희의"
+    ],
+    "examples": [
+      {
+        "fr": "Quel est votre nom ?",
+        "ko": "성함이 어떻게 되세요?"
+      }
+    ],
+    "level": "A1",
+    "rank": 76
+  },
+  {
+    "id": 77,
+    "french": "trouver",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "찾다, 발견하다",
+      "~라고 생각하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je ne trouve pas mes lunettes.",
+        "ko": "안경을 못 찾겠어."
+      }
+    ],
+    "level": "A1",
+    "rank": 77
+  },
+  {
+    "id": 78,
+    "french": "parler",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "말하다, 이야기하다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle parle trois langues.",
+        "ko": "그녀는 3개 언어를 한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 78
+  },
+  {
+    "id": 79,
+    "french": "temps",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "시간",
+      "날씨"
+    ],
+    "examples": [
+      {
+        "fr": "Je n'ai pas le temps aujourd'hui.",
+        "ko": "오늘은 시간이 없어."
+      }
+    ],
+    "level": "A1",
+    "rank": 79
+  },
+  {
+    "id": 80,
+    "french": "encore",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "아직, 여전히",
+      "또, 다시"
+    ],
+    "examples": [
+      {
+        "fr": "Il dort encore.",
+        "ko": "그는 아직 자고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 80
+  },
+  {
+    "id": 81,
+    "french": "falloir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~해야 한다, ~이 필요하다 (비인칭 il faut)"
+    ],
+    "examples": [
+      {
+        "fr": "Il faut partir maintenant.",
+        "ko": "지금 떠나야 해."
+      }
+    ],
+    "level": "A1",
+    "rank": 81
+  },
+  {
+    "id": 82,
+    "french": "comme",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "얼마나, 정말 (감탄)"
+    ],
+    "examples": [
+      {
+        "fr": "Comme c'est beau !",
+        "ko": "정말 아름답다!"
+      }
+    ],
+    "level": "A1",
+    "rank": 82
+  },
+  {
+    "id": 83,
+    "french": "mettre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "놓다, 넣다",
+      "(옷을) 입다",
+      "(시간이) 걸리다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle met son manteau.",
+        "ko": "그녀는 코트를 입는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 83
+  },
+  {
+    "id": 84,
+    "french": "non",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "아니, 아니요"
+    ],
+    "examples": [
+      {
+        "fr": "Non merci, ça va.",
+        "ko": "아니요 괜찮아요."
+      }
+    ],
+    "level": "A1",
+    "rank": 84
+  },
+  {
+    "id": 85,
+    "french": "bon",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "좋은",
+      "맛있는",
+      "옳은"
+    ],
+    "examples": [
+      {
+        "fr": "Ce restaurant est très bon.",
+        "ko": "이 식당 정말 맛있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 85
+  },
+  {
+    "id": 86,
+    "french": "monde",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "세계, 세상",
+      "사람들 (du monde: 많은 사람)"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a beaucoup de monde ici.",
+        "ko": "여기 사람이 많다."
+      }
+    ],
+    "level": "A1",
+    "rank": 86
+  },
+  {
+    "id": 87,
+    "french": "notre",
+    "pos": "DET:POS",
+    "posKo": "소유형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "우리의"
+    ],
+    "examples": [
+      {
+        "fr": "Voici notre nouvelle maison.",
+        "ko": "여기가 우리 새 집이야."
+      }
+    ],
+    "level": "A1",
+    "rank": 87
+  },
+  {
+    "id": 88,
+    "french": "vie",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "삶, 인생",
+      "생활"
+    ],
+    "examples": [
+      {
+        "fr": "La vie est belle.",
+        "ko": "인생은 아름답다."
+      }
+    ],
+    "level": "A1",
+    "rank": 88
+  },
+  {
+    "id": 89,
+    "french": "celui",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그것, ~의 것 (지시대명사)"
+    ],
+    "examples": [
+      {
+        "fr": "Je préfère celui-ci.",
+        "ko": "나는 이게 더 좋아."
+      }
+    ],
+    "level": "A1",
+    "rank": 89
+  },
+  {
+    "id": 90,
+    "french": "donner",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "주다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle donne de l'eau aux plantes.",
+        "ko": "그녀는 화초에 물을 준다."
+      }
+    ],
+    "level": "A1",
+    "rank": 90
+  },
+  {
+    "id": 91,
+    "french": "aimer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "사랑하다",
+      "좋아하다"
+    ],
+    "examples": [
+      {
+        "fr": "J'aime beaucoup ce quartier.",
+        "ko": "나는 이 동네가 정말 좋아."
+      }
+    ],
+    "level": "A1",
+    "rank": 91
+  },
+  {
+    "id": 92,
+    "french": "nouveau",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "새로운 (여성형: nouvelle)"
+    ],
+    "examples": [
+      {
+        "fr": "Il a un nouveau travail.",
+        "ko": "그는 새 직장을 구했다."
+      }
+    ],
+    "level": "A1",
+    "rank": 92
+  },
+  {
+    "id": 93,
+    "french": "te",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "너를, 너에게"
+    ],
+    "examples": [
+      {
+        "fr": "Je te rappelle plus tard.",
+        "ko": "나중에 다시 전화할게."
+      }
+    ],
+    "level": "A1",
+    "rank": 93
+  },
+  {
+    "id": 94,
+    "french": "enfant",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "mf",
+    "article": "un/une",
+    "korean": [
+      "아이, 어린이",
+      "자녀"
+    ],
+    "examples": [
+      {
+        "fr": "Les enfants jouent dans le jardin.",
+        "ko": "아이들이 정원에서 놀고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 94
+  },
+  {
+    "id": 95,
+    "french": "toujours",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "항상, 언제나",
+      "여전히"
+    ],
+    "examples": [
+      {
+        "fr": "Il arrive toujours en retard.",
+        "ko": "그는 항상 늦게 온다."
+      }
+    ],
+    "level": "A1",
+    "rank": 95
+  },
+  {
+    "id": 96,
+    "french": "puis",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그다음에, 그러고 나서"
+    ],
+    "examples": [
+      {
+        "fr": "Je me douche, puis je prends le petit-déjeuner.",
+        "ko": "나는 샤워를 하고 나서 아침을 먹는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 96
+  },
+  {
+    "id": 97,
+    "french": "chez",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~의 집에(서)",
+      "~네, ~에게 (가게·나라)"
+    ],
+    "examples": [
+      {
+        "fr": "On dîne chez mes parents dimanche.",
+        "ko": "일요일에 부모님 댁에서 저녁 먹어."
+      }
+    ],
+    "level": "A1",
+    "rank": 97
+  },
+  {
+    "id": 98,
+    "french": "demander",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "묻다, 질문하다",
+      "요청하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je peux vous demander quelque chose ?",
+        "ko": "뭐 하나 여쭤봐도 될까요?"
+      }
+    ],
+    "level": "A1",
+    "rank": 98
+  },
+  {
+    "id": 99,
+    "french": "entre",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~사이에"
+    ],
+    "examples": [
+      {
+        "fr": "La pharmacie est entre la banque et le café.",
+        "ko": "약국은 은행과 카페 사이에 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 99
+  },
+  {
+    "id": 100,
+    "french": "beaucoup",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "많이, 매우 (beaucoup de: 많은)"
+    ],
+    "examples": [
+      {
+        "fr": "Merci beaucoup !",
+        "ko": "정말 고마워요!"
+      }
+    ],
+    "level": "A1",
+    "rank": 100
+  },
+  {
+    "id": 101,
+    "french": "oui",
+    "pos": "INT",
+    "posKo": "감탄사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "네, 응, 그래"
+    ],
+    "examples": [
+      {
+        "fr": "Tu viens avec nous ? Oui, avec plaisir !",
+        "ko": "우리랑 같이 갈래? 응, 좋아!"
+      }
+    ],
+    "level": "A1",
+    "rank": 101
+  },
+  {
+    "id": 102,
+    "french": "arriver",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "도착하다",
+      "(arriver à) ~하는 데 성공하다"
+    ],
+    "examples": [
+      {
+        "fr": "Le train arrive à dix heures.",
+        "ko": "기차는 10시에 도착한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 102
+  },
+  {
+    "id": 103,
+    "french": "penser",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "생각하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je pense que c'est une bonne idée.",
+        "ko": "나는 그게 좋은 생각이라고 생각해."
+      }
+    ],
+    "level": "A1",
+    "rank": 103
+  },
+  {
+    "id": 104,
+    "french": "chose",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "것, 사물, 일"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai une chose importante à te dire.",
+        "ko": "너한테 할 중요한 얘기가 있어."
+      }
+    ],
+    "level": "A1",
+    "rank": 104
+  },
+  {
+    "id": 105,
+    "french": "regarder",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "보다, 바라보다"
+    ],
+    "examples": [
+      {
+        "fr": "Les enfants regardent la télévision le soir.",
+        "ko": "아이들은 저녁에 텔레비전을 본다."
+      }
+    ],
+    "level": "A1",
+    "rank": 105
+  },
+  {
+    "id": 106,
+    "french": "rester",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "머무르다, 남다"
+    ],
+    "examples": [
+      {
+        "fr": "Tu restes à la maison ce week-end ?",
+        "ko": "이번 주말에 집에 있어?"
+      }
+    ],
+    "level": "A1",
+    "rank": 106
+  },
+  {
+    "id": 107,
+    "french": "connaître",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "알다, 알고 지내다"
+    ],
+    "examples": [
+      {
+        "fr": "Est-ce que tu connais ce restaurant ?",
+        "ko": "너 이 식당 알아?"
+      }
+    ],
+    "level": "A1",
+    "rank": 107
+  },
+  {
+    "id": 108,
+    "french": "personne",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "사람, 인물"
+    ],
+    "examples": [
+      {
+        "fr": "Une personne attend devant la porte.",
+        "ko": "어떤 사람이 문 앞에서 기다리고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 108
+  },
+  {
+    "id": 109,
+    "french": "même",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "같은, 동일한"
+    ],
+    "examples": [
+      {
+        "fr": "Nous avons la même voiture.",
+        "ko": "우리는 같은 차를 가지고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 109
+  },
+  {
+    "id": 110,
+    "french": "partir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "떠나다, 출발하다"
+    ],
+    "examples": [
+      {
+        "fr": "Nous partons en vacances demain.",
+        "ko": "우리는 내일 휴가를 떠난다."
+      }
+    ],
+    "level": "A1",
+    "rank": 110
+  },
+  {
+    "id": 111,
+    "french": "année",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "해, 년(年)"
+    ],
+    "examples": [
+      {
+        "fr": "Cette année, je vais apprendre le français.",
+        "ko": "올해 나는 프랑스어를 배울 것이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 111
+  },
+  {
+    "id": 112,
+    "french": "jeune",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "젊은, 어린"
+    ],
+    "examples": [
+      {
+        "fr": "Sa sœur est très jeune.",
+        "ko": "그의 여동생은 아주 어리다."
+      }
+    ],
+    "level": "A1",
+    "rank": 112
+  },
+  {
+    "id": 113,
+    "french": "maison",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "집"
+    ],
+    "examples": [
+      {
+        "fr": "Sa maison est près de l'école.",
+        "ko": "그의 집은 학교 근처에 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 113
+  },
+  {
+    "id": 114,
+    "french": "depuis",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~부터, ~ 이래로"
+    ],
+    "examples": [
+      {
+        "fr": "Il habite ici depuis deux ans.",
+        "ko": "그는 2년 전부터 이곳에 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 114
+  },
+  {
+    "id": 115,
+    "french": "moins",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "덜, 더 적게 (au moins 적어도)"
+    ],
+    "examples": [
+      {
+        "fr": "Ce livre est moins cher que l'autre.",
+        "ko": "이 책은 다른 책보다 덜 비싸다."
+      }
+    ],
+    "level": "A1",
+    "rank": 115
+  },
+  {
+    "id": 116,
+    "french": "même",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "심지어, ~조차도"
+    ],
+    "examples": [
+      {
+        "fr": "Même les enfants comprennent cette histoire.",
+        "ko": "심지어 아이들도 이 이야기를 이해한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 116
+  },
+  {
+    "id": 117,
+    "french": "devenir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~이 되다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle veut devenir médecin.",
+        "ko": "그녀는 의사가 되고 싶어 한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 117
+  },
+  {
+    "id": 118,
+    "french": "seul",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "혼자인, 유일한"
+    ],
+    "examples": [
+      {
+        "fr": "Il vit seul dans un petit appartement.",
+        "ko": "그는 작은 아파트에서 혼자 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 118
+  },
+  {
+    "id": 119,
+    "french": "après",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~ 후에, ~ 다음에"
+    ],
+    "examples": [
+      {
+        "fr": "On se retrouve après le cours.",
+        "ko": "수업 끝나고 다시 만나자."
+      }
+    ],
+    "level": "A1",
+    "rank": 119
+  },
+  {
+    "id": 120,
+    "french": "donc",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그러므로, 그래서"
+    ],
+    "examples": [
+      {
+        "fr": "Il pleut, donc je prends mon parapluie.",
+        "ko": "비가 오니까 우산을 챙겨."
+      }
+    ],
+    "level": "A1",
+    "rank": 120
+  },
+  {
+    "id": 121,
+    "french": "rien",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "아무것도 ~ 않다 (ne... rien)"
+    ],
+    "examples": [
+      {
+        "fr": "Je ne comprends rien à cet exercice.",
+        "ko": "나는 이 문제를 하나도 이해 못 하겠어."
+      }
+    ],
+    "level": "A1",
+    "rank": 121
+  },
+  {
+    "id": 122,
+    "french": "pays",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "나라, 국가"
+    ],
+    "examples": [
+      {
+        "fr": "La France est un beau pays.",
+        "ko": "프랑스는 아름다운 나라이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 122
+  },
+  {
+    "id": 123,
+    "french": "vers",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~쪽으로, ~ 무렵"
+    ],
+    "examples": [
+      {
+        "fr": "Ils marchent vers la gare.",
+        "ko": "그들은 역 쪽으로 걸어간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 123
+  },
+  {
+    "id": 124,
+    "french": "répondre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "대답하다, 응답하다"
+    ],
+    "examples": [
+      {
+        "fr": "Tu réponds toujours vite à mes messages.",
+        "ko": "너는 항상 내 메시지에 빨리 답한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 124
+  },
+  {
+    "id": 125,
+    "french": "entendre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "듣다, 들리다"
+    ],
+    "examples": [
+      {
+        "fr": "J'entends de la musique dans la rue.",
+        "ko": "거리에서 음악 소리가 들린다."
+      }
+    ],
+    "level": "A1",
+    "rank": 125
+  },
+  {
+    "id": 126,
+    "french": "monsieur",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "신사, ~씨 (호칭)"
+    ],
+    "examples": [
+      {
+        "fr": "Bonjour monsieur, comment allez-vous ?",
+        "ko": "안녕하세요, 잘 지내세요?"
+      }
+    ],
+    "level": "A1",
+    "rank": 126
+  },
+  {
+    "id": 127,
+    "french": "appeler",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "부르다, 전화하다"
+    ],
+    "examples": [
+      {
+        "fr": "Tu m'appelles ce soir ?",
+        "ko": "오늘 저녁에 나한테 전화할래?"
+      }
+    ],
+    "level": "A1",
+    "rank": 127
+  },
+  {
+    "id": 128,
+    "french": "aujourd'hui",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "오늘"
+    ],
+    "examples": [
+      {
+        "fr": "Aujourd'hui, il fait très beau.",
+        "ko": "오늘은 날씨가 아주 좋다."
+      }
+    ],
+    "level": "A1",
+    "rank": 128
+  },
+  {
+    "id": 129,
+    "french": "français",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "프랑스의, 프랑스어의"
+    ],
+    "examples": [
+      {
+        "fr": "Elle lit un livre français.",
+        "ko": "그녀는 프랑스 책을 읽는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 129
+  },
+  {
+    "id": 130,
+    "french": "travail",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "일, 직장, 업무"
+    ],
+    "examples": [
+      {
+        "fr": "Son travail commence à neuf heures.",
+        "ko": "그의 일은 9시에 시작한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 130
+  },
+  {
+    "id": 131,
+    "french": "beau",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "아름다운, 멋진 (날씨: il fait beau 날씨가 좋다)"
+    ],
+    "examples": [
+      {
+        "fr": "Il fait beau aujourd'hui.",
+        "ko": "오늘 날씨가 좋다."
+      }
+    ],
+    "level": "A1",
+    "rank": 131
+  },
+  {
+    "id": 132,
+    "french": "attendre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "기다리다"
+    ],
+    "examples": [
+      {
+        "fr": "J'attends le bus depuis dix minutes.",
+        "ko": "나는 10분째 버스를 기다리고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 132
+  },
+  {
+    "id": 133,
+    "french": "la",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그녀를, 그것을 (여성 직접목적어 대명사)"
+    ],
+    "examples": [
+      {
+        "fr": "Cette chanson, je la connais bien.",
+        "ko": "이 노래, 나 잘 알아."
+      }
+    ],
+    "level": "A1",
+    "rank": 133
+  },
+  {
+    "id": 134,
+    "french": "sortir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "나가다, 외출하다"
+    ],
+    "examples": [
+      {
+        "fr": "On sort ce soir avec des amis.",
+        "ko": "우리는 오늘 저녁에 친구들이랑 나갈 거야."
+      }
+    ],
+    "level": "A1",
+    "rank": 134
+  },
+  {
+    "id": 135,
+    "french": "ville",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "도시"
+    ],
+    "examples": [
+      {
+        "fr": "Paris est une grande ville.",
+        "ko": "파리는 큰 도시이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 135
+  },
+  {
+    "id": 136,
+    "french": "ami",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "친구"
+    ],
+    "examples": [
+      {
+        "fr": "Il a beaucoup d'amis à l'école.",
+        "ko": "그는 학교에 친구가 많다."
+      }
+    ],
+    "level": "A1",
+    "rank": 136
+  },
+  {
+    "id": 137,
+    "french": "vivre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "살다"
+    ],
+    "examples": [
+      {
+        "fr": "Ils vivent à Lyon depuis longtemps.",
+        "ko": "그들은 오래전부터 리옹에서 살고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 137
+  },
+  {
+    "id": 138,
+    "french": "pendant",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~ 동안"
+    ],
+    "examples": [
+      {
+        "fr": "Elle dort pendant deux heures.",
+        "ko": "그녀는 두 시간 동안 잔다."
+      }
+    ],
+    "level": "A1",
+    "rank": 138
+  },
+  {
+    "id": 139,
+    "french": "croire",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "믿다, ~라고 생각하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je crois qu'il va pleuvoir.",
+        "ko": "나는 비가 올 거라고 생각해."
+      }
+    ],
+    "level": "A1",
+    "rank": 139
+  },
+  {
+    "id": 140,
+    "french": "jamais",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "결코 ~ 않다 (ne... jamais), 언젠가"
+    ],
+    "examples": [
+      {
+        "fr": "Je ne mange jamais de viande.",
+        "ko": "나는 고기를 절대 안 먹어."
+      }
+    ],
+    "level": "A1",
+    "rank": 140
+  },
+  {
+    "id": 141,
+    "french": "avant",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~ 전에"
+    ],
+    "examples": [
+      {
+        "fr": "Arrive avant huit heures, s'il te plaît.",
+        "ko": "8시 전에 도착해, 부탁해."
+      }
+    ],
+    "level": "A1",
+    "rank": 141
+  },
+  {
+    "id": 142,
+    "french": "comprendre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "이해하다, 포함하다"
+    ],
+    "examples": [
+      {
+        "fr": "Tu comprends la question ?",
+        "ko": "질문 이해돼?"
+      }
+    ],
+    "level": "A1",
+    "rank": 142
+  },
+  {
+    "id": 143,
+    "french": "trop",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "너무, 지나치게"
+    ],
+    "examples": [
+      {
+        "fr": "Ce café est trop chaud pour moi.",
+        "ko": "이 커피는 나한테는 너무 뜨거워."
+      }
+    ],
+    "level": "A1",
+    "rank": 143
+  },
+  {
+    "id": 144,
+    "french": "pour",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~하기 위해 (pour + 동사원형)"
+    ],
+    "examples": [
+      {
+        "fr": "Il travaille dur pour réussir son examen.",
+        "ko": "그는 시험에 합격하려고 열심히 공부한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 144
+  },
+  {
+    "id": 145,
+    "french": "fille",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "소녀, 딸"
+    ],
+    "examples": [
+      {
+        "fr": "Leur fille a sept ans.",
+        "ko": "그들의 딸은 일곱 살이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 145
+  },
+  {
+    "id": 146,
+    "french": "souvent",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "자주, 흔히"
+    ],
+    "examples": [
+      {
+        "fr": "Nous mangeons souvent au restaurant.",
+        "ko": "우리는 식당에서 자주 밥을 먹는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 146
+  },
+  {
+    "id": 147,
+    "french": "comment",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "어떻게"
+    ],
+    "examples": [
+      {
+        "fr": "Comment tu t'appelles ?",
+        "ko": "네 이름이 뭐야?"
+      }
+    ],
+    "level": "A1",
+    "rank": 147
+  },
+  {
+    "id": 148,
+    "french": "quel",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "어느, 무슨 (의문형용사)"
+    ],
+    "examples": [
+      {
+        "fr": "Quel âge as-tu ?",
+        "ko": "몇 살이야?"
+      }
+    ],
+    "level": "A1",
+    "rank": 148
+  },
+  {
+    "id": 149,
+    "french": "chercher",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "찾다"
+    ],
+    "examples": [
+      {
+        "fr": "Je cherche mes clés partout.",
+        "ko": "내 열쇠를 여기저기 찾고 있어."
+      }
+    ],
+    "level": "A1",
+    "rank": 149
+  },
+  {
+    "id": 150,
+    "french": "père",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "아버지"
+    ],
+    "examples": [
+      {
+        "fr": "Mon père travaille dans un hôpital.",
+        "ko": "우리 아버지는 병원에서 일한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 150
+  },
+  {
+    "id": 151,
+    "french": "ici",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "여기, 이곳에"
+    ],
+    "examples": [
+      {
+        "fr": "On peut s'asseoir ici.",
+        "ko": "우리 여기 앉을 수 있어."
+      }
+    ],
+    "level": "A1",
+    "rank": 151
+  },
+  {
+    "id": 152,
+    "french": "contre",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~에 반대하여, ~에 맞대어"
+    ],
+    "examples": [
+      {
+        "fr": "Il pose son vélo contre le mur.",
+        "ko": "그는 자전거를 벽에 기대어 놓는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 152
+  },
+  {
+    "id": 153,
+    "french": "ton",
+    "pos": "DET:POS",
+    "posKo": "소유형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "너의 (남성형)"
+    ],
+    "examples": [
+      {
+        "fr": "C'est ton sac ou le mien ?",
+        "ko": "이거 네 가방이야, 아니면 내 거야?"
+      }
+    ],
+    "level": "A1",
+    "rank": 153
+  },
+  {
+    "id": 154,
+    "french": "main",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "손"
+    ],
+    "examples": [
+      {
+        "fr": "Elle tient un livre dans la main.",
+        "ko": "그녀는 손에 책을 들고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 154
+  },
+  {
+    "id": 155,
+    "french": "porte",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "문"
+    ],
+    "examples": [
+      {
+        "fr": "Ferme la porte, s'il te plaît.",
+        "ko": "문 좀 닫아 줘."
+      }
+    ],
+    "level": "A1",
+    "rank": 155
+  },
+  {
+    "id": 156,
+    "french": "travailler",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "일하다, 공부하다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle travaille dans une école.",
+        "ko": "그녀는 학교에서 일한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 156
+  },
+  {
+    "id": 157,
+    "french": "laisser",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "남겨 두다, 놓아두다, ~하게 두다"
+    ],
+    "examples": [
+      {
+        "fr": "Laisse la fenêtre ouverte, il fait chaud.",
+        "ko": "창문 열어 놔, 더워."
+      }
+    ],
+    "level": "A1",
+    "rank": 157
+  },
+  {
+    "id": 158,
+    "french": "devant",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~ 앞에"
+    ],
+    "examples": [
+      {
+        "fr": "On se retrouve devant la gare.",
+        "ko": "우리 역 앞에서 만나."
+      }
+    ],
+    "level": "A1",
+    "rank": 158
+  },
+  {
+    "id": 159,
+    "french": "place",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "자리, 장소",
+      "광장"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a une place libre à côté de la fenêtre.",
+        "ko": "창가 옆에 빈자리가 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 159
+  },
+  {
+    "id": 160,
+    "french": "jusque",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~까지 (jusqu'à)"
+    ],
+    "examples": [
+      {
+        "fr": "On marche jusqu'à la plage.",
+        "ko": "우리는 해변까지 걸어간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 160
+  },
+  {
+    "id": 161,
+    "french": "famille",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "가족"
+    ],
+    "examples": [
+      {
+        "fr": "Sa famille habite à la campagne.",
+        "ko": "그의 가족은 시골에 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 161
+  },
+  {
+    "id": 162,
+    "french": "parce",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "왜냐하면 (parce que)"
+    ],
+    "examples": [
+      {
+        "fr": "Je reste chez moi parce qu'il pleut.",
+        "ko": "비가 와서 집에 있어."
+      }
+    ],
+    "level": "A1",
+    "rank": 162
+  },
+  {
+    "id": 163,
+    "french": "pourquoi",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "왜"
+    ],
+    "examples": [
+      {
+        "fr": "Pourquoi tu ne manges pas ?",
+        "ko": "왜 안 먹어?"
+      }
+    ],
+    "level": "A1",
+    "rank": 163
+  },
+  {
+    "id": 164,
+    "french": "maintenant",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "지금"
+    ],
+    "examples": [
+      {
+        "fr": "Je dois partir maintenant.",
+        "ko": "나 지금 가야 해."
+      }
+    ],
+    "level": "A1",
+    "rank": 164
+  },
+  {
+    "id": 165,
+    "french": "car",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "왜냐하면 (격식)"
+    ],
+    "examples": [
+      {
+        "fr": "Il reste à la maison, car il est malade.",
+        "ko": "그는 아파서 집에 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 165
+  },
+  {
+    "id": 166,
+    "french": "dernier",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "마지막의, 지난"
+    ],
+    "examples": [
+      {
+        "fr": "C'est le dernier jour des vacances.",
+        "ko": "오늘이 방학 마지막 날이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 166
+  },
+  {
+    "id": 167,
+    "french": "gens",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "des",
+    "korean": [
+      "사람들 (복수 전용, 항상 des gens)"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a beaucoup de gens dans la rue.",
+        "ko": "거리에 사람이 많다."
+      }
+    ],
+    "level": "A1",
+    "rank": 167
+  },
+  {
+    "id": 168,
+    "french": "soir",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "저녁"
+    ],
+    "examples": [
+      {
+        "fr": "On mange à huit heures le soir.",
+        "ko": "우리는 저녁 8시에 밥을 먹는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 168
+  },
+  {
+    "id": 169,
+    "french": "oeil",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "눈 (신체, 복수형 yeux)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle a les yeux bleus.",
+        "ko": "그녀는 눈이 파란색이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 169
+  },
+  {
+    "id": 170,
+    "french": "sûr",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "확신하는, 확실한 (bien sûr 물론)"
+    ],
+    "examples": [
+      {
+        "fr": "Es-tu sûr de ta réponse ?",
+        "ko": "네 대답이 확실해?"
+      }
+    ],
+    "level": "A1",
+    "rank": 170
+  },
+  {
+    "id": 171,
+    "french": "nuit",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "밤"
+    ],
+    "examples": [
+      {
+        "fr": "Il fait froid la nuit en hiver.",
+        "ko": "겨울에는 밤에 춥다."
+      }
+    ],
+    "level": "A1",
+    "rank": 171
+  },
+  {
+    "id": 172,
+    "french": "entrer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "들어가다"
+    ],
+    "examples": [
+      {
+        "fr": "Entrez, la porte est ouverte !",
+        "ko": "들어오세요, 문 열려 있어요!"
+      }
+    ],
+    "level": "A1",
+    "rank": 172
+  },
+  {
+    "id": 173,
+    "french": "toi",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "너 (강세 대명사)"
+    ],
+    "examples": [
+      {
+        "fr": "Et toi, tu viens avec nous ?",
+        "ko": "그리고 너는, 우리랑 같이 갈래?"
+      }
+    ],
+    "level": "A1",
+    "rank": 173
+  },
+  {
+    "id": 174,
+    "french": "rue",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "거리, 길"
+    ],
+    "examples": [
+      {
+        "fr": "Il habite dans cette rue depuis dix ans.",
+        "ko": "그는 10년 전부터 이 거리에 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 174
+  },
+  {
+    "id": 175,
+    "french": "histoire",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "이야기",
+      "역사"
+    ],
+    "examples": [
+      {
+        "fr": "Elle raconte une histoire aux enfants.",
+        "ko": "그녀는 아이들에게 이야기를 들려준다."
+      }
+    ],
+    "level": "A1",
+    "rank": 175
+  },
+  {
+    "id": 176,
+    "french": "moment",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "순간, 잠깐 (en ce moment 지금)"
+    ],
+    "examples": [
+      {
+        "fr": "Attends un moment, s'il te plaît.",
+        "ko": "잠깐만 기다려 줘."
+      }
+    ],
+    "level": "A1",
+    "rank": 176
+  },
+  {
+    "id": 177,
+    "french": "eux",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그들 (강세 대명사)"
+    ],
+    "examples": [
+      {
+        "fr": "Je pars avec eux ce week-end.",
+        "ko": "나는 이번 주말에 그들과 함께 떠난다."
+      }
+    ],
+    "level": "A1",
+    "rank": 177
+  },
+  {
+    "id": 178,
+    "french": "près",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "가까이 (près de ~ 가까이에)"
+    ],
+    "examples": [
+      {
+        "fr": "La boulangerie est près de chez moi.",
+        "ko": "빵집은 우리 집에서 가깝다."
+      }
+    ],
+    "level": "A1",
+    "rank": 178
+  },
+  {
+    "id": 179,
+    "french": "déjà",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "이미, 벌써"
+    ],
+    "examples": [
+      {
+        "fr": "Il est déjà huit heures !",
+        "ko": "벌써 8시야!"
+      }
+    ],
+    "level": "A1",
+    "rank": 179
+  },
+  {
+    "id": 180,
+    "french": "peut-être",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "아마도"
+    ],
+    "examples": [
+      {
+        "fr": "Peut-être qu'il vient demain.",
+        "ko": "아마 그는 내일 올 거야."
+      }
+    ],
+    "level": "A1",
+    "rank": 180
+  },
+  {
+    "id": 181,
+    "french": "commencer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "시작하다"
+    ],
+    "examples": [
+      {
+        "fr": "Le film commence à vingt heures.",
+        "ko": "영화는 저녁 8시에 시작한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 181
+  },
+  {
+    "id": 182,
+    "french": "chambre",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "방, 침실"
+    ],
+    "examples": [
+      {
+        "fr": "Sa chambre est très petite.",
+        "ko": "그의 방은 아주 작다."
+      }
+    ],
+    "level": "A1",
+    "rank": 182
+  },
+  {
+    "id": 183,
+    "french": "sous",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~ 아래에"
+    ],
+    "examples": [
+      {
+        "fr": "Le chat dort sous la table.",
+        "ko": "고양이가 탁자 밑에서 자고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 183
+  },
+  {
+    "id": 184,
+    "french": "coup",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "타격, 한 번 (tout à coup 갑자기)"
+    ],
+    "examples": [
+      {
+        "fr": "Tout à coup, il commence à pleuvoir.",
+        "ko": "갑자기 비가 내리기 시작한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 184
+  },
+  {
+    "id": 185,
+    "french": "tête",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "머리"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai mal à la tête aujourd'hui.",
+        "ko": "오늘 머리가 아파."
+      }
+    ],
+    "level": "A1",
+    "rank": 185
+  },
+  {
+    "id": 186,
+    "french": "retrouver",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "다시 찾다, 만나다 (se retrouver 서로 만나다)"
+    ],
+    "examples": [
+      {
+        "fr": "On se retrouve à midi devant l'école.",
+        "ko": "우리 정오에 학교 앞에서 만나자."
+      }
+    ],
+    "level": "A1",
+    "rank": 186
+  },
+  {
+    "id": 187,
+    "french": "certain",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "몇몇, 어떤 사람들 (certains 일부 사람들)"
+    ],
+    "examples": [
+      {
+        "fr": "Certains préfèrent le café, d'autres le thé.",
+        "ko": "어떤 사람들은 커피를 좋아하고, 다른 사람들은 차를 좋아한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 187
+  },
+  {
+    "id": 188,
+    "french": "tard",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "늦게"
+    ],
+    "examples": [
+      {
+        "fr": "Il rentre toujours tard le soir.",
+        "ko": "그는 저녁에 항상 늦게 들어온다."
+      }
+    ],
+    "level": "A1",
+    "rank": 188
+  },
+  {
+    "id": 189,
+    "french": "côté",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "옆, 쪽 (à côté de ~ 옆에)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle habite à côté de la pharmacie.",
+        "ko": "그녀는 약국 옆에 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 189
+  },
+  {
+    "id": 190,
+    "french": "nom",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "이름"
+    ],
+    "examples": [
+      {
+        "fr": "Quel est ton nom ?",
+        "ko": "네 이름이 뭐야?"
+      }
+    ],
+    "level": "A1",
+    "rank": 190
+  },
+  {
+    "id": 191,
+    "french": "mère",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "어머니"
+    ],
+    "examples": [
+      {
+        "fr": "Sa mère travaille à l'hôpital.",
+        "ko": "그의 어머니는 병원에서 일한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 191
+  },
+  {
+    "id": 192,
+    "french": "revenir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "돌아오다"
+    ],
+    "examples": [
+      {
+        "fr": "Je reviens dans cinq minutes.",
+        "ko": "나 5분 뒤에 돌아올게."
+      }
+    ],
+    "level": "A1",
+    "rank": 192
+  },
+  {
+    "id": 193,
+    "french": "chaque",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "각각의, 매 (형용사적 부정대명사)"
+    ],
+    "examples": [
+      {
+        "fr": "Chaque élève a son propre bureau.",
+        "ko": "학생마다 자기 책상이 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 193
+  },
+  {
+    "id": 194,
+    "french": "voiture",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "자동차"
+    ],
+    "examples": [
+      {
+        "fr": "Il va au travail en voiture.",
+        "ko": "그는 차를 타고 출근한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 194
+  },
+  {
+    "id": 195,
+    "french": "matin",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "아침"
+    ],
+    "examples": [
+      {
+        "fr": "Je bois un café tous les matins.",
+        "ko": "나는 매일 아침 커피를 마신다."
+      }
+    ],
+    "level": "A1",
+    "rank": 195
+  },
+  {
+    "id": 196,
+    "french": "question",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "질문, 문제"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai une question pour vous.",
+        "ko": "당신께 질문이 하나 있어요."
+      }
+    ],
+    "level": "A1",
+    "rank": 196
+  },
+  {
+    "id": 197,
+    "french": "écrire",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "쓰다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle écrit une lettre à ses parents.",
+        "ko": "그녀는 부모님께 편지를 쓴다."
+      }
+    ],
+    "level": "A1",
+    "rank": 197
+  },
+  {
+    "id": 198,
+    "french": "permettre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "허락하다, 가능하게 하다"
+    ],
+    "examples": [
+      {
+        "fr": "Ce travail permet de voyager souvent.",
+        "ko": "이 일은 자주 여행할 수 있게 해 준다."
+      }
+    ],
+    "level": "A1",
+    "rank": 198
+  },
+  {
+    "id": 199,
+    "french": "arrêter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "멈추다, 그만두다"
+    ],
+    "examples": [
+      {
+        "fr": "Arrête de crier, s'il te plaît !",
+        "ko": "소리 좀 그만 질러, 부탁이야!"
+      }
+    ],
+    "level": "A1",
+    "rank": 199
+  },
+  {
+    "id": 200,
+    "french": "vieux",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "늙은, 오래된"
+    ],
+    "examples": [
+      {
+        "fr": "Son grand-père est très vieux.",
+        "ko": "그의 할아버지는 아주 나이가 많다."
+      }
+    ],
+    "level": "A1",
+    "rank": 200
+  },
+  {
+    "id": 201,
+    "french": "si",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "만약 ~라면 (접속사적 부사)",
+      "그렇게, 그토록"
+    ],
+    "examples": [
+      {
+        "fr": "Si tu veux, on peut manger ensemble.",
+        "ko": "네가 원하면 우리 같이 밥 먹을 수 있어."
+      }
+    ],
+    "level": "A1",
+    "rank": 201
+  },
+  {
+    "id": 202,
+    "french": "porter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "나르다, 입다, 착용하다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle porte une robe bleue aujourd'hui.",
+        "ko": "그녀는 오늘 파란 원피스를 입고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 202
+  },
+  {
+    "id": 203,
+    "french": "lieu",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "장소 (avoir lieu 열리다, 개최되다)"
+    ],
+    "examples": [
+      {
+        "fr": "La fête a lieu dans le jardin.",
+        "ko": "파티는 정원에서 열린다."
+      }
+    ],
+    "level": "A1",
+    "rank": 203
+  },
+  {
+    "id": 204,
+    "french": "idée",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "생각, 아이디어"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai une bonne idée pour ce soir.",
+        "ko": "오늘 저녁을 위한 좋은 생각이 있어."
+      }
+    ],
+    "level": "A1",
+    "rank": 204
+  },
+  {
+    "id": 205,
+    "french": "seulement",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "오직, ~만"
+    ],
+    "examples": [
+      {
+        "fr": "Il reste seulement deux places.",
+        "ko": "자리가 두 개만 남았다."
+      }
+    ],
+    "level": "A1",
+    "rank": 205
+  },
+  {
+    "id": 206,
+    "french": "vrai",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "진짜의, 사실인"
+    ],
+    "examples": [
+      {
+        "fr": "C'est une vraie surprise !",
+        "ko": "이건 진짜 깜짝 놀랄 일이야!"
+      }
+    ],
+    "level": "A1",
+    "rank": 206
+  },
+  {
+    "id": 207,
+    "french": "exemple",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "예, 예시 (par exemple 예를 들어)"
+    ],
+    "examples": [
+      {
+        "fr": "Par exemple, on peut visiter le musée.",
+        "ko": "예를 들어, 우리는 박물관을 방문할 수 있어."
+      }
+    ],
+    "level": "A1",
+    "rank": 207
+  },
+  {
+    "id": 208,
+    "french": "rendre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "돌려주다, ~하게 만들다"
+    ],
+    "examples": [
+      {
+        "fr": "Cette nouvelle me rend très heureux.",
+        "ko": "이 소식이 나를 아주 행복하게 만든다."
+      }
+    ],
+    "level": "A1",
+    "rank": 208
+  },
+  {
+    "id": 209,
+    "french": "suivre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "따라가다, 뒤따르다"
+    ],
+    "examples": [
+      {
+        "fr": "Suivez-moi, s'il vous plaît.",
+        "ko": "저를 따라오세요."
+      }
+    ],
+    "level": "A1",
+    "rank": 209
+  },
+  {
+    "id": 210,
+    "french": "expliquer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "설명하다"
+    ],
+    "examples": [
+      {
+        "fr": "Le professeur explique la leçon.",
+        "ko": "선생님이 수업을 설명한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 210
+  },
+  {
+    "id": 211,
+    "french": "tenir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "잡다, 쥐다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle tient son sac dans la main.",
+        "ko": "그녀는 손에 가방을 들고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 211
+  },
+  {
+    "id": 212,
+    "french": "madame",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "부인, ~씨 (호칭)"
+    ],
+    "examples": [
+      {
+        "fr": "Bonjour madame, vous désirez ?",
+        "ko": "안녕하세요, 무엇을 원하세요?"
+      }
+    ],
+    "level": "A1",
+    "rank": 212
+  },
+  {
+    "id": 213,
+    "french": "lire",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "읽다"
+    ],
+    "examples": [
+      {
+        "fr": "Il lit un livre avant de dormir.",
+        "ko": "그는 자기 전에 책을 읽는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 213
+  },
+  {
+    "id": 214,
+    "french": "enfin",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "마침내, 드디어"
+    ],
+    "examples": [
+      {
+        "fr": "Enfin, le week-end arrive !",
+        "ko": "드디어 주말이다!"
+      }
+    ],
+    "level": "A1",
+    "rank": 214
+  },
+  {
+    "id": 215,
+    "french": "nombreux",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "수많은, 다수의"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a de nombreux touristes en été.",
+        "ko": "여름에는 관광객이 아주 많다."
+      }
+    ],
+    "level": "A1",
+    "rank": 215
+  },
+  {
+    "id": 216,
+    "french": "montrer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "보여 주다"
+    ],
+    "examples": [
+      {
+        "fr": "Il me montre ses photos de vacances.",
+        "ko": "그는 나에게 휴가 사진들을 보여 준다."
+      }
+    ],
+    "level": "A1",
+    "rank": 216
+  },
+  {
+    "id": 217,
+    "french": "eau",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "물"
+    ],
+    "examples": [
+      {
+        "fr": "Je bois beaucoup d'eau chaque jour.",
+        "ko": "나는 매일 물을 많이 마신다."
+      }
+    ],
+    "level": "A1",
+    "rank": 217
+  },
+  {
+    "id": 218,
+    "french": "un",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "하나(의 것) (수사가 명사화된 형태)"
+    ],
+    "examples": [
+      {
+        "fr": "Tu veux un gâteau ? Prends-en un.",
+        "ko": "케이크 먹을래? 하나 가져가."
+      }
+    ],
+    "level": "A1",
+    "rank": 218
+  },
+  {
+    "id": 219,
+    "french": "ni",
+    "pos": "KON",
+    "posKo": "접속사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~도 ~도 아닌 (ne... ni... ni)"
+    ],
+    "examples": [
+      {
+        "fr": "Je n'aime ni le café ni le thé.",
+        "ko": "나는 커피도 차도 안 좋아해."
+      }
+    ],
+    "level": "A1",
+    "rank": 219
+  },
+  {
+    "id": 220,
+    "french": "ainsi",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "이렇게, 그렇게, 그리하여"
+    ],
+    "examples": [
+      {
+        "fr": "Ainsi, tout le monde est content.",
+        "ko": "그렇게 해서 모두가 만족한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 220
+  },
+  {
+    "id": 221,
+    "french": "plusieurs",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "여러, 몇몇 (형용사적 부정대명사)"
+    ],
+    "examples": [
+      {
+        "fr": "Plusieurs élèves posent la même question.",
+        "ko": "여러 학생이 같은 질문을 한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 221
+  },
+  {
+    "id": 222,
+    "french": "manger",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "먹다"
+    ],
+    "examples": [
+      {
+        "fr": "On mange ensemble ce midi ?",
+        "ko": "오늘 점심 같이 먹을래?"
+      }
+    ],
+    "level": "A1",
+    "rank": 222
+  },
+  {
+    "id": 223,
+    "french": "mieux",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "더 잘, 더 낫게"
+    ],
+    "examples": [
+      {
+        "fr": "Elle chante mieux que moi.",
+        "ko": "그녀는 나보다 노래를 더 잘한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 223
+  },
+  {
+    "id": 224,
+    "french": "continuer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "계속하다"
+    ],
+    "examples": [
+      {
+        "fr": "Continue à lire, c'est intéressant.",
+        "ko": "계속 읽어 봐, 재밌어."
+      }
+    ],
+    "level": "A1",
+    "rank": 224
+  },
+  {
+    "id": 225,
+    "french": "peur",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "두려움 (avoir peur 무서워하다)"
+    ],
+    "examples": [
+      {
+        "fr": "Il a peur des araignées.",
+        "ko": "그는 거미를 무서워한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 225
+  },
+  {
+    "id": 226,
+    "french": "école",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "학교"
+    ],
+    "examples": [
+      {
+        "fr": "Les enfants vont à l'école à pied.",
+        "ko": "아이들은 걸어서 학교에 간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 226
+  },
+  {
+    "id": 227,
+    "french": "air",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "공기",
+      "(avoir l'air) ~처럼 보이다"
+    ],
+    "examples": [
+      {
+        "fr": "Tu as l'air fatigué aujourd'hui.",
+        "ko": "너 오늘 피곤해 보여."
+      }
+    ],
+    "level": "A1",
+    "rank": 227
+  },
+  {
+    "id": 228,
+    "french": "effet",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "효과 (en effet 실제로, 정말로)"
+    ],
+    "examples": [
+      {
+        "fr": "Ce médicament a un bon effet sur la douleur.",
+        "ko": "이 약은 통증에 좋은 효과가 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 228
+  },
+  {
+    "id": 229,
+    "french": "siècle",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "세기 (100년)"
+    ],
+    "examples": [
+      {
+        "fr": "Cette église date du douzième siècle.",
+        "ko": "이 교회는 12세기의 것이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 229
+  },
+  {
+    "id": 230,
+    "french": "voix",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "목소리, (선거) 표"
+    ],
+    "examples": [
+      {
+        "fr": "Elle a une voix très douce.",
+        "ko": "그녀는 아주 부드러운 목소리를 가지고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 230
+  },
+  {
+    "id": 231,
+    "french": "mot",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "단어, 말"
+    ],
+    "examples": [
+      {
+        "fr": "Je ne connais pas ce mot.",
+        "ko": "나는 이 단어를 몰라."
+      }
+    ],
+    "level": "A1",
+    "rank": 231
+  },
+  {
+    "id": 232,
+    "french": "vite",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "빨리"
+    ],
+    "examples": [
+      {
+        "fr": "Viens vite, le film commence !",
+        "ko": "빨리 와, 영화 시작해!"
+      }
+    ],
+    "level": "A1",
+    "rank": 232
+  },
+  {
+    "id": 233,
+    "french": "jouer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "놀다, (게임·악기를) 하다, 연주하다"
+    ],
+    "examples": [
+      {
+        "fr": "Les enfants jouent dans le jardin.",
+        "ko": "아이들이 정원에서 놀고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 233
+  },
+  {
+    "id": 234,
+    "french": "voilà",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "자, 여기 (제시할 때)"
+    ],
+    "examples": [
+      {
+        "fr": "Voilà ton café, fais attention, il est chaud.",
+        "ko": "자, 여기 네 커피, 조심해, 뜨거워."
+      }
+    ],
+    "level": "A1",
+    "rank": 234
+  },
+  {
+    "id": 235,
+    "french": "surtout",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "특히, 무엇보다도"
+    ],
+    "examples": [
+      {
+        "fr": "J'aime tous les fruits, surtout les fraises.",
+        "ko": "나는 모든 과일을 좋아하는데, 특히 딸기를 좋아해."
+      }
+    ],
+    "level": "A1",
+    "rank": 235
+  },
+  {
+    "id": 236,
+    "french": "terre",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "땅, 흙 (la Terre 지구)"
+    ],
+    "examples": [
+      {
+        "fr": "Les enfants jouent sur la terre humide.",
+        "ko": "아이들이 젖은 땅에서 놀고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 236
+  },
+  {
+    "id": 237,
+    "french": "loin",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "멀리"
+    ],
+    "examples": [
+      {
+        "fr": "L'école n'est pas loin d'ici.",
+        "ko": "학교는 여기서 멀지 않아."
+      }
+    ],
+    "level": "A1",
+    "rank": 237
+  },
+  {
+    "id": 238,
+    "french": "langue",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "언어",
+      "혀"
+    ],
+    "examples": [
+      {
+        "fr": "Elle parle trois langues.",
+        "ko": "그녀는 세 개 언어를 할 줄 안다."
+      }
+    ],
+    "level": "A1",
+    "rank": 238
+  },
+  {
+    "id": 239,
+    "french": "sembler",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~처럼 보이다"
+    ],
+    "examples": [
+      {
+        "fr": "Il semble content de sa nouvelle voiture.",
+        "ko": "그는 새 차에 만족하는 것 같다."
+      }
+    ],
+    "level": "A1",
+    "rank": 239
+  },
+  {
+    "id": 240,
+    "french": "rentrer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "돌아가다, 귀가하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je rentre chez moi vers dix-neuf heures.",
+        "ko": "나는 저녁 7시쯤 집에 들어가."
+      }
+    ],
+    "level": "A1",
+    "rank": 240
+  },
+  {
+    "id": 241,
+    "french": "ah",
+    "pos": "INT",
+    "posKo": "감탄사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "아! (놀람·감탄)"
+    ],
+    "examples": [
+      {
+        "fr": "Ah, tu es déjà là !",
+        "ko": "아, 벌써 왔구나!"
+      }
+    ],
+    "level": "A1",
+    "rank": 241
+  },
+  {
+    "id": 242,
+    "french": "salle",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "홀, 실(室) (salle de bains 욕실)"
+    ],
+    "examples": [
+      {
+        "fr": "La réunion a lieu dans la grande salle.",
+        "ko": "회의는 큰 홀에서 열린다."
+      }
+    ],
+    "level": "A1",
+    "rank": 242
+  },
+  {
+    "id": 243,
+    "french": "aider",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "돕다"
+    ],
+    "examples": [
+      {
+        "fr": "Tu peux m'aider à porter ce sac ?",
+        "ko": "이 가방 드는 것 좀 도와줄래?"
+      }
+    ],
+    "level": "A1",
+    "rank": 243
+  },
+  {
+    "id": 244,
+    "french": "mourir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "죽다"
+    ],
+    "examples": [
+      {
+        "fr": "Les plantes meurent sans eau.",
+        "ko": "식물은 물이 없으면 죽는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 244
+  },
+  {
+    "id": 245,
+    "french": "fort",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "힘센, 강한"
+    ],
+    "examples": [
+      {
+        "fr": "Il est très fort en mathématiques.",
+        "ko": "그는 수학을 아주 잘한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 245
+  },
+  {
+    "id": 246,
+    "french": "ouvrir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "열다"
+    ],
+    "examples": [
+      {
+        "fr": "Le magasin ouvre à neuf heures.",
+        "ko": "가게는 9시에 문을 연다."
+      }
+    ],
+    "level": "A1",
+    "rank": 246
+  },
+  {
+    "id": 247,
+    "french": "longtemps",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "오랫동안"
+    ],
+    "examples": [
+      {
+        "fr": "Elle habite ici depuis longtemps.",
+        "ko": "그녀는 오랫동안 여기서 살고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 247
+  },
+  {
+    "id": 248,
+    "french": "argent",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "돈",
+      "은(銀)"
+    ],
+    "examples": [
+      {
+        "fr": "Il n'a pas assez d'argent pour ce voyage.",
+        "ko": "그는 이 여행을 위한 돈이 충분하지 않다."
+      }
+    ],
+    "level": "A1",
+    "rank": 248
+  },
+  {
+    "id": 249,
+    "french": "perdre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "잃다, 지다"
+    ],
+    "examples": [
+      {
+        "fr": "Je perds toujours mes clés.",
+        "ko": "나는 항상 열쇠를 잃어버려."
+      }
+    ],
+    "level": "A1",
+    "rank": 249
+  },
+  {
+    "id": 250,
+    "french": "habiter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "살다, 거주하다"
+    ],
+    "examples": [
+      {
+        "fr": "Nous habitons dans un petit appartement.",
+        "ko": "우리는 작은 아파트에 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 250
+  },
+  {
+    "id": 251,
+    "french": "aucun",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "아무도 ~ 않다 (ne... aucun)"
+    ],
+    "examples": [
+      {
+        "fr": "Aucun de mes amis n'aime ce film.",
+        "ko": "내 친구들 중 아무도 이 영화를 안 좋아해."
+      }
+    ],
+    "level": "A1",
+    "rank": 251
+  },
+  {
+    "id": 252,
+    "french": "semaine",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "주(週), 일주일"
+    ],
+    "examples": [
+      {
+        "fr": "Je travaille cinq jours par semaine.",
+        "ko": "나는 일주일에 5일 일한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 252
+  },
+  {
+    "id": 253,
+    "french": "fin",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "끝, 마지막"
+    ],
+    "examples": [
+      {
+        "fr": "La fin du film est très triste.",
+        "ko": "영화의 결말은 아주 슬프다."
+      }
+    ],
+    "level": "A1",
+    "rank": 253
+  },
+  {
+    "id": 254,
+    "french": "tomber",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "넘어지다, 떨어지다"
+    ],
+    "examples": [
+      {
+        "fr": "Attention, tu vas tomber !",
+        "ko": "조심해, 넘어지겠다!"
+      }
+    ],
+    "level": "A1",
+    "rank": 254
+  },
+  {
+    "id": 255,
+    "french": "d'abord",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "우선, 먼저"
+    ],
+    "examples": [
+      {
+        "fr": "D'abord, on prend le petit-déjeuner.",
+        "ko": "우선 우리는 아침을 먹는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 255
+  },
+  {
+    "id": 256,
+    "french": "raison",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "이유, 이성 (avoir raison 옳다)"
+    ],
+    "examples": [
+      {
+        "fr": "Tu as raison, c'est une bonne idée.",
+        "ko": "네 말이 맞아, 좋은 생각이야."
+      }
+    ],
+    "level": "A1",
+    "rank": 256
+  },
+  {
+    "id": 257,
+    "french": "sentir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "느끼다, 냄새 맡다"
+    ],
+    "examples": [
+      {
+        "fr": "Je sens une bonne odeur de pain.",
+        "ko": "빵의 좋은 냄새가 나."
+      }
+    ],
+    "level": "A1",
+    "rank": 257
+  },
+  {
+    "id": 258,
+    "french": "vraiment",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "정말로"
+    ],
+    "examples": [
+      {
+        "fr": "C'est vraiment gentil de ta part.",
+        "ko": "정말 친절하다, 고마워."
+      }
+    ],
+    "level": "A1",
+    "rank": 258
+  },
+  {
+    "id": 259,
+    "french": "décider",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "결정하다"
+    ],
+    "examples": [
+      {
+        "fr": "On décide ensemble où on va manger.",
+        "ko": "우리 어디서 밥 먹을지 같이 정하자."
+      }
+    ],
+    "level": "A1",
+    "rank": 259
+  },
+  {
+    "id": 260,
+    "french": "gros",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "큰, 뚱뚱한"
+    ],
+    "examples": [
+      {
+        "fr": "Il a un gros chien noir.",
+        "ko": "그는 큰 검은 개를 키운다."
+      }
+    ],
+    "level": "A1",
+    "rank": 260
+  },
+  {
+    "id": 261,
+    "french": "quitter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "떠나다, 그만두다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle quitte la maison à sept heures.",
+        "ko": "그녀는 7시에 집을 나선다."
+      }
+    ],
+    "level": "A1",
+    "rank": 261
+  },
+  {
+    "id": 262,
+    "french": "blanc",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "흰, 하얀"
+    ],
+    "examples": [
+      {
+        "fr": "Il porte une chemise blanche.",
+        "ko": "그는 흰 셔츠를 입고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 262
+  },
+  {
+    "id": 263,
+    "french": "oublier",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "잊다"
+    ],
+    "examples": [
+      {
+        "fr": "N'oublie pas ton parapluie !",
+        "ko": "우산 잊지 마!"
+      }
+    ],
+    "level": "A1",
+    "rank": 263
+  },
+  {
+    "id": 264,
+    "french": "important",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "중요한"
+    ],
+    "examples": [
+      {
+        "fr": "C'est un rendez-vous très important.",
+        "ko": "이건 아주 중요한 약속이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 264
+  },
+  {
+    "id": 265,
+    "french": "fête",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "축제, 파티"
+    ],
+    "examples": [
+      {
+        "fr": "On organise une fête pour son anniversaire.",
+        "ko": "우리는 그의 생일 파티를 준비하고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 265
+  },
+  {
+    "id": 266,
+    "french": "raconter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "이야기하다, 들려주다"
+    ],
+    "examples": [
+      {
+        "fr": "Raconte-moi ta journée.",
+        "ko": "오늘 하루 어땠는지 나한테 얘기해 줘."
+      }
+    ],
+    "level": "A1",
+    "rank": 266
+  },
+  {
+    "id": 267,
+    "french": "plein",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "가득 찬 (plein de ~로 가득한)"
+    ],
+    "examples": [
+      {
+        "fr": "Le sac est plein de livres.",
+        "ko": "가방이 책으로 가득 차 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 267
+  },
+  {
+    "id": 268,
+    "french": "problème",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "문제"
+    ],
+    "examples": [
+      {
+        "fr": "On a un petit problème avec la voiture.",
+        "ko": "차에 작은 문제가 있어."
+      }
+    ],
+    "level": "A1",
+    "rank": 268
+  },
+  {
+    "id": 269,
+    "french": "finir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "끝내다, 끝나다"
+    ],
+    "examples": [
+      {
+        "fr": "Le cours finit à midi.",
+        "ko": "수업은 정오에 끝난다."
+      }
+    ],
+    "level": "A1",
+    "rank": 269
+  },
+  {
+    "id": 270,
+    "french": "changer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "바꾸다, 변하다"
+    ],
+    "examples": [
+      {
+        "fr": "Il change souvent d'avis.",
+        "ko": "그는 자주 생각을 바꾼다."
+      }
+    ],
+    "level": "A1",
+    "rank": 270
+  },
+  {
+    "id": 271,
+    "french": "pièce",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "방(실)",
+      "동전",
+      "연극 작품"
+    ],
+    "examples": [
+      {
+        "fr": "Cet appartement a quatre pièces.",
+        "ko": "이 아파트는 방이 네 개다."
+      }
+    ],
+    "level": "A1",
+    "rank": 271
+  },
+  {
+    "id": 272,
+    "french": "recherche",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "탐색, 연구 (à la recherche de ~을 찾아서)"
+    ],
+    "examples": [
+      {
+        "fr": "Il est à la recherche d'un nouveau travail.",
+        "ko": "그는 새 일자리를 찾고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 272
+  },
+  {
+    "id": 273,
+    "french": "rencontrer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "만나다"
+    ],
+    "examples": [
+      {
+        "fr": "On rencontre nos amis au café.",
+        "ko": "우리는 카페에서 친구들을 만난다."
+      }
+    ],
+    "level": "A1",
+    "rank": 273
+  },
+  {
+    "id": 274,
+    "french": "crier",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "소리치다, 외치다"
+    ],
+    "examples": [
+      {
+        "fr": "Les enfants crient de joie dans le parc.",
+        "ko": "아이들이 공원에서 기뻐서 소리를 지른다."
+      }
+    ],
+    "level": "A1",
+    "rank": 274
+  },
+  {
+    "id": 275,
+    "french": "besoin",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "필요 (avoir besoin de ~이 필요하다)"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai besoin de ton aide.",
+        "ko": "네 도움이 필요해."
+      }
+    ],
+    "level": "A1",
+    "rank": 275
+  },
+  {
+    "id": 276,
+    "french": "droit",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "권리",
+      "법학"
+    ],
+    "examples": [
+      {
+        "fr": "Chaque enfant a le droit d'aller à l'école.",
+        "ko": "모든 아이는 학교에 다닐 권리가 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 276
+  },
+  {
+    "id": 277,
+    "french": "découvrir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "발견하다"
+    ],
+    "examples": [
+      {
+        "fr": "On découvre une nouvelle ville.",
+        "ko": "우리는 새로운 도시를 발견한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 277
+  },
+  {
+    "id": 278,
+    "french": "tour",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "(m) 차례, 한 바퀴 (à ton tour 네 차례야)"
+    ],
+    "examples": [
+      {
+        "fr": "C'est ton tour de jouer.",
+        "ko": "네 차례야."
+      }
+    ],
+    "level": "A1",
+    "rank": 278
+  },
+  {
+    "id": 279,
+    "french": "million",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "백만"
+    ],
+    "examples": [
+      {
+        "fr": "Cette ville compte deux millions d'habitants.",
+        "ko": "이 도시는 인구가 200만 명이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 279
+  },
+  {
+    "id": 280,
+    "french": "assez",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "충분히, 꽤"
+    ],
+    "examples": [
+      {
+        "fr": "Il fait assez chaud aujourd'hui.",
+        "ko": "오늘 꽤 덥다."
+      }
+    ],
+    "level": "A1",
+    "rank": 280
+  },
+  {
+    "id": 281,
+    "french": "étude",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "공부, 연구 (복수: 학업)"
+    ],
+    "examples": [
+      {
+        "fr": "Ses études durent encore deux ans.",
+        "ko": "그의 학업은 아직 2년 더 남았다."
+      }
+    ],
+    "level": "A1",
+    "rank": 281
+  },
+  {
+    "id": 282,
+    "french": "affaire",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "일, 사건 (복수: 소지품, 사업)"
+    ],
+    "examples": [
+      {
+        "fr": "C'est une affaire compliquée.",
+        "ko": "복잡한 일이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 282
+  },
+  {
+    "id": 283,
+    "french": "quoi",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "무엇 (전치사 뒤 또는 구어체)"
+    ],
+    "examples": [
+      {
+        "fr": "Tu penses à quoi ?",
+        "ko": "무슨 생각 해?"
+      }
+    ],
+    "level": "A1",
+    "rank": 283
+  },
+  {
+    "id": 284,
+    "french": "créer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "창조하다, 만들다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle crée des vêtements originaux.",
+        "ko": "그녀는 독창적인 옷을 만든다."
+      }
+    ],
+    "level": "A1",
+    "rank": 284
+  },
+  {
+    "id": 285,
+    "french": "ensuite",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그다음에"
+    ],
+    "examples": [
+      {
+        "fr": "D'abord le café, ensuite le travail.",
+        "ko": "먼저 커피, 그다음에 일."
+      }
+    ],
+    "level": "A1",
+    "rank": 285
+  },
+  {
+    "id": 286,
+    "french": "proposer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "제안하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je propose un café pour commencer.",
+        "ko": "시작으로 커피 한잔 제안할게."
+      }
+    ],
+    "level": "A1",
+    "rank": 286
+  },
+  {
+    "id": 287,
+    "french": "lever",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "들어 올리다 (se lever 일어나다)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle se lève tôt tous les matins.",
+        "ko": "그녀는 매일 아침 일찍 일어난다."
+      }
+    ],
+    "level": "A1",
+    "rank": 287
+  },
+  {
+    "id": 288,
+    "french": "jeu",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "게임, 놀이"
+    ],
+    "examples": [
+      {
+        "fr": "Les enfants adorent ce jeu de société.",
+        "ko": "아이들은 이 보드게임을 아주 좋아한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 288
+  },
+  {
+    "id": 289,
+    "french": "occuper",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "차지하다 (s'occuper de ~을 돌보다, 맡다)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle s'occupe des enfants le mercredi.",
+        "ko": "그녀는 수요일에 아이들을 돌본다."
+      }
+    ],
+    "level": "A1",
+    "rank": 289
+  },
+  {
+    "id": 290,
+    "french": "mort",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "죽음"
+    ],
+    "examples": [
+      {
+        "fr": "La mort de son chat l'attriste beaucoup.",
+        "ko": "고양이의 죽음이 그를 몹시 슬프게 한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 290
+  },
+  {
+    "id": 291,
+    "french": "pied",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "발 (à pied 걸어서)"
+    ],
+    "examples": [
+      {
+        "fr": "On va à l'école à pied.",
+        "ko": "우리는 걸어서 학교에 간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 291
+  },
+  {
+    "id": 292,
+    "french": "choisir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "선택하다, 고르다"
+    ],
+    "examples": [
+      {
+        "fr": "Tu choisis quel dessert ?",
+        "ko": "무슨 디저트 고를 거야?"
+      }
+    ],
+    "level": "A1",
+    "rank": 292
+  },
+  {
+    "id": 293,
+    "french": "euro",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "유로 (화폐 단위)"
+    ],
+    "examples": [
+      {
+        "fr": "Ce livre coûte quinze euros.",
+        "ko": "이 책은 15유로이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 293
+  },
+  {
+    "id": 294,
+    "french": "monter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "올라가다, 타다"
+    ],
+    "examples": [
+      {
+        "fr": "On monte au dernier étage en ascenseur.",
+        "ko": "우리는 엘리베이터를 타고 맨 위층으로 올라간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 294
+  },
+  {
+    "id": 295,
+    "french": "roi",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "왕"
+    ],
+    "examples": [
+      {
+        "fr": "Le roi habite dans un grand château.",
+        "ko": "왕은 큰 성에 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 295
+  },
+  {
+    "id": 296,
+    "french": "livre",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "책"
+    ],
+    "examples": [
+      {
+        "fr": "Elle lit un livre passionnant.",
+        "ko": "그녀는 흥미진진한 책을 읽고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 296
+  },
+  {
+    "id": 297,
+    "french": "fait",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "사실 (en fait 사실은)"
+    ],
+    "examples": [
+      {
+        "fr": "En fait, je préfère rester à la maison.",
+        "ko": "사실 나는 집에 있는 게 더 좋아."
+      }
+    ],
+    "level": "A1",
+    "rank": 297
+  },
+  {
+    "id": 298,
+    "french": "reconnaître",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "알아보다, 인정하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je ne te reconnais pas sans lunettes.",
+        "ko": "안경 없으니까 못 알아보겠어."
+      }
+    ],
+    "level": "A1",
+    "rank": 298
+  },
+  {
+    "id": 299,
+    "french": "cas",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "경우 (dans ce cas 그런 경우에는)"
+    ],
+    "examples": [
+      {
+        "fr": "Dans ce cas, on prend le train.",
+        "ko": "그런 경우라면 우리는 기차를 탄다."
+      }
+    ],
+    "level": "A1",
+    "rank": 299
+  },
+  {
+    "id": 300,
+    "french": "naître",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "태어나다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle va naître au mois de mai.",
+        "ko": "그녀는 5월에 태어날 예정이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 300
+  },
+  {
+    "id": 301,
+    "french": "journée",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "하루, 낮 시간"
+    ],
+    "examples": [
+      {
+        "fr": "Bonne journée !",
+        "ko": "좋은 하루 보내!"
+      }
+    ],
+    "level": "A1",
+    "rank": 301
+  },
+  {
+    "id": 302,
+    "french": "garçon",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "소년, 남자아이"
+    ],
+    "examples": [
+      {
+        "fr": "Ce garçon joue au football avec ses copains.",
+        "ko": "이 남자아이는 친구들과 축구를 한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 302
+  },
+  {
+    "id": 303,
+    "french": "film",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "영화"
+    ],
+    "examples": [
+      {
+        "fr": "On regarde un film ce soir ?",
+        "ko": "오늘 저녁에 영화 볼까?"
+      }
+    ],
+    "level": "A1",
+    "rank": 303
+  },
+  {
+    "id": 304,
+    "french": "mal",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "나쁘게, 잘못 (avoir mal 아프다)"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai mal au ventre aujourd'hui.",
+        "ko": "오늘 배가 아프다."
+      }
+    ],
+    "level": "A1",
+    "rank": 304
+  },
+  {
+    "id": 305,
+    "french": "partie",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "부분",
+      "(놀이) 한 판, 게임"
+    ],
+    "examples": [
+      {
+        "fr": "On joue une partie de cartes ?",
+        "ko": "카드 게임 한 판 할까?"
+      }
+    ],
+    "level": "A1",
+    "rank": 305
+  },
+  {
+    "id": 306,
+    "french": "âge",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "나이"
+    ],
+    "examples": [
+      {
+        "fr": "Quel âge as-tu ?",
+        "ko": "몇 살이야?"
+      }
+    ],
+    "level": "A1",
+    "rank": 306
+  },
+  {
+    "id": 307,
+    "french": "différent",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "다른, 상이한"
+    ],
+    "examples": [
+      {
+        "fr": "Nous avons des goûts différents.",
+        "ko": "우리는 서로 다른 취향을 가지고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 307
+  },
+  {
+    "id": 308,
+    "french": "possible",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "가능한"
+    ],
+    "examples": [
+      {
+        "fr": "Est-ce que c'est possible d'arriver plus tôt ?",
+        "ko": "더 일찍 도착하는 게 가능해?"
+      }
+    ],
+    "level": "A1",
+    "rank": 308
+  },
+  {
+    "id": 309,
+    "french": "société",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "사회",
+      "회사"
+    ],
+    "examples": [
+      {
+        "fr": "Il travaille pour une grande société.",
+        "ko": "그는 큰 회사에서 일한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 309
+  },
+  {
+    "id": 310,
+    "french": "quelqu'un",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "누군가"
+    ],
+    "examples": [
+      {
+        "fr": "Quelqu'un frappe à la porte.",
+        "ko": "누군가 문을 두드린다."
+      }
+    ],
+    "level": "A1",
+    "rank": 310
+  },
+  {
+    "id": 311,
+    "french": "recevoir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "받다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle reçoit un cadeau pour son anniversaire.",
+        "ko": "그녀는 생일 선물을 받는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 311
+  },
+  {
+    "id": 312,
+    "french": "musique",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "음악"
+    ],
+    "examples": [
+      {
+        "fr": "J'écoute de la musique en travaillant.",
+        "ko": "나는 일하면서 음악을 듣는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 312
+  },
+  {
+    "id": 313,
+    "french": "écouter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "듣다, 경청하다"
+    ],
+    "examples": [
+      {
+        "fr": "Écoute bien la question.",
+        "ko": "질문을 잘 들어."
+      }
+    ],
+    "level": "A1",
+    "rank": 313
+  },
+  {
+    "id": 314,
+    "french": "rien",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "아무것도 아닌 것, 사소한 것"
+    ],
+    "examples": [
+      {
+        "fr": "Ce n'est rien, ne t'inquiète pas.",
+        "ko": "별거 아니야, 걱정하지 마."
+      }
+    ],
+    "level": "A1",
+    "rank": 314
+  },
+  {
+    "id": 315,
+    "french": "suite",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "뒤이음, 속편 (tout de suite 즉시)"
+    ],
+    "examples": [
+      {
+        "fr": "J'arrive tout de suite.",
+        "ko": "바로 갈게."
+      }
+    ],
+    "level": "A1",
+    "rank": 315
+  },
+  {
+    "id": 316,
+    "french": "boire",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "마시다"
+    ],
+    "examples": [
+      {
+        "fr": "Tu bois quelque chose ?",
+        "ko": "뭐 좀 마실래?"
+      }
+    ],
+    "level": "A1",
+    "rank": 316
+  },
+  {
+    "id": 317,
+    "french": "fenêtre",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "창문"
+    ],
+    "examples": [
+      {
+        "fr": "Ouvre la fenêtre, il fait chaud.",
+        "ko": "창문 좀 열어, 더워."
+      }
+    ],
+    "level": "A1",
+    "rank": 317
+  },
+  {
+    "id": 318,
+    "french": "café",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "커피",
+      "카페"
+    ],
+    "examples": [
+      {
+        "fr": "On boit un café avant de partir ?",
+        "ko": "떠나기 전에 커피 한잔 마실까?"
+      }
+    ],
+    "level": "A1",
+    "rank": 318
+  },
+  {
+    "id": 319,
+    "french": "présenter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "소개하다, 제시하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je te présente mon ami Paul.",
+        "ko": "내 친구 폴을 소개할게."
+      }
+    ],
+    "level": "A1",
+    "rank": 319
+  },
+  {
+    "id": 320,
+    "french": "tourner",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "돌다, 돌리다, 회전하다"
+    ],
+    "examples": [
+      {
+        "fr": "Tournez à gauche après le pont.",
+        "ko": "다리를 지나서 왼쪽으로 도세요."
+      }
+    ],
+    "level": "A1",
+    "rank": 320
+  },
+  {
+    "id": 321,
+    "french": "milieu",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "중간, 가운데 (au milieu de ~ 한가운데에)"
+    ],
+    "examples": [
+      {
+        "fr": "La table est au milieu de la pièce.",
+        "ko": "탁자는 방 한가운데에 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 321
+  },
+  {
+    "id": 322,
+    "french": "pourtant",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "그렇지만, 그런데도"
+    ],
+    "examples": [
+      {
+        "fr": "Il fait froid, pourtant le soleil brille.",
+        "ko": "춥지만 그런데도 해가 쨍쨍하다."
+      }
+    ],
+    "level": "A1",
+    "rank": 322
+  },
+  {
+    "id": 323,
+    "french": "asseoir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "앉히다 (s'asseoir 앉다)"
+    ],
+    "examples": [
+      {
+        "fr": "Assieds-toi, s'il te plaît.",
+        "ko": "앉아, 부탁이야."
+      }
+    ],
+    "level": "A1",
+    "rank": 323
+  },
+  {
+    "id": 324,
+    "french": "heureux",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "행복한"
+    ],
+    "examples": [
+      {
+        "fr": "Je suis très heureux de te voir.",
+        "ko": "너를 보니 아주 행복해."
+      }
+    ],
+    "level": "A1",
+    "rank": 324
+  },
+  {
+    "id": 325,
+    "french": "autour",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "주위에 (autour de ~ 주변에)"
+    ],
+    "examples": [
+      {
+        "fr": "Les enfants s'assoient autour de la table.",
+        "ko": "아이들이 탁자 주위에 둘러앉는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 325
+  },
+  {
+    "id": 326,
+    "french": "exister",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "존재하다"
+    ],
+    "examples": [
+      {
+        "fr": "Ce petit café existe depuis vingt ans.",
+        "ko": "이 작은 카페는 20년 전부터 있어 왔다."
+      }
+    ],
+    "level": "A1",
+    "rank": 326
+  },
+  {
+    "id": 327,
+    "french": "apprendre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "배우다"
+    ],
+    "examples": [
+      {
+        "fr": "J'apprends le français depuis un an.",
+        "ko": "나는 1년 전부터 프랑스어를 배우고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 327
+  },
+  {
+    "id": 328,
+    "french": "minute",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "분(分)"
+    ],
+    "examples": [
+      {
+        "fr": "Attends une minute, je reviens.",
+        "ko": "1분만 기다려, 금방 올게."
+      }
+    ],
+    "level": "A1",
+    "rank": 328
+  },
+  {
+    "id": 329,
+    "french": "marcher",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "걷다",
+      "(기계가) 작동하다"
+    ],
+    "examples": [
+      {
+        "fr": "On marche jusqu'au parc ?",
+        "ko": "공원까지 걸어갈까?"
+      }
+    ],
+    "level": "A1",
+    "rank": 329
+  },
+  {
+    "id": 330,
+    "french": "visage",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "얼굴"
+    ],
+    "examples": [
+      {
+        "fr": "Son visage est très expressif.",
+        "ko": "그의 얼굴은 표정이 아주 풍부하다."
+      }
+    ],
+    "level": "A1",
+    "rank": 330
+  },
+  {
+    "id": 331,
+    "french": "activité",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "활동"
+    ],
+    "examples": [
+      {
+        "fr": "L'école propose plusieurs activités après les cours.",
+        "ko": "학교는 방과 후 여러 활동을 제공한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 331
+  },
+  {
+    "id": 332,
+    "french": "façon",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "방식, 방법 (de cette façon 이런 식으로)"
+    ],
+    "examples": [
+      {
+        "fr": "Il parle d'une façon très calme.",
+        "ko": "그는 아주 차분한 방식으로 말한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 332
+  },
+  {
+    "id": 333,
+    "french": "presque",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "거의"
+    ],
+    "examples": [
+      {
+        "fr": "Il est presque minuit.",
+        "ko": "거의 자정이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 333
+  },
+  {
+    "id": 334,
+    "french": "poser",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "놓다, (질문을) 하다"
+    ],
+    "examples": [
+      {
+        "fr": "Pose ton sac ici.",
+        "ko": "가방 여기 놔."
+      }
+    ],
+    "level": "A1",
+    "rank": 334
+  },
+  {
+    "id": 335,
+    "french": "village",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "마을"
+    ],
+    "examples": [
+      {
+        "fr": "Ses grands-parents habitent dans un petit village.",
+        "ko": "그의 조부모님은 작은 마을에 사신다."
+      }
+    ],
+    "level": "A1",
+    "rank": 335
+  },
+  {
+    "id": 336,
+    "french": "voyage",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "여행"
+    ],
+    "examples": [
+      {
+        "fr": "Nous préparons un voyage en Italie.",
+        "ko": "우리는 이탈리아 여행을 준비하고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 336
+  },
+  {
+    "id": 337,
+    "french": "jeune",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "mf",
+    "article": "un/une",
+    "korean": [
+      "젊은이, 청년"
+    ],
+    "examples": [
+      {
+        "fr": "Beaucoup de jeunes vivent dans ce quartier.",
+        "ko": "많은 젊은이들이 이 동네에 산다."
+      }
+    ],
+    "level": "A1",
+    "rank": 337
+  },
+  {
+    "id": 338,
+    "french": "plaire",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "마음에 들다 (s'il te plaît/s'il vous plaît 부탁합니다)"
+    ],
+    "examples": [
+      {
+        "fr": "Ce cadeau va lui plaire, j'en suis sûr.",
+        "ko": "이 선물이 그의 마음에 들 거야, 확신해."
+      }
+    ],
+    "level": "A1",
+    "rank": 338
+  },
+  {
+    "id": 339,
+    "french": "grâce",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "은혜, 우아함 (grâce à ~ 덕분에)"
+    ],
+    "examples": [
+      {
+        "fr": "Grâce à toi, tout va bien.",
+        "ko": "네 덕분에 모든 게 잘되고 있어."
+      }
+    ],
+    "level": "A1",
+    "rank": 339
+  },
+  {
+    "id": 340,
+    "french": "part",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "몫, 부분 (quelque part 어딘가에)"
+    ],
+    "examples": [
+      {
+        "fr": "Je prends une part de gâteau.",
+        "ko": "케이크 한 조각 먹을래."
+      }
+    ],
+    "level": "A1",
+    "rank": 340
+  },
+  {
+    "id": 341,
+    "french": "amour",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "사랑"
+    ],
+    "examples": [
+      {
+        "fr": "Leur amour dure depuis dix ans.",
+        "ko": "그들의 사랑은 10년째 이어지고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 341
+  },
+  {
+    "id": 342,
+    "french": "quartier",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "동네, 구역"
+    ],
+    "examples": [
+      {
+        "fr": "J'aime beaucoup mon quartier.",
+        "ko": "나는 우리 동네를 아주 좋아해."
+      }
+    ],
+    "level": "A1",
+    "rank": 342
+  },
+  {
+    "id": 343,
+    "french": "envoyer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "보내다"
+    ],
+    "examples": [
+      {
+        "fr": "Je t'envoie le document par courriel.",
+        "ko": "이메일로 그 문서 보내 줄게."
+      }
+    ],
+    "level": "A1",
+    "rank": 343
+  },
+  {
+    "id": 344,
+    "french": "entreprise",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "기업, 회사"
+    ],
+    "examples": [
+      {
+        "fr": "Cette entreprise emploie cent personnes.",
+        "ko": "이 회사는 100명을 고용하고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 344
+  },
+  {
+    "id": 345,
+    "french": "rire",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "웃다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle rit toujours à ses blagues.",
+        "ko": "그녀는 그의 농담에 항상 웃는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 345
+  },
+  {
+    "id": 346,
+    "french": "police",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "경찰"
+    ],
+    "examples": [
+      {
+        "fr": "Il appelle la police en cas de problème.",
+        "ko": "그는 문제가 생기면 경찰을 부른다."
+      }
+    ],
+    "level": "A1",
+    "rank": 346
+  },
+  {
+    "id": 347,
+    "french": "préparer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "준비하다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle prépare le dîner pour ses amis.",
+        "ko": "그녀는 친구들을 위해 저녁을 준비한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 347
+  },
+  {
+    "id": 348,
+    "french": "table",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "탁자, 식탁"
+    ],
+    "examples": [
+      {
+        "fr": "Mets les assiettes sur la table.",
+        "ko": "접시를 탁자 위에 놔."
+      }
+    ],
+    "level": "A1",
+    "rank": 348
+  },
+  {
+    "id": 349,
+    "french": "eh",
+    "pos": "INT",
+    "posKo": "감탄사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "이봐, 어이 (eh bien 그런데, 자)"
+    ],
+    "examples": [
+      {
+        "fr": "Eh bien, on y va ?",
+        "ko": "자, 갈까?"
+      }
+    ],
+    "level": "A1",
+    "rank": 349
+  },
+  {
+    "id": 350,
+    "french": "bureau",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "사무실, 책상"
+    ],
+    "examples": [
+      {
+        "fr": "Il travaille dans un grand bureau.",
+        "ko": "그는 큰 사무실에서 일한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 350
+  },
+  {
+    "id": 351,
+    "french": "meilleur",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "더 나은, 최고의"
+    ],
+    "examples": [
+      {
+        "fr": "C'est le meilleur restaurant du quartier.",
+        "ko": "이곳은 이 동네에서 최고의 식당이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 351
+  },
+  {
+    "id": 352,
+    "french": "chacun",
+    "pos": "PRO",
+    "posKo": "대명사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "각자, 각각"
+    ],
+    "examples": [
+      {
+        "fr": "Chacun paie sa part.",
+        "ko": "각자 자기 몫을 낸다."
+      }
+    ],
+    "level": "A1",
+    "rank": 352
+  },
+  {
+    "id": 353,
+    "french": "difficile",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "어려운"
+    ],
+    "examples": [
+      {
+        "fr": "Cet exercice est trop difficile pour moi.",
+        "ko": "이 문제는 나한테 너무 어려워."
+      }
+    ],
+    "level": "A1",
+    "rank": 353
+  },
+  {
+    "id": 354,
+    "french": "projet",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "계획, 프로젝트"
+    ],
+    "examples": [
+      {
+        "fr": "Nous avons un nouveau projet pour l'été.",
+        "ko": "우리는 여름을 위한 새로운 계획이 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 354
+  },
+  {
+    "id": 355,
+    "french": "parfois",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "때때로, 가끔"
+    ],
+    "examples": [
+      {
+        "fr": "Parfois, je mange seul au bureau.",
+        "ko": "가끔 나는 사무실에서 혼자 밥을 먹는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 355
+  },
+  {
+    "id": 356,
+    "french": "acheter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "사다"
+    ],
+    "examples": [
+      {
+        "fr": "On achète du pain pour ce soir.",
+        "ko": "오늘 저녁을 위해 빵을 사자."
+      }
+    ],
+    "level": "A1",
+    "rank": 356
+  },
+  {
+    "id": 357,
+    "french": "mari",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "남편"
+    ],
+    "examples": [
+      {
+        "fr": "Son mari cuisine très bien.",
+        "ko": "그녀의 남편은 요리를 아주 잘한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 357
+  },
+  {
+    "id": 358,
+    "french": "gagner",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "이기다, (돈을) 벌다"
+    ],
+    "examples": [
+      {
+        "fr": "Notre équipe gagne souvent le match.",
+        "ko": "우리 팀은 경기에서 자주 이긴다."
+      }
+    ],
+    "level": "A1",
+    "rank": 358
+  },
+  {
+    "id": 359,
+    "french": "habitude",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "습관 (d'habitude 보통, 평소에)"
+    ],
+    "examples": [
+      {
+        "fr": "D'habitude, je me lève à sept heures.",
+        "ko": "평소에 나는 7시에 일어난다."
+      }
+    ],
+    "level": "A1",
+    "rank": 359
+  },
+  {
+    "id": 360,
+    "french": "cheval",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "말(馬)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle fait du cheval le week-end.",
+        "ko": "그녀는 주말에 승마를 한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 360
+  },
+  {
+    "id": 361,
+    "french": "vacance",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "방학, 휴가 (주로 복수형 vacances로 사용)"
+    ],
+    "examples": [
+      {
+        "fr": "On part en vacances en juillet.",
+        "ko": "우리는 7월에 휴가를 떠난다."
+      }
+    ],
+    "level": "A1",
+    "rank": 361
+  },
+  {
+    "id": 362,
+    "french": "noir",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "검은"
+    ],
+    "examples": [
+      {
+        "fr": "Il porte des chaussures noires.",
+        "ko": "그는 검은 신발을 신고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 362
+  },
+  {
+    "id": 363,
+    "french": "demain",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "내일"
+    ],
+    "examples": [
+      {
+        "fr": "On se voit demain matin.",
+        "ko": "내일 아침에 보자."
+      }
+    ],
+    "level": "A1",
+    "rank": 363
+  },
+  {
+    "id": 364,
+    "french": "apporter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "가져오다"
+    ],
+    "examples": [
+      {
+        "fr": "Apporte ton livre demain.",
+        "ko": "내일 네 책 가져와."
+      }
+    ],
+    "level": "A1",
+    "rank": 364
+  },
+  {
+    "id": 365,
+    "french": "train",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "기차"
+    ],
+    "examples": [
+      {
+        "fr": "Le train part dans dix minutes.",
+        "ko": "기차는 10분 후에 출발한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 365
+  },
+  {
+    "id": 366,
+    "french": "derrière",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~ 뒤에"
+    ],
+    "examples": [
+      {
+        "fr": "Le chat se cache derrière la porte.",
+        "ko": "고양이가 문 뒤에 숨어 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 366
+  },
+  {
+    "id": 367,
+    "french": "rappeler",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "다시 전화하다, 상기시키다 (se rappeler ~을 기억하다)"
+    ],
+    "examples": [
+      {
+        "fr": "Je te rappelle dans une heure.",
+        "ko": "한 시간 후에 다시 전화할게."
+      }
+    ],
+    "level": "A1",
+    "rank": 367
+  },
+  {
+    "id": 368,
+    "french": "selon",
+    "pos": "PRP",
+    "posKo": "전치사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~에 따라, ~에 의하면"
+    ],
+    "examples": [
+      {
+        "fr": "Selon la météo, il va neiger demain.",
+        "ko": "일기예보에 따르면 내일 눈이 올 거야."
+      }
+    ],
+    "level": "A1",
+    "rank": 368
+  },
+  {
+    "id": 369,
+    "french": "dormir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "자다"
+    ],
+    "examples": [
+      {
+        "fr": "Le bébé dort dans sa chambre.",
+        "ko": "아기가 자기 방에서 자고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 369
+  },
+  {
+    "id": 370,
+    "french": "bruit",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "소리, 소음"
+    ],
+    "examples": [
+      {
+        "fr": "J'entends un bruit bizarre dans la cuisine.",
+        "ko": "부엌에서 이상한 소리가 들려."
+      }
+    ],
+    "level": "A1",
+    "rank": 370
+  },
+  {
+    "id": 371,
+    "french": "général",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "일반적인, 전반적인 (en général 일반적으로)"
+    ],
+    "examples": [
+      {
+        "fr": "En général, il pleut souvent en automne.",
+        "ko": "일반적으로 가을에는 비가 자주 온다."
+      }
+    ],
+    "level": "A1",
+    "rank": 371
+  },
+  {
+    "id": 372,
+    "french": "ancien",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "오래된, 옛, 전(前)의"
+    ],
+    "examples": [
+      {
+        "fr": "C'est mon ancien professeur de français.",
+        "ko": "이분은 예전 우리 프랑스어 선생님이야."
+      }
+    ],
+    "level": "A1",
+    "rank": 372
+  },
+  {
+    "id": 373,
+    "french": "bonjour",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "안녕하세요 (인사)"
+    ],
+    "examples": [
+      {
+        "fr": "Bonjour, comment allez-vous ?",
+        "ko": "안녕하세요, 어떻게 지내세요?"
+      }
+    ],
+    "level": "A1",
+    "rank": 373
+  },
+  {
+    "id": 374,
+    "french": "merci",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "고맙습니다, 감사 (인사말)"
+    ],
+    "examples": [
+      {
+        "fr": "Merci beaucoup pour ton aide.",
+        "ko": "도와줘서 정말 고마워."
+      }
+    ],
+    "level": "A1",
+    "rank": 374
+  },
+  {
+    "id": 375,
+    "french": "pas",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "걸음"
+    ],
+    "examples": [
+      {
+        "fr": "Il fait un pas en avant.",
+        "ko": "그는 한 걸음 앞으로 나아간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 375
+  },
+  {
+    "id": 376,
+    "french": "servir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "봉사하다, (음식을) 대접하다, 쓰이다"
+    ],
+    "examples": [
+      {
+        "fr": "Ce couteau sert à couper le pain.",
+        "ko": "이 칼은 빵을 자르는 데 쓰인다."
+      }
+    ],
+    "level": "A1",
+    "rank": 376
+  },
+  {
+    "id": 377,
+    "french": "envie",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "욕구, 하고 싶은 마음 (avoir envie de ~하고 싶다)"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai envie d'une glace.",
+        "ko": "아이스크림 먹고 싶다."
+      }
+    ],
+    "level": "A1",
+    "rank": 377
+  },
+  {
+    "id": 378,
+    "french": "anglais",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "영국의, 영어의"
+    ],
+    "examples": [
+      {
+        "fr": "Elle lit un roman anglais.",
+        "ko": "그녀는 영국 소설을 읽는다."
+      }
+    ],
+    "level": "A1",
+    "rank": 378
+  },
+  {
+    "id": 379,
+    "french": "lettre",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "편지, 글자"
+    ],
+    "examples": [
+      {
+        "fr": "Il écrit une lettre à sa grand-mère.",
+        "ko": "그는 할머니께 편지를 쓴다."
+      }
+    ],
+    "level": "A1",
+    "rank": 379
+  },
+  {
+    "id": 380,
+    "french": "utiliser",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "사용하다"
+    ],
+    "examples": [
+      {
+        "fr": "J'utilise mon téléphone pour prendre des photos.",
+        "ko": "나는 사진을 찍으려고 휴대폰을 사용한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 380
+  },
+  {
+    "id": 381,
+    "french": "région",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "지역, 지방"
+    ],
+    "examples": [
+      {
+        "fr": "Cette région produit du bon vin.",
+        "ko": "이 지역은 좋은 와인을 생산한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 381
+  },
+  {
+    "id": 382,
+    "french": "simple",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "단순한, 간단한"
+    ],
+    "examples": [
+      {
+        "fr": "C'est une recette très simple.",
+        "ko": "이건 아주 간단한 요리법이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 382
+  },
+  {
+    "id": 383,
+    "french": "intéresser",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "흥미를 끌다 (s'intéresser à ~에 관심을 갖다)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle s'intéresse beaucoup à la musique.",
+        "ko": "그녀는 음악에 관심이 많다."
+      }
+    ],
+    "level": "A1",
+    "rank": 383
+  },
+  {
+    "id": 384,
+    "french": "cacher",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "숨기다"
+    ],
+    "examples": [
+      {
+        "fr": "Il cache ses clés sous le tapis.",
+        "ko": "그는 열쇠를 카펫 아래에 숨긴다."
+      }
+    ],
+    "level": "A1",
+    "rank": 384
+  },
+  {
+    "id": 385,
+    "french": "prix",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "가격",
+      "상(賞)"
+    ],
+    "examples": [
+      {
+        "fr": "Le prix de ce vélo est correct.",
+        "ko": "이 자전거의 가격은 적당하다."
+      }
+    ],
+    "level": "A1",
+    "rank": 385
+  },
+  {
+    "id": 386,
+    "french": "également",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "또한, 마찬가지로"
+    ],
+    "examples": [
+      {
+        "fr": "Elle parle également espagnol.",
+        "ko": "그녀는 스페인어도 할 줄 안다."
+      }
+    ],
+    "level": "A1",
+    "rank": 386
+  },
+  {
+    "id": 387,
+    "french": "d'accord",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "동의해, 좋아 (être d'accord 동의하다)"
+    ],
+    "examples": [
+      {
+        "fr": "D'accord, on se voit à midi.",
+        "ko": "좋아, 우리 정오에 보자."
+      }
+    ],
+    "level": "A1",
+    "rank": 387
+  },
+  {
+    "id": 388,
+    "french": "couleur",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "색깔"
+    ],
+    "examples": [
+      {
+        "fr": "Quelle est ta couleur préférée ?",
+        "ko": "네가 제일 좋아하는 색이 뭐야?"
+      }
+    ],
+    "level": "A1",
+    "rank": 388
+  },
+  {
+    "id": 389,
+    "french": "groupe",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "그룹, 단체"
+    ],
+    "examples": [
+      {
+        "fr": "Notre groupe compte dix personnes.",
+        "ko": "우리 그룹은 열 명이다."
+      }
+    ],
+    "level": "A1",
+    "rank": 389
+  },
+  {
+    "id": 390,
+    "french": "ensemble",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "함께"
+    ],
+    "examples": [
+      {
+        "fr": "On travaille ensemble sur ce projet.",
+        "ko": "우리는 이 프로젝트를 함께 작업한다."
+      }
+    ],
+    "level": "A1",
+    "rank": 390
+  },
+  {
+    "id": 391,
+    "french": "étranger",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "외국의"
+    ],
+    "examples": [
+      {
+        "fr": "Il apprend une langue étrangère.",
+        "ko": "그는 외국어를 배운다."
+      }
+    ],
+    "level": "A1",
+    "rank": 391
+  },
+  {
+    "id": 392,
+    "french": "offrir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "선물하다, 제공하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je vais lui offrir un livre.",
+        "ko": "나는 그에게 책을 선물할 거야."
+      }
+    ],
+    "level": "A1",
+    "rank": 392
+  },
+  {
+    "id": 393,
+    "french": "lit",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "침대"
+    ],
+    "examples": [
+      {
+        "fr": "Le chat dort sur le lit.",
+        "ko": "고양이가 침대에서 자고 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 393
+  },
+  {
+    "id": 394,
+    "french": "face",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "얼굴, 면(面) (en face de ~ 맞은편에)"
+    ],
+    "examples": [
+      {
+        "fr": "La boulangerie est en face de l'école.",
+        "ko": "빵집은 학교 맞은편에 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 394
+  },
+  {
+    "id": 395,
+    "french": "plutôt",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "오히려, 차라리"
+    ],
+    "examples": [
+      {
+        "fr": "Je préfère plutôt rester ici.",
+        "ko": "나는 차라리 여기 있는 게 더 좋아."
+      }
+    ],
+    "level": "A1",
+    "rank": 395
+  },
+  {
+    "id": 396,
+    "french": "carte",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "카드, 지도"
+    ],
+    "examples": [
+      {
+        "fr": "Il regarde la carte pour trouver la route.",
+        "ko": "그는 길을 찾으려고 지도를 본다."
+      }
+    ],
+    "level": "A1",
+    "rank": 396
+  },
+  {
+    "id": 397,
+    "french": "préférer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "더 좋아하다, 선호하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je préfère le thé au café.",
+        "ko": "나는 커피보다 차를 더 좋아해."
+      }
+    ],
+    "level": "A1",
+    "rank": 397
+  },
+  {
+    "id": 398,
+    "french": "juste",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "정확한, 공정한"
+    ],
+    "examples": [
+      {
+        "fr": "Ta réponse est juste.",
+        "ko": "네 대답이 맞아."
+      }
+    ],
+    "level": "A1",
+    "rank": 398
+  },
+  {
+    "id": 399,
+    "french": "politique",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "정치적인"
+    ],
+    "examples": [
+      {
+        "fr": "Il s'intéresse à la vie politique.",
+        "ko": "그는 정치에 관심이 있다."
+      }
+    ],
+    "level": "A1",
+    "rank": 399
+  },
+  {
+    "id": 400,
+    "french": "retourner",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "돌아가다, 뒤집다"
+    ],
+    "examples": [
+      {
+        "fr": "On retourne chez nous après le déjeuner.",
+        "ko": "우리는 점심 먹고 집으로 돌아간다."
+      }
+    ],
+    "level": "A1",
+    "rank": 400
+  }
 ]
