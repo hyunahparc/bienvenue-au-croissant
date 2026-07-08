@@ -13878,5 +13878,3756 @@
     ],
     "level": "B1",
     "rank": 705
+  },
+  {
+    "id": 706,
+    "french": "constamment",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "끊임없이, 늘"
+    ],
+    "examples": [
+      {
+        "fr": "Elle vérifie constamment son téléphone.",
+        "ko": "그녀는 끊임없이 휴대폰을 확인한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 706
+  },
+  {
+    "id": 707,
+    "french": "publicitaire",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "광고의 (campagne publicitaire 광고 캠페인)"
+    ],
+    "examples": [
+      {
+        "fr": "Cette affiche publicitaire attire tous les regards.",
+        "ko": "이 광고 포스터는 모두의 시선을 끈다."
+      }
+    ],
+    "level": "B1",
+    "rank": 707
+  },
+  {
+    "id": 708,
+    "french": "faciliter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "용이하게 하다, 돕다"
+    ],
+    "examples": [
+      {
+        "fr": "Cette application facilite la vie quotidienne.",
+        "ko": "이 앱은 일상생활을 편하게 해 준다."
+      }
+    ],
+    "level": "B1",
+    "rank": 708
+  },
+  {
+    "id": 709,
+    "french": "profondeur",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "깊이 (en profondeur 심층적으로)"
+    ],
+    "examples": [
+      {
+        "fr": "Le lac a une profondeur de trente mètres.",
+        "ko": "그 호수는 깊이가 30미터이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 709
+  },
+  {
+    "id": 710,
+    "french": "longuement",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "오랫동안, 길게"
+    ],
+    "examples": [
+      {
+        "fr": "Ils ont discuté longuement de ce projet.",
+        "ko": "그들은 이 계획에 대해 오랫동안 논의했다."
+      }
+    ],
+    "level": "B1",
+    "rank": 710
+  },
+  {
+    "id": 711,
+    "french": "domicile",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "주소지, 거주지 (à domicile 자택에서)"
+    ],
+    "examples": [
+      {
+        "fr": "Le médecin peut se déplacer à domicile.",
+        "ko": "의사는 자택으로 왕진할 수 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 711
+  },
+  {
+    "id": 712,
+    "french": "proportion",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "비율, 비례"
+    ],
+    "examples": [
+      {
+        "fr": "Une grande proportion d'étudiants travaille à côté.",
+        "ko": "많은 비율의 학생들이 아르바이트를 병행한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 712
+  },
+  {
+    "id": 713,
+    "french": "transmission",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "전달, 전송, 전승"
+    ],
+    "examples": [
+      {
+        "fr": "La transmission des savoirs est essentielle.",
+        "ko": "지식의 전승은 필수적이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 713
+  },
+  {
+    "id": 714,
+    "french": "règle",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "규칙",
+      "자(尺)"
+    ],
+    "examples": [
+      {
+        "fr": "Il faut respecter les règles du jeu.",
+        "ko": "게임 규칙을 지켜야 한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 714
+  },
+  {
+    "id": 715,
+    "french": "bref",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "요컨대, 한마디로"
+    ],
+    "examples": [
+      {
+        "fr": "Bref, on n'a pas eu le temps de finir.",
+        "ko": "요컨대, 우리는 끝낼 시간이 없었어."
+      }
+    ],
+    "level": "B1",
+    "rank": 715
+  },
+  {
+    "id": 716,
+    "french": "rougir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "얼굴이 빨개지다, 붉어지다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle rougit dès qu'on la complimente.",
+        "ko": "그녀는 칭찬만 받으면 얼굴이 빨개진다."
+      }
+    ],
+    "level": "B1",
+    "rank": 716
+  },
+  {
+    "id": 717,
+    "french": "régime",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "다이어트, 식이요법",
+      "(정치) 체제"
+    ],
+    "examples": [
+      {
+        "fr": "Il suit un régime pour perdre du poids.",
+        "ko": "그는 살을 빼려고 다이어트를 하고 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 717
+  },
+  {
+    "id": 718,
+    "french": "pénétrer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "침투하다, 들어가다"
+    ],
+    "examples": [
+      {
+        "fr": "L'eau pénètre lentement dans le sol.",
+        "ko": "물이 땅속으로 천천히 스며든다."
+      }
+    ],
+    "level": "B1",
+    "rank": 718
+  },
+  {
+    "id": 719,
+    "french": "militaire",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "군의, 군사의"
+    ],
+    "examples": [
+      {
+        "fr": "La base militaire est fermée au public.",
+        "ko": "군사 기지는 일반인 출입이 금지되어 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 719
+  },
+  {
+    "id": 720,
+    "french": "calculer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "계산하다"
+    ],
+    "examples": [
+      {
+        "fr": "Peux-tu calculer le prix total ?",
+        "ko": "총액을 계산해 줄래?"
+      }
+    ],
+    "level": "B1",
+    "rank": 720
+  },
+  {
+    "id": 721,
+    "french": "officier",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "장교, 사관"
+    ],
+    "examples": [
+      {
+        "fr": "L'officier donne des ordres à ses soldats.",
+        "ko": "장교가 병사들에게 명령을 내린다."
+      }
+    ],
+    "level": "B1",
+    "rank": 721
+  },
+  {
+    "id": 722,
+    "french": "convenir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "(convenir à) 적합하다, 어울리다",
+      "합의하다"
+    ],
+    "examples": [
+      {
+        "fr": "Cette date te convient-elle ?",
+        "ko": "이 날짜 너한테 괜찮아?"
+      }
+    ],
+    "level": "B1",
+    "rank": 722
+  },
+  {
+    "id": 723,
+    "french": "matériel",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "물질적인, 물적인"
+    ],
+    "examples": [
+      {
+        "fr": "Il a peu de besoins matériels.",
+        "ko": "그는 물질적 욕구가 적다."
+      }
+    ],
+    "level": "B1",
+    "rank": 723
+  },
+  {
+    "id": 724,
+    "french": "orage",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "뇌우, 폭풍우"
+    ],
+    "examples": [
+      {
+        "fr": "Un orage éclate en fin d'après-midi.",
+        "ko": "늦은 오후에 뇌우가 몰아친다."
+      }
+    ],
+    "level": "B1",
+    "rank": 724
+  },
+  {
+    "id": 725,
+    "french": "réputation",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "평판, 명성"
+    ],
+    "examples": [
+      {
+        "fr": "Ce restaurant a une excellente réputation.",
+        "ko": "이 식당은 평판이 아주 좋다."
+      }
+    ],
+    "level": "B1",
+    "rank": 725
+  },
+  {
+    "id": 726,
+    "french": "enterrer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "매장하다, 묻다"
+    ],
+    "examples": [
+      {
+        "fr": "Ils ont enterré leur chien dans le jardin.",
+        "ko": "그들은 정원에 개를 묻어 주었다."
+      }
+    ],
+    "level": "B1",
+    "rank": 726
+  },
+  {
+    "id": 727,
+    "french": "déchet",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "폐기물, 쓰레기 (déchets 쓰레기)"
+    ],
+    "examples": [
+      {
+        "fr": "Il faut trier ses déchets pour le recyclage.",
+        "ko": "재활용을 위해 쓰레기를 분리해야 한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 727
+  },
+  {
+    "id": 728,
+    "french": "précisément",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "정확히, 바로"
+    ],
+    "examples": [
+      {
+        "fr": "C'est précisément ce que je voulais dire.",
+        "ko": "그게 바로 내가 말하려던 거야."
+      }
+    ],
+    "level": "B1",
+    "rank": 728
+  },
+  {
+    "id": 729,
+    "french": "logiciel",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "소프트웨어, 프로그램"
+    ],
+    "examples": [
+      {
+        "fr": "Ce logiciel est gratuit pour les étudiants.",
+        "ko": "이 소프트웨어는 학생에게 무료이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 729
+  },
+  {
+    "id": 730,
+    "french": "vaste",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "광대한, 방대한"
+    ],
+    "examples": [
+      {
+        "fr": "C'est un vaste sujet à traiter.",
+        "ko": "이건 다루기에 방대한 주제이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 730
+  },
+  {
+    "id": 731,
+    "french": "capitaine",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "대위, (배·팀의) 선장·주장"
+    ],
+    "examples": [
+      {
+        "fr": "Le capitaine dirige l'équipe sur le terrain.",
+        "ko": "주장이 경기장에서 팀을 이끈다."
+      }
+    ],
+    "level": "B1",
+    "rank": 731
+  },
+  {
+    "id": 732,
+    "french": "vache",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "소, 젖소"
+    ],
+    "examples": [
+      {
+        "fr": "Les vaches broutent dans le pré.",
+        "ko": "소들이 초원에서 풀을 뜯는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 732
+  },
+  {
+    "id": 733,
+    "french": "repos",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "휴식"
+    ],
+    "examples": [
+      {
+        "fr": "Après l'effort, un peu de repos fait du bien.",
+        "ko": "애쓴 뒤의 잠깐의 휴식은 몸에 좋다."
+      }
+    ],
+    "level": "B1",
+    "rank": 733
+  },
+  {
+    "id": 734,
+    "french": "fumée",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "연기"
+    ],
+    "examples": [
+      {
+        "fr": "Une épaisse fumée s'échappe de la cheminée.",
+        "ko": "굴뚝에서 짙은 연기가 뿜어져 나온다."
+      }
+    ],
+    "level": "B1",
+    "rank": 734
+  },
+  {
+    "id": 735,
+    "french": "hier",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "(해양·희귀) 밧줄로 끌어 올리다, 팽팽히 당기다 (부사 hier '어제'와 철자만 같은 동음이의어)"
+    ],
+    "examples": [
+      {
+        "fr": "Les marins hient la voile pour la hisser.",
+        "ko": "선원들이 돛을 올리려고 밧줄을 팽팽히 당긴다."
+      }
+    ],
+    "level": "B1",
+    "rank": 735
+  },
+  {
+    "id": 736,
+    "french": "excès",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "과도, 지나침 (excès de vitesse 속도위반)"
+    ],
+    "examples": [
+      {
+        "fr": "Il a payé une amende pour excès de vitesse.",
+        "ko": "그는 속도위반으로 벌금을 냈다."
+      }
+    ],
+    "level": "B1",
+    "rank": 736
+  },
+  {
+    "id": 737,
+    "french": "concierge",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "mf",
+    "article": "un/une",
+    "korean": [
+      "관리인, 수위"
+    ],
+    "examples": [
+      {
+        "fr": "La concierge distribue le courrier chaque matin.",
+        "ko": "관리인이 매일 아침 우편물을 나눠 준다."
+      }
+    ],
+    "level": "B1",
+    "rank": 737
+  },
+  {
+    "id": 738,
+    "french": "tas",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "더미, 무더기 (un tas de 많은)"
+    ],
+    "examples": [
+      {
+        "fr": "Il y a un tas de feuilles mortes dans le jardin.",
+        "ko": "정원에 낙엽 더미가 쌓여 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 738
+  },
+  {
+    "id": 739,
+    "french": "pointe",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "끝, 뾰족한 끝 (heure de pointe 러시아워)"
+    ],
+    "examples": [
+      {
+        "fr": "Le métro est bondé aux heures de pointe.",
+        "ko": "지하철은 러시아워에 만원이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 739
+  },
+  {
+    "id": 740,
+    "french": "lion",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "사자"
+    ],
+    "examples": [
+      {
+        "fr": "Le lion est souvent appelé le roi des animaux.",
+        "ko": "사자는 흔히 동물의 왕이라 불린다."
+      }
+    ],
+    "level": "B1",
+    "rank": 740
+  },
+  {
+    "id": 741,
+    "french": "nucléaire",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "원자력, 핵 (le nucléaire 원자력 산업·에너지)"
+    ],
+    "examples": [
+      {
+        "fr": "Ce pays produit la moitié de son électricité grâce au nucléaire.",
+        "ko": "이 나라는 전력의 절반을 원자력으로 생산한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 741
+  },
+  {
+    "id": 742,
+    "french": "interpréter",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "해석하다",
+      "(배역·곡을) 연기·연주하다"
+    ],
+    "examples": [
+      {
+        "fr": "Chacun interprète ce poème à sa façon.",
+        "ko": "각자 이 시를 나름대로 해석한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 742
+  },
+  {
+    "id": 743,
+    "french": "paysan",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "농민의, 시골의 (vie paysanne 농촌 생활)"
+    ],
+    "examples": [
+      {
+        "fr": "Le musée présente la vie paysanne d'autrefois.",
+        "ko": "그 박물관은 옛 농촌 생활을 소개한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 743
+  },
+  {
+    "id": 744,
+    "french": "artiste",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "예술가 기질의, 자유분방한"
+    ],
+    "examples": [
+      {
+        "fr": "Il a un tempérament très artiste.",
+        "ko": "그는 아주 예술가다운 기질을 지녔다."
+      }
+    ],
+    "level": "B1",
+    "rank": 744
+  },
+  {
+    "id": 745,
+    "french": "pompier",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "소방관"
+    ],
+    "examples": [
+      {
+        "fr": "Les pompiers sont arrivés en quelques minutes.",
+        "ko": "소방관들이 몇 분 만에 도착했다."
+      }
+    ],
+    "level": "B1",
+    "rank": 745
+  },
+  {
+    "id": 746,
+    "french": "concentrer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "집중시키다 (se concentrer 집중하다)"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai du mal à me concentrer avec ce bruit.",
+        "ko": "이 소음 때문에 집중하기가 힘들어."
+      }
+    ],
+    "level": "B1",
+    "rank": 746
+  },
+  {
+    "id": 747,
+    "french": "conquérir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "정복하다, (마음을) 사로잡다"
+    ],
+    "examples": [
+      {
+        "fr": "Ce chanteur a conquis le public dès la première chanson.",
+        "ko": "이 가수는 첫 곡부터 관객을 사로잡았다."
+      }
+    ],
+    "level": "B1",
+    "rank": 747
+  },
+  {
+    "id": 748,
+    "french": "mine",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "광산",
+      "안색, 표정 (avoir bonne mine 안색이 좋다)"
+    ],
+    "examples": [
+      {
+        "fr": "Tu as bonne mine aujourd'hui !",
+        "ko": "오늘 안색이 좋아 보여!"
+      }
+    ],
+    "level": "B1",
+    "rank": 748
+  },
+  {
+    "id": 749,
+    "french": "fumeur",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "흡연자"
+    ],
+    "examples": [
+      {
+        "fr": "Cette terrasse est réservée aux fumeurs.",
+        "ko": "이 테라스는 흡연자 전용이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 749
+  },
+  {
+    "id": 750,
+    "french": "passager",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "승객"
+    ],
+    "examples": [
+      {
+        "fr": "Les passagers attendent l'embarquement.",
+        "ko": "승객들이 탑승을 기다린다."
+      }
+    ],
+    "level": "B1",
+    "rank": 750
+  },
+  {
+    "id": 751,
+    "french": "patience",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "인내(심)"
+    ],
+    "examples": [
+      {
+        "fr": "Il faut de la patience pour apprendre une langue.",
+        "ko": "언어를 배우는 데는 인내심이 필요하다."
+      }
+    ],
+    "level": "B1",
+    "rank": 751
+  },
+  {
+    "id": 752,
+    "french": "poème",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "시(작품)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle a écrit un poème pour son anniversaire.",
+        "ko": "그녀는 그의 생일을 위해 시 한 편을 썼다."
+      }
+    ],
+    "level": "B1",
+    "rank": 752
+  },
+  {
+    "id": 753,
+    "french": "venger",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "복수하다 (se venger 앙갚음하다)"
+    ],
+    "examples": [
+      {
+        "fr": "Le héros veut venger la mort de son père.",
+        "ko": "주인공은 아버지의 죽음에 복수하고자 한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 753
+  },
+  {
+    "id": 754,
+    "french": "bijou",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "보석, 장신구 (복수 bijoux)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle range ses bijoux dans une petite boîte.",
+        "ko": "그녀는 작은 상자에 장신구를 보관한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 754
+  },
+  {
+    "id": 755,
+    "french": "joindre",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "연결하다, 첨부하다",
+      "(연락이) 닿다"
+    ],
+    "examples": [
+      {
+        "fr": "Je n'arrive pas à le joindre au téléphone.",
+        "ko": "그와 전화 연결이 안 돼."
+      }
+    ],
+    "level": "B1",
+    "rank": 755
+  },
+  {
+    "id": 756,
+    "french": "qualifier",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "규정하다, 평하다",
+      "(se qualifier) 예선을 통과하다"
+    ],
+    "examples": [
+      {
+        "fr": "L'équipe s'est qualifiée pour la finale.",
+        "ko": "그 팀은 결승에 진출했다."
+      }
+    ],
+    "level": "B1",
+    "rank": 756
+  },
+  {
+    "id": 757,
+    "french": "revendiquer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "요구하다, 주장하다"
+    ],
+    "examples": [
+      {
+        "fr": "Les employés revendiquent de meilleures conditions de travail.",
+        "ko": "직원들은 더 나은 근로 조건을 요구한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 757
+  },
+  {
+    "id": 758,
+    "french": "curé",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "본당 신부"
+    ],
+    "examples": [
+      {
+        "fr": "Le curé du village connaît tous les habitants.",
+        "ko": "마을 신부는 주민들을 모두 안다."
+      }
+    ],
+    "level": "B1",
+    "rank": 758
+  },
+  {
+    "id": 759,
+    "french": "amélioration",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "개선, 향상"
+    ],
+    "examples": [
+      {
+        "fr": "On observe une nette amélioration de son état.",
+        "ko": "그의 상태가 눈에 띄게 호전되고 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 759
+  },
+  {
+    "id": 760,
+    "french": "éternel",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "영원한, 끝없는"
+    ],
+    "examples": [
+      {
+        "fr": "Ils se sont juré un amour éternel.",
+        "ko": "그들은 영원한 사랑을 맹세했다."
+      }
+    ],
+    "level": "B1",
+    "rank": 760
+  },
+  {
+    "id": 761,
+    "french": "dépense",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "지출, 비용"
+    ],
+    "examples": [
+      {
+        "fr": "Elle note toutes ses dépenses dans un carnet.",
+        "ko": "그녀는 모든 지출을 수첩에 적는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 761
+  },
+  {
+    "id": 762,
+    "french": "renouveler",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "갱신하다, 새롭게 하다"
+    ],
+    "examples": [
+      {
+        "fr": "Je dois renouveler mon passeport avant l'été.",
+        "ko": "나는 여름 전에 여권을 갱신해야 한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 762
+  },
+  {
+    "id": 763,
+    "french": "fédération",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "연맹, 연합"
+    ],
+    "examples": [
+      {
+        "fr": "La fédération organise le championnat national.",
+        "ko": "그 연맹은 전국 선수권 대회를 주최한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 763
+  },
+  {
+    "id": 764,
+    "french": "loger",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "묵다, 숙박하다, 재우다"
+    ],
+    "examples": [
+      {
+        "fr": "Ils logent chez des amis pendant le festival.",
+        "ko": "그들은 축제 동안 친구들 집에 묵는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 764
+  },
+  {
+    "id": 765,
+    "french": "artificiel",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "인공의, 인위적인"
+    ],
+    "examples": [
+      {
+        "fr": "Ce jus contient des arômes artificiels.",
+        "ko": "이 주스에는 인공 향료가 들어 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 765
+  },
+  {
+    "id": 766,
+    "french": "jupe",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "치마"
+    ],
+    "examples": [
+      {
+        "fr": "Elle porte une jupe longue en été.",
+        "ko": "그녀는 여름에 긴 치마를 입는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 766
+  },
+  {
+    "id": 767,
+    "french": "muet",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "말 못 하는, 무언의 (film muet 무성 영화)"
+    ],
+    "examples": [
+      {
+        "fr": "Il est resté muet devant tant de reproches.",
+        "ko": "그는 그렇게 많은 비난 앞에서 아무 말도 못 했다."
+      }
+    ],
+    "level": "B1",
+    "rank": 767
+  },
+  {
+    "id": 768,
+    "french": "explorer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "탐험하다, 탐색하다"
+    ],
+    "examples": [
+      {
+        "fr": "Ils veulent explorer la grotte demain.",
+        "ko": "그들은 내일 동굴을 탐험하고 싶어 한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 768
+  },
+  {
+    "id": 769,
+    "french": "effectivement",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "실제로, 정말로, 그렇다"
+    ],
+    "examples": [
+      {
+        "fr": "Effectivement, il avait raison.",
+        "ko": "정말로 그의 말이 맞았다."
+      }
+    ],
+    "level": "B1",
+    "rank": 769
+  },
+  {
+    "id": 770,
+    "french": "adaptation",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "적응, 각색"
+    ],
+    "examples": [
+      {
+        "fr": "Ce film est une adaptation d'un roman célèbre.",
+        "ko": "이 영화는 유명한 소설을 각색한 것이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 770
+  },
+  {
+    "id": 771,
+    "french": "poids",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "무게, 체중"
+    ],
+    "examples": [
+      {
+        "fr": "Elle surveille son poids avant la compétition.",
+        "ko": "그녀는 시합 전에 체중을 관리한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 771
+  },
+  {
+    "id": 772,
+    "french": "attribuer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "부여하다, (상을) 수여하다, (탓을) 돌리다"
+    ],
+    "examples": [
+      {
+        "fr": "Le jury a attribué le prix à un jeune réalisateur.",
+        "ko": "심사위원단은 한 젊은 감독에게 상을 수여했다."
+      }
+    ],
+    "level": "B1",
+    "rank": 772
+  },
+  {
+    "id": 773,
+    "french": "trouble",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "장애, 이상 (troubles du sommeil 수면 장애)",
+      "동요, 혼란"
+    ],
+    "examples": [
+      {
+        "fr": "Il souffre de troubles du sommeil depuis des mois.",
+        "ko": "그는 몇 달째 수면 장애를 겪고 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 773
+  },
+  {
+    "id": 774,
+    "french": "nucléaire",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "핵의, 원자력의"
+    ],
+    "examples": [
+      {
+        "fr": "La centrale nucléaire fournit de l'électricité à la région.",
+        "ko": "원자력 발전소가 그 지역에 전기를 공급한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 774
+  },
+  {
+    "id": 775,
+    "french": "branche",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "나뭇가지",
+      "(학문·산업의) 분야, 부문"
+    ],
+    "examples": [
+      {
+        "fr": "Un oiseau se pose sur la branche.",
+        "ko": "새 한 마리가 나뭇가지에 앉는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 775
+  },
+  {
+    "id": 776,
+    "french": "unir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "결합하다, 하나로 묶다 (s'unir 단결하다)"
+    ],
+    "examples": [
+      {
+        "fr": "Cette épreuve a uni toute la famille.",
+        "ko": "이 시련이 온 가족을 하나로 묶어 주었다."
+      }
+    ],
+    "level": "B1",
+    "rank": 776
+  },
+  {
+    "id": 777,
+    "french": "dégager",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "치우다, 뚫다",
+      "(냄새·인상을) 풍기다"
+    ],
+    "examples": [
+      {
+        "fr": "Les pompiers dégagent la route bloquée.",
+        "ko": "소방관들이 막힌 도로를 치운다."
+      }
+    ],
+    "level": "B1",
+    "rank": 777
+  },
+  {
+    "id": 778,
+    "french": "personnel",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "직원 (전체), 인력"
+    ],
+    "examples": [
+      {
+        "fr": "Le personnel de l'hôtel est très aimable.",
+        "ko": "그 호텔 직원들은 아주 친절하다."
+      }
+    ],
+    "level": "B1",
+    "rank": 778
+  },
+  {
+    "id": 779,
+    "french": "sourd",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "귀먹은, 청각 장애가 있는",
+      "(소리가) 둔탁한"
+    ],
+    "examples": [
+      {
+        "fr": "Il est sourd d'une oreille depuis l'enfance.",
+        "ko": "그는 어릴 때부터 한쪽 귀가 안 들린다."
+      }
+    ],
+    "level": "B1",
+    "rank": 779
+  },
+  {
+    "id": 780,
+    "french": "catholique",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "가톨릭의, 천주교의"
+    ],
+    "examples": [
+      {
+        "fr": "Cette école catholique existe depuis un siècle.",
+        "ko": "이 가톨릭 학교는 한 세기 전부터 있어 왔다."
+      }
+    ],
+    "level": "B1",
+    "rank": 780
+  },
+  {
+    "id": 781,
+    "french": "courant",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "흔한, 일상적인 (langue courante 일상어)"
+    ],
+    "examples": [
+      {
+        "fr": "C'est une erreur très courante chez les débutants.",
+        "ko": "이건 초보자에게 아주 흔한 실수이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 781
+  },
+  {
+    "id": 782,
+    "french": "habituer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "익숙하게 하다 (s'habituer à ~에 익숙해지다)"
+    ],
+    "examples": [
+      {
+        "fr": "On s'habitue vite à ce nouveau rythme.",
+        "ko": "이 새로운 리듬에는 금방 익숙해진다."
+      }
+    ],
+    "level": "B1",
+    "rank": 782
+  },
+  {
+    "id": 783,
+    "french": "familier",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "친숙한, 격의 없는 (langage familier 구어체)"
+    ],
+    "examples": [
+      {
+        "fr": "Ce mot appartient au registre familier.",
+        "ko": "이 단어는 구어체 어휘에 속한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 783
+  },
+  {
+    "id": 784,
+    "french": "fichier",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "(컴퓨터) 파일"
+    ],
+    "examples": [
+      {
+        "fr": "Je t'envoie le fichier par courriel.",
+        "ko": "이메일로 그 파일 보내 줄게."
+      }
+    ],
+    "level": "B1",
+    "rank": 784
+  },
+  {
+    "id": 785,
+    "french": "manche",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "(f) 소매",
+      "(m) 손잡이, 자루"
+    ],
+    "examples": [
+      {
+        "fr": "Elle retrousse les manches de sa chemise.",
+        "ko": "그녀는 셔츠 소매를 걷어 올린다."
+      }
+    ],
+    "level": "B1",
+    "rank": 785
+  },
+  {
+    "id": 786,
+    "french": "caractéristique",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "특징, 특성"
+    ],
+    "examples": [
+      {
+        "fr": "La légèreté est la principale caractéristique de ce matériau.",
+        "ko": "가벼움이 이 소재의 주요 특징이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 786
+  },
+  {
+    "id": 787,
+    "french": "énerver",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "짜증 나게 하다 (s'énerver 짜증 내다)"
+    ],
+    "examples": [
+      {
+        "fr": "Ce bruit m'énerve vraiment.",
+        "ko": "이 소음 정말 짜증 나."
+      }
+    ],
+    "level": "B1",
+    "rank": 787
+  },
+  {
+    "id": 788,
+    "french": "répétition",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "반복",
+      "(연극·음악) 리허설, 연습"
+    ],
+    "examples": [
+      {
+        "fr": "La troupe a une répétition avant le spectacle.",
+        "ko": "극단은 공연 전에 리허설을 한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 788
+  },
+  {
+    "id": 789,
+    "french": "écart",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "간격, 격차 (à l'écart 떨어져서)"
+    ],
+    "examples": [
+      {
+        "fr": "L'écart de prix entre les deux modèles est énorme.",
+        "ko": "두 모델의 가격 차이가 엄청나다."
+      }
+    ],
+    "level": "B1",
+    "rank": 789
+  },
+  {
+    "id": 790,
+    "french": "carton",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "판지, 상자"
+    ],
+    "examples": [
+      {
+        "fr": "On range les livres dans des cartons pour le déménagement.",
+        "ko": "이사를 위해 책들을 상자에 담는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 790
+  },
+  {
+    "id": 791,
+    "french": "silhouette",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "실루엣, 윤곽"
+    ],
+    "examples": [
+      {
+        "fr": "On distingue une silhouette dans le brouillard.",
+        "ko": "안개 속에서 실루엣이 어렴풋이 보인다."
+      }
+    ],
+    "level": "B1",
+    "rank": 791
+  },
+  {
+    "id": 792,
+    "french": "éclair",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "번개",
+      "에클레르 (기다란 슈 과자)"
+    ],
+    "examples": [
+      {
+        "fr": "Un éclair déchire le ciel avant l'orage.",
+        "ko": "뇌우 전에 번개가 하늘을 가른다."
+      }
+    ],
+    "level": "B1",
+    "rank": 792
+  },
+  {
+    "id": 793,
+    "french": "souffle",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "숨, 호흡 (à bout de souffle 숨이 차서)",
+      "바람 한 줄기"
+    ],
+    "examples": [
+      {
+        "fr": "Il reprend son souffle après la course.",
+        "ko": "그는 달리기 후에 숨을 고른다."
+      }
+    ],
+    "level": "B1",
+    "rank": 793
+  },
+  {
+    "id": 794,
+    "french": "test",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "테스트, 검사"
+    ],
+    "examples": [
+      {
+        "fr": "Elle passe un test de niveau demain.",
+        "ko": "그녀는 내일 레벨 테스트를 본다."
+      }
+    ],
+    "level": "B1",
+    "rank": 794
+  },
+  {
+    "id": 795,
+    "french": "jugement",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "판단",
+      "(법) 판결"
+    ],
+    "examples": [
+      {
+        "fr": "Je fais confiance à ton jugement.",
+        "ko": "나는 네 판단을 믿어."
+      }
+    ],
+    "level": "B1",
+    "rank": 795
+  },
+  {
+    "id": 796,
+    "french": "compétition",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "경쟁, 대회"
+    ],
+    "examples": [
+      {
+        "fr": "Elle participe à une compétition de natation.",
+        "ko": "그녀는 수영 대회에 참가한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 796
+  },
+  {
+    "id": 797,
+    "french": "automobile",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "자동차의 (industrie automobile 자동차 산업)"
+    ],
+    "examples": [
+      {
+        "fr": "L'industrie automobile emploie des milliers de personnes.",
+        "ko": "자동차 산업은 수천 명을 고용한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 797
+  },
+  {
+    "id": 798,
+    "french": "emparer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "(s'emparer de) 붙잡다, 차지하다, (감정이) 사로잡다"
+    ],
+    "examples": [
+      {
+        "fr": "La panique s'empare de la foule.",
+        "ko": "공포가 군중을 사로잡는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 798
+  },
+  {
+    "id": 799,
+    "french": "col",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "(옷의) 깃, 칼라",
+      "(산의) 고개, 재"
+    ],
+    "examples": [
+      {
+        "fr": "La route passe par un col de montagne.",
+        "ko": "그 도로는 산속 고개를 지난다."
+      }
+    ],
+    "level": "B1",
+    "rank": 799
+  },
+  {
+    "id": 800,
+    "french": "songer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "생각하다, 고려하다 (songer à ~을 생각하다)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle songe à changer de travail.",
+        "ko": "그녀는 이직을 생각하고 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 800
+  },
+  {
+    "id": 801,
+    "french": "auditeur",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "청취자, 청강생"
+    ],
+    "examples": [
+      {
+        "fr": "Les auditeurs peuvent poser des questions en direct.",
+        "ko": "청취자들은 생방송으로 질문할 수 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 801
+  },
+  {
+    "id": 802,
+    "french": "présent",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "현재 (à présent 지금은)",
+      "(문어) 선물"
+    ],
+    "examples": [
+      {
+        "fr": "Il faut vivre au présent.",
+        "ko": "현재를 살아야 한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 802
+  },
+  {
+    "id": 803,
+    "french": "débarrasser",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "치우다, 없애다 (se débarrasser de ~을 없애다)",
+      "(débarrasser la table 상을 치우다)"
+    ],
+    "examples": [
+      {
+        "fr": "Tu peux débarrasser la table, s'il te plaît ?",
+        "ko": "상 좀 치워 줄래?"
+      }
+    ],
+    "level": "B1",
+    "rank": 803
+  },
+  {
+    "id": 804,
+    "french": "croix",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "십자가, 십자 표시"
+    ],
+    "examples": [
+      {
+        "fr": "Mets une croix dans la bonne case.",
+        "ko": "맞는 칸에 X 표시를 해."
+      }
+    ],
+    "level": "B1",
+    "rank": 804
+  },
+  {
+    "id": 805,
+    "french": "obligation",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "의무"
+    ],
+    "examples": [
+      {
+        "fr": "Tu n'as aucune obligation d'accepter.",
+        "ko": "넌 받아들일 의무가 전혀 없어."
+      }
+    ],
+    "level": "B1",
+    "rank": 805
+  },
+  {
+    "id": 806,
+    "french": "arranger",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "정리하다, 해결하다",
+      "(s'arranger) 어떻게든 해내다, 잘 풀리다"
+    ],
+    "examples": [
+      {
+        "fr": "Ne t'inquiète pas, tout va s'arranger.",
+        "ko": "걱정하지 마, 다 잘 풀릴 거야."
+      }
+    ],
+    "level": "B1",
+    "rank": 806
+  },
+  {
+    "id": 807,
+    "french": "empire",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "제국"
+    ],
+    "examples": [
+      {
+        "fr": "L'Empire romain s'étendait sur trois continents.",
+        "ko": "로마 제국은 세 대륙에 걸쳐 있었다."
+      }
+    ],
+    "level": "B1",
+    "rank": 807
+  },
+  {
+    "id": 808,
+    "french": "grimper",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "기어오르다, 오르다"
+    ],
+    "examples": [
+      {
+        "fr": "Le chat grimpe en haut de l'arbre.",
+        "ko": "고양이가 나무 꼭대기로 기어 올라간다."
+      }
+    ],
+    "level": "B1",
+    "rank": 808
+  },
+  {
+    "id": 809,
+    "french": "envoler",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "(s'envoler) 날아가다, 이륙하다",
+      "(비유) 사라지다"
+    ],
+    "examples": [
+      {
+        "fr": "Les oiseaux s'envolent au moindre bruit.",
+        "ko": "새들은 작은 소리에도 날아가 버린다."
+      }
+    ],
+    "level": "B1",
+    "rank": 809
+  },
+  {
+    "id": 810,
+    "french": "ethnique",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "민족의, 종족의"
+    ],
+    "examples": [
+      {
+        "fr": "Ce pays compte de nombreux groupes ethniques.",
+        "ko": "이 나라에는 많은 민족 집단이 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 810
+  },
+  {
+    "id": 811,
+    "french": "véritablement",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "진정으로, 정말로"
+    ],
+    "examples": [
+      {
+        "fr": "C'est véritablement une expérience unique.",
+        "ko": "이건 정말로 특별한 경험이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 811
+  },
+  {
+    "id": 812,
+    "french": "régulier",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "규칙적인, 일정한"
+    ],
+    "examples": [
+      {
+        "fr": "Il fait des progrès réguliers en français.",
+        "ko": "그는 프랑스어 실력이 꾸준히 늘고 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 812
+  },
+  {
+    "id": 813,
+    "french": "inconnu",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "낯선 사람, 미지의 것 (l'inconnu 미지의 세계)"
+    ],
+    "examples": [
+      {
+        "fr": "Un inconnu m'a aidé à porter mes valises.",
+        "ko": "낯선 사람이 내 짐 가방 드는 것을 도와주었다."
+      }
+    ],
+    "level": "B1",
+    "rank": 813
+  },
+  {
+    "id": 814,
+    "french": "adieu",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "작별 (인사) (faire ses adieux 작별 인사를 하다)"
+    ],
+    "examples": [
+      {
+        "fr": "Ils se sont fait leurs adieux à la gare.",
+        "ko": "그들은 역에서 작별 인사를 나눴다."
+      }
+    ],
+    "level": "B1",
+    "rank": 814
+  },
+  {
+    "id": 815,
+    "french": "pousse",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "새싹, 순 (pousses de bambou 죽순)"
+    ],
+    "examples": [
+      {
+        "fr": "De jeunes pousses vertes sortent de terre au printemps.",
+        "ko": "봄이면 어린 초록 새싹들이 땅에서 돋아난다."
+      }
+    ],
+    "level": "B1",
+    "rank": 815
+  },
+  {
+    "id": 816,
+    "french": "tantôt",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "(tantôt... tantôt) 때로는 ~ 때로는",
+      "(지역·문어) 조금 이따가, 아까"
+    ],
+    "examples": [
+      {
+        "fr": "Il est tantôt gai, tantôt triste.",
+        "ko": "그는 때로는 즐겁고 때로는 슬프다."
+      }
+    ],
+    "level": "B1",
+    "rank": 816
+  },
+  {
+    "id": 817,
+    "french": "commande",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "주문",
+      "(기계의) 제어 장치"
+    ],
+    "examples": [
+      {
+        "fr": "Votre commande sera livrée demain.",
+        "ko": "주문하신 상품은 내일 배송됩니다."
+      }
+    ],
+    "level": "B1",
+    "rank": 817
+  },
+  {
+    "id": 818,
+    "french": "vert",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "초록색",
+      "녹지 (les espaces verts 녹지 공간)"
+    ],
+    "examples": [
+      {
+        "fr": "Le vert est la couleur de l'espoir.",
+        "ko": "초록은 희망의 색이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 818
+  },
+  {
+    "id": 819,
+    "french": "financer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "재정을 대다, 자금을 지원하다"
+    ],
+    "examples": [
+      {
+        "fr": "L'État finance une partie de ce projet.",
+        "ko": "국가가 이 사업의 일부에 자금을 지원한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 819
+  },
+  {
+    "id": 820,
+    "french": "fixe",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "고정된, 일정한 (prix fixe 정찰가)"
+    ],
+    "examples": [
+      {
+        "fr": "Il travaille selon des horaires fixes.",
+        "ko": "그는 정해진 시간에 맞춰 일한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 820
+  },
+  {
+    "id": 821,
+    "french": "correct",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "올바른, 정확한",
+      "(태도가) 예의 바른"
+    ],
+    "examples": [
+      {
+        "fr": "Ta réponse est tout à fait correcte.",
+        "ko": "네 대답은 완전히 맞아."
+      }
+    ],
+    "level": "B1",
+    "rank": 821
+  },
+  {
+    "id": 822,
+    "french": "dénoncer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "고발하다, 규탄하다"
+    ],
+    "examples": [
+      {
+        "fr": "Cet article dénonce la corruption.",
+        "ko": "이 기사는 부패를 규탄한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 822
+  },
+  {
+    "id": 823,
+    "french": "contrainte",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "제약, 구속"
+    ],
+    "examples": [
+      {
+        "fr": "Ce métier impose de nombreuses contraintes.",
+        "ko": "이 직업은 많은 제약을 요구한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 823
+  },
+  {
+    "id": 824,
+    "french": "épouse",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "아내, 부인"
+    ],
+    "examples": [
+      {
+        "fr": "Il présente son épouse à ses collègues.",
+        "ko": "그는 동료들에게 아내를 소개한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 824
+  },
+  {
+    "id": 825,
+    "french": "renverser",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "넘어뜨리다, 엎지르다",
+      "(차로) 치다",
+      "(정권을) 전복시키다"
+    ],
+    "examples": [
+      {
+        "fr": "J'ai renversé mon café sur la table.",
+        "ko": "탁자에 커피를 쏟았어."
+      }
+    ],
+    "level": "B1",
+    "rank": 825
+  },
+  {
+    "id": 826,
+    "french": "être",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "존재, 생명체 (un être humain 인간)"
+    ],
+    "examples": [
+      {
+        "fr": "Chaque être vivant a besoin d'eau.",
+        "ko": "모든 생명체는 물이 필요하다."
+      }
+    ],
+    "level": "B1",
+    "rank": 826
+  },
+  {
+    "id": 827,
+    "french": "romancier",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "소설가"
+    ],
+    "examples": [
+      {
+        "fr": "Ce romancier publie un livre tous les deux ans.",
+        "ko": "이 소설가는 2년마다 책을 한 권씩 낸다."
+      }
+    ],
+    "level": "B1",
+    "rank": 827
+  },
+  {
+    "id": 828,
+    "french": "espérance",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "희망, 기대 (espérance de vie 기대 수명)"
+    ],
+    "examples": [
+      {
+        "fr": "L'espérance de vie augmente d'année en année.",
+        "ko": "기대 수명이 해마다 늘고 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 828
+  },
+  {
+    "id": 829,
+    "french": "berger",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "양치기, 목동"
+    ],
+    "examples": [
+      {
+        "fr": "Le berger conduit son troupeau vers la montagne.",
+        "ko": "목동이 양 떼를 산 쪽으로 몬다."
+      }
+    ],
+    "level": "B1",
+    "rank": 829
+  },
+  {
+    "id": 830,
+    "french": "conséquent",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "상당한 (구어)",
+      "(par conséquent) 따라서, 그 결과"
+    ],
+    "examples": [
+      {
+        "fr": "Il a investi une somme conséquente dans ce projet.",
+        "ko": "그는 이 사업에 상당한 금액을 투자했다."
+      }
+    ],
+    "level": "B1",
+    "rank": 830
+  },
+  {
+    "id": 831,
+    "french": "rentrée",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "개학, 신학기, 업무 복귀 (la rentrée 개학 시즌)"
+    ],
+    "examples": [
+      {
+        "fr": "La rentrée scolaire a lieu début septembre.",
+        "ko": "개학은 9월 초에 이루어진다."
+      }
+    ],
+    "level": "B1",
+    "rank": 831
+  },
+  {
+    "id": 832,
+    "french": "habituel",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "습관적인, 평소의"
+    ],
+    "examples": [
+      {
+        "fr": "Il s'assoit à sa place habituelle.",
+        "ko": "그는 평소 자기 자리에 앉는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 832
+  },
+  {
+    "id": 833,
+    "french": "duc",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "공작(公爵)"
+    ],
+    "examples": [
+      {
+        "fr": "Le duc habitait un immense château.",
+        "ko": "공작은 거대한 성에 살았다."
+      }
+    ],
+    "level": "B1",
+    "rank": 833
+  },
+  {
+    "id": 834,
+    "french": "description",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "묘사, 서술"
+    ],
+    "examples": [
+      {
+        "fr": "Fais-moi une description précise du suspect.",
+        "ko": "용의자에 대해 정확히 묘사해 줘."
+      }
+    ],
+    "level": "B1",
+    "rank": 834
+  },
+  {
+    "id": 835,
+    "french": "sud",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "남쪽의 (무변화, la côte sud 남해안)"
+    ],
+    "examples": [
+      {
+        "fr": "Ils habitent sur la côte sud de l'île.",
+        "ko": "그들은 섬의 남쪽 해안에 산다."
+      }
+    ],
+    "level": "B1",
+    "rank": 835
+  },
+  {
+    "id": 836,
+    "french": "discipline",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "규율, 훈육",
+      "(학문·스포츠의) 종목, 분야"
+    ],
+    "examples": [
+      {
+        "fr": "Le sport enseigne la discipline aux enfants.",
+        "ko": "스포츠는 아이들에게 규율을 가르친다."
+      }
+    ],
+    "level": "B1",
+    "rank": 836
+  },
+  {
+    "id": 837,
+    "french": "gestion",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "관리, 경영"
+    ],
+    "examples": [
+      {
+        "fr": "Elle s'occupe de la gestion du budget.",
+        "ko": "그녀는 예산 관리를 맡고 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 837
+  },
+  {
+    "id": 838,
+    "french": "honte",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "수치심, 부끄러움 (avoir honte 부끄러워하다)"
+    ],
+    "examples": [
+      {
+        "fr": "Il a honte de ses erreurs passées.",
+        "ko": "그는 지난 실수들을 부끄러워한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 838
+  },
+  {
+    "id": 839,
+    "french": "armoire",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "옷장, 장롱"
+    ],
+    "examples": [
+      {
+        "fr": "Range tes vêtements dans l'armoire.",
+        "ko": "옷을 옷장에 정리해."
+      }
+    ],
+    "level": "B1",
+    "rank": 839
+  },
+  {
+    "id": 840,
+    "french": "saint",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "성스러운, 성(聖)-"
+    ],
+    "examples": [
+      {
+        "fr": "La semaine sainte précède Pâques.",
+        "ko": "성주간은 부활절 앞에 온다."
+      }
+    ],
+    "level": "B1",
+    "rank": 840
+  },
+  {
+    "id": 841,
+    "french": "loyer",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "집세, 임대료"
+    ],
+    "examples": [
+      {
+        "fr": "Le loyer augmente chaque année.",
+        "ko": "집세가 해마다 오른다."
+      }
+    ],
+    "level": "B1",
+    "rank": 841
+  },
+  {
+    "id": 842,
+    "french": "choquer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "충격을 주다, 불쾌하게 하다"
+    ],
+    "examples": [
+      {
+        "fr": "Ses propos ont choqué le public.",
+        "ko": "그의 발언이 관중에게 충격을 주었다."
+      }
+    ],
+    "level": "B1",
+    "rank": 842
+  },
+  {
+    "id": 843,
+    "french": "automobile",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "자동차 (격식체)"
+    ],
+    "examples": [
+      {
+        "fr": "Le salon de l'automobile ouvre ses portes demain.",
+        "ko": "자동차 박람회가 내일 개막한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 843
+  },
+  {
+    "id": 844,
+    "french": "dessous",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "아래에, 밑에 (en dessous 아래쪽에)"
+    ],
+    "examples": [
+      {
+        "fr": "Le chat se cache dessous.",
+        "ko": "고양이가 밑에 숨어 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 844
+  },
+  {
+    "id": 845,
+    "french": "monstre",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "괴물"
+    ],
+    "examples": [
+      {
+        "fr": "Dans ce film, un monstre terrorise la ville.",
+        "ko": "이 영화에서 괴물이 도시를 공포에 떨게 한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 845
+  },
+  {
+    "id": 846,
+    "french": "celer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "(문어·고어) 숨기다, 감추다 (receler·celui의 어원, 오늘날엔 거의 안 씀)"
+    ],
+    "examples": [
+      {
+        "fr": "Dans les vieux textes, « celer » signifiait cacher un secret.",
+        "ko": "옛 문헌에서 « celer »는 비밀을 감춘다는 뜻이었다."
+      }
+    ],
+    "level": "B1",
+    "rank": 846
+  },
+  {
+    "id": 847,
+    "french": "indépendance",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "독립, 자립"
+    ],
+    "examples": [
+      {
+        "fr": "Ce pays a obtenu son indépendance en 1960.",
+        "ko": "이 나라는 1960년에 독립을 이루었다."
+      }
+    ],
+    "level": "B1",
+    "rank": 847
+  },
+  {
+    "id": 848,
+    "french": "serviteur",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "하인, 종"
+    ],
+    "examples": [
+      {
+        "fr": "Dans le conte, un serviteur fidèle aide le prince.",
+        "ko": "이야기에서 충직한 하인이 왕자를 돕는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 848
+  },
+  {
+    "id": 849,
+    "french": "détacher",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "떼어내다, 풀다 (se détacher 떨어지다, 두드러지다)"
+    ],
+    "examples": [
+      {
+        "fr": "Détache la remorque de la voiture.",
+        "ko": "자동차에서 트레일러를 떼어 내."
+      }
+    ],
+    "level": "B1",
+    "rank": 849
+  },
+  {
+    "id": 850,
+    "french": "procurer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "마련해 주다, 안겨 주다 (se procurer 구하다, 입수하다)"
+    ],
+    "examples": [
+      {
+        "fr": "Cette musique lui procure un grand plaisir.",
+        "ko": "이 음악은 그에게 큰 즐거움을 안겨 준다."
+      }
+    ],
+    "level": "B1",
+    "rank": 850
+  },
+  {
+    "id": 851,
+    "french": "diffusion",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "방송, 방영",
+      "(정보·문화의) 보급, 확산"
+    ],
+    "examples": [
+      {
+        "fr": "La diffusion du match commence à vingt heures.",
+        "ko": "경기 방송은 저녁 8시에 시작한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 851
+  },
+  {
+    "id": 852,
+    "french": "marchandise",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "상품, 화물"
+    ],
+    "examples": [
+      {
+        "fr": "La marchandise est stockée dans l'entrepôt.",
+        "ko": "상품은 창고에 보관되어 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 852
+  },
+  {
+    "id": 853,
+    "french": "interview",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "인터뷰, 회견"
+    ],
+    "examples": [
+      {
+        "fr": "L'actrice a donné une interview à la télévision.",
+        "ko": "그 배우는 텔레비전에서 인터뷰를 했다."
+      }
+    ],
+    "level": "B1",
+    "rank": 853
+  },
+  {
+    "id": 854,
+    "french": "résider",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "거주하다",
+      "(résider dans) ~에 있다, 존재하다"
+    ],
+    "examples": [
+      {
+        "fr": "La difficulté réside dans le choix des mots.",
+        "ko": "어려움은 단어 선택에 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 854
+  },
+  {
+    "id": 855,
+    "french": "drame",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "드라마, 비극적 사건",
+      "(연극) 드라마"
+    ],
+    "examples": [
+      {
+        "fr": "Cet accident a été un vrai drame pour la famille.",
+        "ko": "이 사고는 그 가족에게 진정한 비극이었다."
+      }
+    ],
+    "level": "B1",
+    "rank": 855
+  },
+  {
+    "id": 856,
+    "french": "intituler",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "제목을 붙이다 (s'intituler ~라는 제목이다)"
+    ],
+    "examples": [
+      {
+        "fr": "Son roman s'intitule « Le voyage ».",
+        "ko": "그의 소설은 « 여행 »이라는 제목이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 856
+  },
+  {
+    "id": 857,
+    "french": "plaine",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "평야, 평원"
+    ],
+    "examples": [
+      {
+        "fr": "La plaine s'étend à perte de vue.",
+        "ko": "평원이 끝없이 펼쳐진다."
+      }
+    ],
+    "level": "B1",
+    "rank": 857
+  },
+  {
+    "id": 858,
+    "french": "aimable",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "친절한, 상냥한"
+    ],
+    "examples": [
+      {
+        "fr": "La vendeuse a été très aimable avec nous.",
+        "ko": "판매원이 우리에게 아주 친절했다."
+      }
+    ],
+    "level": "B1",
+    "rank": 858
+  },
+  {
+    "id": 859,
+    "french": "mélange",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "혼합(물), 섞임"
+    ],
+    "examples": [
+      {
+        "fr": "Ce thé est un mélange de plusieurs plantes.",
+        "ko": "이 차는 여러 식물을 섞은 것이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 859
+  },
+  {
+    "id": 860,
+    "french": "laid",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "못생긴, 흉한"
+    ],
+    "examples": [
+      {
+        "fr": "Ce bâtiment est vraiment laid.",
+        "ko": "이 건물은 정말 흉하다."
+      }
+    ],
+    "level": "B1",
+    "rank": 860
+  },
+  {
+    "id": 861,
+    "french": "horloge",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "(벽·탑) 시계"
+    ],
+    "examples": [
+      {
+        "fr": "L'horloge de la gare indique midi.",
+        "ko": "역의 시계가 정오를 가리킨다."
+      }
+    ],
+    "level": "B1",
+    "rank": 861
+  },
+  {
+    "id": 862,
+    "french": "concurrence",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "경쟁 (상업)"
+    ],
+    "examples": [
+      {
+        "fr": "La concurrence est rude dans ce secteur.",
+        "ko": "이 분야는 경쟁이 치열하다."
+      }
+    ],
+    "level": "B1",
+    "rank": 862
+  },
+  {
+    "id": 863,
+    "french": "sélectionner",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "선발하다, 선택하다"
+    ],
+    "examples": [
+      {
+        "fr": "Le jury sélectionne dix candidats pour la finale.",
+        "ko": "심사위원단은 결선 진출자 10명을 선발한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 863
+  },
+  {
+    "id": 864,
+    "french": "immigrer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "이민 오다, 이주해 오다"
+    ],
+    "examples": [
+      {
+        "fr": "Ses grands-parents ont immigré en France dans les années soixante.",
+        "ko": "그의 조부모는 60년대에 프랑스로 이민을 왔다."
+      }
+    ],
+    "level": "B1",
+    "rank": 864
+  },
+  {
+    "id": 865,
+    "french": "promotion",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "승진",
+      "판촉, 세일 (en promotion 할인 중)",
+      "(학교의) 기수, 학번"
+    ],
+    "examples": [
+      {
+        "fr": "Ces chaussures sont en promotion cette semaine.",
+        "ko": "이 신발은 이번 주 할인 중이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 865
+  },
+  {
+    "id": 866,
+    "french": "éducatif",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "교육의, 교육적인"
+    ],
+    "examples": [
+      {
+        "fr": "Ce jeu éducatif plaît beaucoup aux enfants.",
+        "ko": "이 교육용 게임은 아이들에게 인기가 많다."
+      }
+    ],
+    "level": "B1",
+    "rank": 866
+  },
+  {
+    "id": 867,
+    "french": "serviette",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "수건, 냅킨",
+      "서류 가방"
+    ],
+    "examples": [
+      {
+        "fr": "Prends une serviette pour te sécher.",
+        "ko": "몸을 말리게 수건 하나 챙겨."
+      }
+    ],
+    "level": "B1",
+    "rank": 867
+  },
+  {
+    "id": 868,
+    "french": "convivialité",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "화기애애함, 정겨운 분위기"
+    ],
+    "examples": [
+      {
+        "fr": "Ce café est apprécié pour sa convivialité.",
+        "ko": "이 카페는 정겨운 분위기로 사랑받는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 868
+  },
+  {
+    "id": 869,
+    "french": "recours",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "의지, 호소 (avoir recours à ~에 의존하다)",
+      "(법) 이의 신청"
+    ],
+    "examples": [
+      {
+        "fr": "En dernier recours, ils ont appelé un spécialiste.",
+        "ko": "최후의 수단으로 그들은 전문가를 불렀다."
+      }
+    ],
+    "level": "B1",
+    "rank": 869
+  },
+  {
+    "id": 870,
+    "french": "coq",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "수탉"
+    ],
+    "examples": [
+      {
+        "fr": "Le coq chante au lever du soleil.",
+        "ko": "수탉이 해 뜰 무렵 운다."
+      }
+    ],
+    "level": "B1",
+    "rank": 870
+  },
+  {
+    "id": 871,
+    "french": "mal",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "(무변화, être mal) 불편한, 언짢은 (pas mal 꽤 괜찮은)"
+    ],
+    "examples": [
+      {
+        "fr": "Ce restaurant n'est pas mal du tout.",
+        "ko": "이 식당 꽤 괜찮은데."
+      }
+    ],
+    "level": "B1",
+    "rank": 871
+  },
+  {
+    "id": 872,
+    "french": "franchir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "넘다, 건너다, (한계를) 뛰어넘다"
+    ],
+    "examples": [
+      {
+        "fr": "Le coureur franchit la ligne d'arrivée le premier.",
+        "ko": "그 선수가 결승선을 가장 먼저 통과한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 872
+  },
+  {
+    "id": 873,
+    "french": "noble",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "고귀한, 귀족의"
+    ],
+    "examples": [
+      {
+        "fr": "Il défend une cause noble.",
+        "ko": "그는 고귀한 대의를 옹호한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 873
+  },
+  {
+    "id": 874,
+    "french": "incapable",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "~할 수 없는, 무능한 (incapable de)"
+    ],
+    "examples": [
+      {
+        "fr": "Il est incapable de mentir.",
+        "ko": "그는 거짓말을 할 줄 모른다."
+      }
+    ],
+    "level": "B1",
+    "rank": 874
+  },
+  {
+    "id": 875,
+    "french": "démonstration",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "시연, 증명, 실연"
+    ],
+    "examples": [
+      {
+        "fr": "Le vendeur fait une démonstration du produit.",
+        "ko": "판매원이 제품 시연을 한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 875
+  },
+  {
+    "id": 876,
+    "french": "médaille",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "메달, 훈장"
+    ],
+    "examples": [
+      {
+        "fr": "Elle a gagné une médaille d'or aux Jeux.",
+        "ko": "그녀는 대회에서 금메달을 땄다."
+      }
+    ],
+    "level": "B1",
+    "rank": 876
+  },
+  {
+    "id": 877,
+    "french": "patte",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "(동물의) 다리, 발"
+    ],
+    "examples": [
+      {
+        "fr": "Le chien s'est blessé à la patte.",
+        "ko": "개가 발을 다쳤다."
+      }
+    ],
+    "level": "B1",
+    "rank": 877
+  },
+  {
+    "id": 878,
+    "french": "réaliste",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "현실적인, 사실적인"
+    ],
+    "examples": [
+      {
+        "fr": "Sois réaliste, ce projet est trop ambitieux.",
+        "ko": "현실적으로 생각해, 이 계획은 너무 야심 차."
+      }
+    ],
+    "level": "B1",
+    "rank": 878
+  },
+  {
+    "id": 879,
+    "french": "passe",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "(스포츠) 패스",
+      "통행증 (un passe 마스터키; 여기서는 f 형태)"
+    ],
+    "examples": [
+      {
+        "fr": "Il fait une belle passe à son coéquipier.",
+        "ko": "그는 동료에게 멋진 패스를 한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 879
+  },
+  {
+    "id": 880,
+    "french": "principalement",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "주로, 대부분"
+    ],
+    "examples": [
+      {
+        "fr": "Ce plat se compose principalement de légumes.",
+        "ko": "이 요리는 주로 채소로 이루어져 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 880
+  },
+  {
+    "id": 881,
+    "french": "ceinture",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "허리띠, 벨트 (ceinture de sécurité 안전벨트)"
+    ],
+    "examples": [
+      {
+        "fr": "Attachez votre ceinture de sécurité.",
+        "ko": "안전벨트를 매세요."
+      }
+    ],
+    "level": "B1",
+    "rank": 881
+  },
+  {
+    "id": 882,
+    "french": "tailleur",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "재단사",
+      "(여성) 정장 투피스",
+      "(en tailleur) 책상다리로"
+    ],
+    "examples": [
+      {
+        "fr": "Elle porte un tailleur gris pour l'entretien.",
+        "ko": "그녀는 면접에 회색 정장을 입는다."
+      }
+    ],
+    "level": "B1",
+    "rank": 882
+  },
+  {
+    "id": 883,
+    "french": "varié",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "다양한, 다채로운"
+    ],
+    "examples": [
+      {
+        "fr": "Le menu propose des plats variés.",
+        "ko": "메뉴에는 다양한 요리가 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 883
+  },
+  {
+    "id": 884,
+    "french": "roman",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "(건축) 로마네스크 양식의",
+      "(langue romane) 로망스어의"
+    ],
+    "examples": [
+      {
+        "fr": "Cette église romane date du douzième siècle.",
+        "ko": "이 로마네스크 양식 교회는 12세기의 것이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 884
+  },
+  {
+    "id": 885,
+    "french": "doubler",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "두 배로 하다",
+      "(차를) 추월하다",
+      "(영화를) 더빙하다"
+    ],
+    "examples": [
+      {
+        "fr": "Il est dangereux de doubler dans ce virage.",
+        "ko": "이 커브에서 추월하는 건 위험하다."
+      }
+    ],
+    "level": "B1",
+    "rank": 885
+  },
+  {
+    "id": 886,
+    "french": "miracle",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "기적"
+    ],
+    "examples": [
+      {
+        "fr": "Sa guérison tient du miracle.",
+        "ko": "그의 회복은 기적에 가깝다."
+      }
+    ],
+    "level": "B1",
+    "rank": 886
+  },
+  {
+    "id": 887,
+    "french": "drapeau",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "깃발, 국기"
+    ],
+    "examples": [
+      {
+        "fr": "Le drapeau flotte au sommet du bâtiment.",
+        "ko": "깃발이 건물 꼭대기에서 나부낀다."
+      }
+    ],
+    "level": "B1",
+    "rank": 887
+  },
+  {
+    "id": 888,
+    "french": "statue",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "조각상, 동상"
+    ],
+    "examples": [
+      {
+        "fr": "Une statue de bronze se dresse sur la place.",
+        "ko": "청동 동상이 광장에 우뚝 서 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 888
+  },
+  {
+    "id": 889,
+    "french": "fiancé",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "약혼자(남)"
+    ],
+    "examples": [
+      {
+        "fr": "Elle présente son fiancé à ses parents.",
+        "ko": "그녀는 부모님께 약혼자를 소개한다."
+      }
+    ],
+    "level": "B1",
+    "rank": 889
+  },
+  {
+    "id": 890,
+    "french": "signaler",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "알리다, 신고하다, 표시하다"
+    ],
+    "examples": [
+      {
+        "fr": "Un panneau signale les travaux.",
+        "ko": "표지판이 공사 중임을 알린다."
+      }
+    ],
+    "level": "B1",
+    "rank": 890
+  },
+  {
+    "id": 891,
+    "french": "quête",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "탐구, 추구 (en quête de ~을 찾아서)",
+      "모금"
+    ],
+    "examples": [
+      {
+        "fr": "Il est en quête d'un sens à sa vie.",
+        "ko": "그는 삶의 의미를 찾고 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 891
+  },
+  {
+    "id": 892,
+    "french": "opérer",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "수술하다",
+      "(변화를) 일으키다, 작동하다"
+    ],
+    "examples": [
+      {
+        "fr": "Le chirurgien va l'opérer demain matin.",
+        "ko": "외과의가 내일 아침 그를 수술할 것이다."
+      }
+    ],
+    "level": "B1",
+    "rank": 892
+  },
+  {
+    "id": 893,
+    "french": "pénible",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "힘든, 고통스러운",
+      "(사람이) 성가신"
+    ],
+    "examples": [
+      {
+        "fr": "Ce travail est physiquement très pénible.",
+        "ko": "이 일은 육체적으로 아주 힘들다."
+      }
+    ],
+    "level": "B1",
+    "rank": 893
+  },
+  {
+    "id": 894,
+    "french": "pardonner",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "용서하다"
+    ],
+    "examples": [
+      {
+        "fr": "Elle a fini par lui pardonner.",
+        "ko": "그녀는 결국 그를 용서했다."
+      }
+    ],
+    "level": "B1",
+    "rank": 894
+  },
+  {
+    "id": 895,
+    "french": "ressentir",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "(감정을) 느끼다"
+    ],
+    "examples": [
+      {
+        "fr": "Il ressent une grande fierté pour sa fille.",
+        "ko": "그는 딸에게 큰 자부심을 느낀다."
+      }
+    ],
+    "level": "B1",
+    "rank": 895
+  },
+  {
+    "id": 896,
+    "french": "apparemment",
+    "pos": "ADV",
+    "posKo": "부사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "보아하니, 겉보기에"
+    ],
+    "examples": [
+      {
+        "fr": "Apparemment, il ne viendra pas ce soir.",
+        "ko": "보아하니 그는 오늘 저녁 안 올 것 같아."
+      }
+    ],
+    "level": "B1",
+    "rank": 896
+  },
+  {
+    "id": 897,
+    "french": "façade",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "f",
+    "article": "une",
+    "korean": [
+      "(건물의) 정면, 파사드",
+      "(비유) 겉모습, 허울"
+    ],
+    "examples": [
+      {
+        "fr": "La façade de l'immeuble vient d'être rénovée.",
+        "ko": "건물 정면이 막 새로 단장되었다."
+      }
+    ],
+    "level": "B1",
+    "rank": 897
+  },
+  {
+    "id": 898,
+    "french": "budget",
+    "pos": "NOM",
+    "posKo": "명사",
+    "gender": "m",
+    "article": "un",
+    "korean": [
+      "예산"
+    ],
+    "examples": [
+      {
+        "fr": "Nous avons un budget limité pour ce voyage.",
+        "ko": "우리는 이 여행에 예산이 한정되어 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 898
+  },
+  {
+    "id": 899,
+    "french": "extérieur",
+    "pos": "ADJ",
+    "posKo": "형용사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "외부의, 바깥의"
+    ],
+    "examples": [
+      {
+        "fr": "Le mur extérieur a besoin d'être repeint.",
+        "ko": "바깥 벽을 다시 칠할 필요가 있다."
+      }
+    ],
+    "level": "B1",
+    "rank": 899
+  },
+  {
+    "id": 900,
+    "french": "bruire",
+    "pos": "VER",
+    "posKo": "동사",
+    "gender": null,
+    "article": null,
+    "korean": [
+      "바스락거리다, 살랑거리다 (나뭇잎·바람 소리)"
+    ],
+    "examples": [
+      {
+        "fr": "Les feuilles bruissent doucement dans le vent.",
+        "ko": "나뭇잎들이 바람에 살랑살랑 바스락거린다."
+      }
+    ],
+    "level": "B1",
+    "rank": 900
   }
 ]
