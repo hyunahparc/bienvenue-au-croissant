@@ -91,6 +91,14 @@ export default function App() {
         </h1>
       </header>
 
+      <input
+        type="search"
+        className="search search-global"
+        placeholder="단어 또는 뜻으로 검색하기"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+
       <nav className="levels">
         {LEVELS.map((lv) => {
           const has = lv in WORDS_BY_LEVEL
@@ -115,18 +123,7 @@ export default function App() {
         </button>
       </nav>
 
-      <div className="controls">
-        <input
-          type="search"
-          className="search"
-          placeholder={
-            isHighlightsView
-              ? '형광펜 친 단어 중에서 검색'
-              : '전체 레벨에서 프랑스어, 한국어 뜻으로 검색'
-          }
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
+      <div className="folder">
         <div className="chips">
           {POS_FILTERS.map((f) => (
             <button
@@ -146,59 +143,59 @@ export default function App() {
             </button>
           )}
         </div>
-      </div>
 
-      <p className="count">
-        {visible.length}개 단어
-        {isHighlightsView && ' (형광펜)'}
-        {isSearching && !isHighlightsView && ' (전체 검색)'}
-        {!isHighlightsView && levelWords.length > 0 &&
-          ` · ${seenCount}/${levelWords.length} 학습 (${progressPercent}%)`}
-        {totalPages > 1 && ` · ${currentPage}/${totalPages} 페이지`}
-      </p>
+        <p className="count">
+          {visible.length}개 단어
+          {isHighlightsView && ' (형광펜)'}
+          {isSearching && !isHighlightsView && ' (전체 검색)'}
+          {!isHighlightsView && levelWords.length > 0 &&
+            ` · ${seenCount}/${levelWords.length} 학습 (${progressPercent}%)`}
+          {totalPages > 1 && ` · ${currentPage}/${totalPages} 페이지`}
+        </p>
 
-      {!isHighlightsView && levelWords.length > 0 && (
-        <div className="progress-bar" aria-hidden="true">
-          <div className="progress-fill" style={{ width: `${progressPercent}%` }} />
-        </div>
-      )}
-
-      <main className="word-list">
-        {paginated.map((w) => (
-          <WordCard
-            key={`${w.level}-${w.id}`}
-            word={w}
-            showLevel={showLevelBadge}
-            highlighted={isHighlighted(w.level, w.id)}
-            onToggleHighlight={() => toggleHighlight(w.level, w.id)}
-            seen={isSeen(w.level, w.id)}
-            onToggleSeen={() => toggleSeen(w.level, w.id)}
-          />
-        ))}
-        {visible.length === 0 && (
-          <p className="empty">조건에 맞는 단어가 없어요.</p>
+        {!isHighlightsView && levelWords.length > 0 && (
+          <div className="progress-bar" aria-hidden="true">
+            <div className="progress-fill" style={{ width: `${progressPercent}%` }} />
+          </div>
         )}
-      </main>
 
-      {totalPages > 1 && (
-        <nav className="pager">
-          <button
-            className="pager-btn"
-            disabled={currentPage === 1}
-            onClick={() => goToPage(currentPage - 1)}
-          >
-            ← 이전
-          </button>
-          <span className="pager-status">{currentPage} / {totalPages}</span>
-          <button
-            className="pager-btn"
-            disabled={currentPage === totalPages}
-            onClick={() => goToPage(currentPage + 1)}
-          >
-            다음 →
-          </button>
-        </nav>
-      )}
+        <main className="word-list">
+          {paginated.map((w) => (
+            <WordCard
+              key={`${w.level}-${w.id}`}
+              word={w}
+              showLevel={showLevelBadge}
+              highlighted={isHighlighted(w.level, w.id)}
+              onToggleHighlight={() => toggleHighlight(w.level, w.id)}
+              seen={isSeen(w.level, w.id)}
+              onToggleSeen={() => toggleSeen(w.level, w.id)}
+            />
+          ))}
+          {visible.length === 0 && (
+            <p className="empty">조건에 맞는 단어가 없어요.</p>
+          )}
+        </main>
+
+        {totalPages > 1 && (
+          <nav className="pager">
+            <button
+              className="pager-btn"
+              disabled={currentPage === 1}
+              onClick={() => goToPage(currentPage - 1)}
+            >
+              ← 이전
+            </button>
+            <span className="pager-status">{currentPage} / {totalPages}</span>
+            <button
+              className="pager-btn"
+              disabled={currentPage === totalPages}
+              onClick={() => goToPage(currentPage + 1)}
+            >
+              다음 →
+            </button>
+          </nav>
+        )}
+      </div>
     </div>
   )
 }
