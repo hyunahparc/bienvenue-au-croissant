@@ -8,14 +8,13 @@ import c2 from '../data/c2.json'
 import WordCard from './components/WordCard.jsx'
 import { useHighlights } from './hooks/useHighlights.js'
 import { useSeen } from './hooks/useSeen.js'
-import { HighlighterIcon } from './components/icons.jsx'
+import { HighlighterIcon, CheckIcon } from './components/icons.jsx'
 
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2']
 const WORDS_BY_LEVEL = { A1: a1, A2: a2, B1: b1, B2: b2, C1: c1, C2: c2 }
 const ALL_WORDS = Object.values(WORDS_BY_LEVEL).flat()
 
 const POS_FILTERS = [
-  { key: 'all', label: '전체' },
   { key: 'NOM', label: '명사' },
   { key: 'VER', label: '동사' },
   { key: 'ADJ', label: '형용사' },
@@ -29,7 +28,8 @@ export default function App() {
   const [level, setLevel] = useState('A1')
   const [query, setQuery] = useState('')
   const [pos, setPos] = useState('all')
-  const [onlyUnseen, setOnlyUnseen] = useState(false)
+  const [seenFilter, setSeenFilter] = useState('all')
+  const [showPosFilters, setShowPosFilters] = useState(false)
   const [page, setPage] = useState(1)
   const { highlights, toggleHighlight, isHighlighted } = useHighlights()
   const { seen, toggleSeen, isSeen } = useSeen()
@@ -46,14 +46,16 @@ export default function App() {
     return searchScope.filter((w) => {
       if (pos === 'etc' ? MAIN_POS.includes(w.pos) : pos !== 'all' && w.pos !== pos) return false
       if (isHighlightsView && !isHighlighted(w.level, w.id)) return false
-      if (!isHighlightsView && onlyUnseen && isSeen(w.level, w.id)) return false
+      if (!isHighlightsView && seenFilter === 'unseen' && isSeen(w.level, w.id)) return false
+      if (!isHighlightsView && seenFilter === 'seen' && !isSeen(w.level, w.id)) return false
       if (!q) return true
-      return (
-        w.french.toLowerCase().includes(q) ||
-        w.korean.some((k) => k.includes(q))
-      )
+      // 한글이 포함된 검색어는 뜻(한국어)에서만, 그 외는 프랑스어 단어에서만 찾는다
+      // (예문은 검색 대상에서 제외)
+      return /[ㄱ-힝]/.test(q)
+        ? w.korean.some((k) => k.toLowerCase().includes(q))
+        : w.french.toLowerCase().includes(q)
     })
-  }, [searchScope, trimmedQuery, pos, highlights, isHighlightsView, onlyUnseen, seen])
+  }, [searchScope, trimmedQuery, pos, highlights, isHighlightsView, seenFilter, seen])
 
   const seenCount = useMemo(
     () => levelWords.filter((w) => isSeen(w.level, w.id)).length,
@@ -64,7 +66,16 @@ export default function App() {
 
   useEffect(() => {
     setPage(1)
-  }, [level, query, pos, onlyUnseen])
+  }, [level, query, pos, seenFilter])
+
+  useEffect(() => {
+    if (isSearching) {
+      setPos('all')
+      setSeenFilter('all')
+      setShowPosFilters(false)
+      setLevel('A1')
+    }
+  }, [isSearching])
 
   const totalPages = Math.max(1, Math.ceil(visible.length / PAGE_SIZE))
   const currentPage = Math.min(page, totalPages)
@@ -86,7 +97,15 @@ export default function App() {
       <header className="header">
         <h1>
           <img src="/logo_brown.png" alt="" className="logo" />
-          <span className="title-text">bienvenue au croissant</span>
+          <button
+            type="button"
+            className="title-btn"
+            onClick={() => window.location.reload()}
+            aria-label="새로고침"
+            title="새로고침"
+          >
+            <span className="title-text">bienvenue au croissant</span>
+          </button>
           <img src="/logo_brown.png" alt="" className="logo" />
         </h1>
       </header>
@@ -124,38 +143,72 @@ export default function App() {
       </nav>
 
       <div className="folder">
+        {!isSearching && (
+          <>
+            <p className="count">
+              {visible.length}개 단어
+              {isHighlightsView && ' (형광펜)'}
+              {!isHighlightsView && levelWords.length > 0 &&
+                ` · ${seenCount}/${levelWords.length} 학습 (${progressPercent}%)`}
+              {totalPages > 1 && ` · ${currentPage}/${totalPages} 페이지`}
+            </p>
+
+            {!isHighlightsView && levelWords.length > 0 && (
+              <div className="progress-bar" aria-hidden="true">
+                <div className="progress-fill" style={{ width: `${progressPercent}%` }} />
+              </div>
+            )}
+          </>
+        )}
+
         <div className="chips">
-          {POS_FILTERS.map((f) => (
-            <button
-              key={f.key}
-              className={`chip ${pos === f.key ? 'active' : ''}`}
-              onClick={() => setPos(f.key)}
-            >
-              {f.label}
-            </button>
-          ))}
+          <button
+            className={`chip ${pos === 'all' ? 'active' : ''}`}
+            onClick={() => setPos('all')}
+          >
+            전체
+          </button>
           {!isHighlightsView && (
             <button
-              className={`chip unseen-chip ${onlyUnseen ? 'active' : ''}`}
-              onClick={() => setOnlyUnseen((v) => !v)}
+              className={`chip unseen-chip ${seenFilter === 'unseen' ? 'active' : ''}`}
+              onClick={() => setSeenFilter((v) => (v === 'unseen' ? 'all' : 'unseen'))}
+              aria-label="안 본 단어만 보기"
+              title="안 본 단어만 보기"
             >
-              안 본 단어
+              <span className="chip-checkbox" aria-hidden="true" />
             </button>
           )}
+          {!isHighlightsView && (
+            <button
+              className={`chip unseen-chip ${seenFilter === 'seen' ? 'active' : ''}`}
+              onClick={() => setSeenFilter((v) => (v === 'seen' ? 'all' : 'seen'))}
+              aria-label="본 단어만 보기"
+              title="본 단어만 보기"
+            >
+              <span className="chip-checkbox checked" aria-hidden="true">
+                <CheckIcon />
+              </span>
+            </button>
+          )}
+          <button
+            className={`chip pos-toggle ${pos !== 'all' ? 'active' : ''}`}
+            onClick={() => setShowPosFilters((v) => !v)}
+          >
+            필터 {showPosFilters ? '▲' : '▼'}
+          </button>
         </div>
 
-        <p className="count">
-          {visible.length}개 단어
-          {isHighlightsView && ' (형광펜)'}
-          {isSearching && !isHighlightsView && ' (전체 검색)'}
-          {!isHighlightsView && levelWords.length > 0 &&
-            ` · ${seenCount}/${levelWords.length} 학습 (${progressPercent}%)`}
-          {totalPages > 1 && ` · ${currentPage}/${totalPages} 페이지`}
-        </p>
-
-        {!isHighlightsView && levelWords.length > 0 && (
-          <div className="progress-bar" aria-hidden="true">
-            <div className="progress-fill" style={{ width: `${progressPercent}%` }} />
+        {showPosFilters && (
+          <div className="chips pos-filters">
+            {POS_FILTERS.map((f) => (
+              <button
+                key={f.key}
+                className={`chip ${pos === f.key ? 'active' : ''}`}
+                onClick={() => setPos(f.key)}
+              >
+                {f.label}
+              </button>
+            ))}
           </div>
         )}
 

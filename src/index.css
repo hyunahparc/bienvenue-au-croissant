@@ -58,6 +58,18 @@ body {
   flex-shrink: 0;
 }
 
+.title-btn {
+  display: flex;
+  min-width: 0;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
 /* 레벨 탭 — 파일 폴더에서 삐죽 나온 탭 느낌 */
 .levels {
   display: flex;
@@ -112,7 +124,7 @@ body {
 .folder {
   background: var(--card);
   border-radius: 0 0 14px 14px;
-  padding: 14px 16px 20px;
+  padding: 17px 16px 20px;
 }
 
 /* 검색 & 필터 */
@@ -142,6 +154,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+  padding: 5px 0;
+}
+
+.chip.pos-toggle {
+  color: var(--muted);
 }
 
 .search-global {
@@ -161,6 +178,37 @@ body {
   cursor: pointer;
 }
 
+.chip.unseen-chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+}
+
+.chip-checkbox {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1.5px solid var(--muted);
+  border-radius: 4px;
+}
+
+.chip.active .chip-checkbox {
+  border-color: #fff;
+}
+
+.chip-checkbox.checked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4dabf7;
+}
+
+.chip-checkbox.checked svg {
+  width: 11px;
+  height: 11px;
+}
+
 .chip.active {
   background: #3d3d3d;
   color: #fff;
@@ -169,14 +217,14 @@ body {
 .count {
   color: var(--muted);
   font-size: 0.85rem;
-  margin: 14px 2px 4px;
+  margin: 0 2px 4px;
 }
 
 .progress-bar {
   height: 6px;
   border-radius: 999px;
   background: var(--line);
-  margin: 0 2px 28px;
+  margin: 0 2px 14px;
   overflow: hidden;
 }
 
@@ -192,6 +240,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-top: 14px;
 }
 
 .card {
@@ -205,14 +254,9 @@ body {
 
 .card-head {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
-}
-
-.rank {
-  color: var(--muted);
-  font-size: 0.75rem;
-  min-width: 34px;
+  margin-top: 8px;
 }
 
 .level-badge {
@@ -225,11 +269,20 @@ body {
   white-space: nowrap;
 }
 
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .french {
+  flex: 1 1 auto;
+  min-width: 0;
   font-family: 'Bodoni 72', 'Didot', Georgia, serif;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0;
+  line-height: 1.25;
 }
 
 .fr-word {
@@ -257,7 +310,6 @@ body {
   font-size: 0.72rem;
   padding: 2px 8px;
   border-radius: 999px;
-  background: var(--card);
   border: 1px solid var(--line);
   color: var(--muted);
   white-space: nowrap;
@@ -277,7 +329,7 @@ body {
 }
 
 .highlighter {
-  margin-left: auto;
+  flex-shrink: 0;
   align-self: center;
   display: flex;
   align-items: center;
@@ -298,6 +350,7 @@ body {
 }
 
 .check {
+  flex-shrink: 0;
   align-self: center;
   display: flex;
   align-items: center;
@@ -318,7 +371,6 @@ body {
   color: #4dabf7;
 }
 
-/* 학습 완료한 카드는 흐리게 */
 .card.seen {
   border-left-color: #a5d8ff;
 }
@@ -399,5 +451,4 @@ body {
 @media (max-width: 480px) {
   .app { padding: 20px 14px 60px; }
   .french { font-size: 1.3rem; }
-  .rank { display: none; }
 }

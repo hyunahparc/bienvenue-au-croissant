@@ -27,24 +27,13 @@ export default function WordCard({
 
   return (
     <article className={`card ${seen ? 'seen' : ''}`}>
-      <div className="card-head">
-        {showLevel ? (
-          <span className="level-badge">{word.level}</span>
-        ) : (
-          <span className="rank">#{word.rank}</span>
-        )}
+      <div className="title-row">
         <h2 className="french">
           {isNoun && <span className="article">{word.article}</span>}{' '}
           <span className={`fr-word ${highlighted ? 'marked' : ''}`}>
             {word.french}
           </span>
         </h2>
-        <span className="pos-badge">{word.posKo}</span>
-        {isNoun && (
-          <span className={`gender-badge ${genderClass}`}>
-            {GENDER_LABEL[word.gender]}
-          </span>
-        )}
         <button
           className={`highlighter ${highlighted ? 'on' : ''}`}
           aria-label={highlighted ? '형광펜 지우기' : '형광펜 칠하기'}
@@ -67,6 +56,16 @@ export default function WordCard({
         {word.korean.map((k, i) => (
           <p className="korean-sense" key={i}>{k}</p>
         ))}
+      </div>
+
+      <div className="card-head">
+        {showLevel && <span className="level-badge">{word.level}</span>}
+        <span className="pos-badge">{word.posKo}</span>
+        {isNoun && (
+          <span className={`gender-badge ${genderClass}`}>
+            {GENDER_LABEL[word.gender]}
+          </span>
+        )}
       </div>
 
       {word.examples.map((ex, i) => (
