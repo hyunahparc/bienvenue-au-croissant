@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const STORAGE_KEY = 'croissant.favorites.v1'
+const STORAGE_KEY = 'croissant.seen.v1'
 
 function load() {
   try {
@@ -10,11 +10,11 @@ function load() {
   }
 }
 
-export function useFavorites() {
-  const [favorites, setFavorites] = useState(load)
+export function useSeen() {
+  const [seen, setSeen] = useState(load)
 
-  const toggleFavorite = (level, id) => {
-    setFavorites((prev) => {
+  const toggleSeen = (level, id) => {
+    setSeen((prev) => {
       const next = new Set(prev)
       const key = `${level}:${id}`
       next.has(key) ? next.delete(key) : next.add(key)
@@ -23,7 +23,7 @@ export function useFavorites() {
     })
   }
 
-  const isFavorite = (level, id) => favorites.has(`${level}:${id}`)
+  const isSeen = (level, id) => seen.has(`${level}:${id}`)
 
-  return { favorites, toggleFavorite, isFavorite }
+  return { seen, toggleSeen, isSeen }
 }

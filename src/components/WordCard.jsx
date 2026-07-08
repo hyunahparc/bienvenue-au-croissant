@@ -1,3 +1,5 @@
+import { HighlighterIcon, CheckIcon } from './icons.jsx'
+
 const GENDER_LABEL = { m: '남성', f: '여성', mf: '남·여' }
 
 function highlightWord(text, word) {
@@ -12,12 +14,19 @@ function highlightWord(text, word) {
   )
 }
 
-export default function WordCard({ word, favorite, onToggleFavorite, showLevel }) {
+export default function WordCard({
+  word,
+  highlighted,
+  onToggleHighlight,
+  seen,
+  onToggleSeen,
+  showLevel,
+}) {
   const isNoun = word.pos === 'NOM'
   const genderClass = isNoun ? `gender-${word.gender}` : ''
 
   return (
-    <article className="card">
+    <article className={`card ${seen ? 'seen' : ''}`}>
       <div className="card-head">
         {showLevel ? (
           <span className="level-badge">{word.level}</span>
@@ -25,7 +34,10 @@ export default function WordCard({ word, favorite, onToggleFavorite, showLevel }
           <span className="rank">#{word.rank}</span>
         )}
         <h2 className="french">
-          {isNoun && <span className="article">{word.article}</span>} {word.french}
+          {isNoun && <span className="article">{word.article}</span>}{' '}
+          <span className={`fr-word ${highlighted ? 'marked' : ''}`}>
+            {word.french}
+          </span>
         </h2>
         <span className="pos-badge">{word.posKo}</span>
         {isNoun && (
@@ -34,11 +46,20 @@ export default function WordCard({ word, favorite, onToggleFavorite, showLevel }
           </span>
         )}
         <button
-          className={`star ${favorite ? 'on' : ''}`}
-          aria-label={favorite ? '즐겨찾기 해제' : '즐겨찾기 추가'}
-          onClick={onToggleFavorite}
+          className={`highlighter ${highlighted ? 'on' : ''}`}
+          aria-label={highlighted ? '형광펜 지우기' : '형광펜 칠하기'}
+          title={highlighted ? '형광펜 지우기' : '형광펜 칠하기'}
+          onClick={onToggleHighlight}
         >
-          {favorite ? '★' : '☆'}
+          <HighlighterIcon />
+        </button>
+        <button
+          className={`check ${seen ? 'on' : ''}`}
+          aria-label={seen ? '학습 표시 해제' : '학습 완료 표시'}
+          title={seen ? '학습 표시 해제' : '학습 완료 표시'}
+          onClick={onToggleSeen}
+        >
+          {seen && <CheckIcon />}
         </button>
       </div>
 

@@ -29,17 +29,31 @@ body {
   padding: 32px 20px 80px;
 }
 
-.header h1 {
-  font-family: 'Bodoni 72', 'Didot', Georgia, serif;
-  font-size: 2.4rem;
-  margin: 0;
-  letter-spacing: 0.01em;
+.header {
+  text-align: center;
 }
 
-.tagline {
-  margin: 4px 0 0;
-  color: var(--muted);
-  font-size: 0.9rem;
+.header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+  font-family: 'Fraunces', 'Bodoni 72', 'Didot', Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(1.15rem, 5.5vw, 2.1rem);
+  margin: 0;
+  text-transform: lowercase;
+  letter-spacing: 0.005em;
+}
+
+.title-text {
+  white-space: nowrap;
+}
+
+.logo {
+  height: 1.15em;
+  width: auto;
+  flex-shrink: 0;
 }
 
 /* 레벨 탭 */
@@ -72,16 +86,19 @@ body {
   cursor: not-allowed;
 }
 
-.level-tab.star-tab {
+.level-tab.highlight-tab {
   flex: 0 0 44px;
-  color: #e5a50a;
-  border-color: #f0d896;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #b8dcf5;
+  color: #74b9e6;
 }
 
-.level-tab.star-tab.active {
-  background: #e5a50a;
-  border-color: #e5a50a;
-  color: #fff;
+.level-tab.highlight-tab.active {
+  background: #a5d8ff;
+  border-color: #a5d8ff;
+  color: var(--ink);
 }
 
 /* 검색 & 필터 */
@@ -96,8 +113,15 @@ body {
 }
 
 .search:focus {
-  outline: 2px solid var(--accent);
-  outline-offset: -1px;
+  outline: none;
+}
+
+.search::-webkit-search-cancel-button {
+  display: none;
+}
+
+.search::-ms-clear {
+  display: none;
 }
 
 .chips {
@@ -118,20 +142,30 @@ body {
 }
 
 .chip.active {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: var(--ink);
+  border-color: var(--ink);
   color: #fff;
-}
-
-.star-chip.active {
-  background: #e5a50a;
-  border-color: #e5a50a;
 }
 
 .count {
   color: var(--muted);
   font-size: 0.85rem;
-  margin: 14px 2px 10px;
+  margin: 14px 2px 4px;
+}
+
+.progress-bar {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--line);
+  margin: 0 2px 14px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #a5d8ff;
+  border-radius: 999px;
+  transition: width 0.2s ease;
 }
 
 /* 단어 카드 */
@@ -144,8 +178,10 @@ body {
 .card {
   background: var(--card);
   border: 1px solid var(--line);
+  border-left: 4px solid var(--line);
   border-radius: 14px;
   padding: 16px 18px;
+  transition: background 0.15s, border-left-color 0.15s;
 }
 
 .card-head {
@@ -177,6 +213,21 @@ body {
   margin: 0;
 }
 
+.fr-word {
+  padding: 0 0.08em;
+  border-radius: 2px;
+}
+
+/* 형광펜 효과: 글자 위아래는 남기고 가운데만 색 밴드 */
+.fr-word.marked {
+  background: linear-gradient(
+    transparent 12%,
+    #a5d8ff 12%,
+    #a5d8ff 86%,
+    transparent 86%
+  );
+}
+
 .article {
   color: var(--muted);
   font-weight: 400;
@@ -206,17 +257,52 @@ body {
   color: var(--muted);
 }
 
-.star {
+.highlighter {
   margin-left: auto;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
   border: none;
   background: none;
-  font-size: 1.3rem;
-  color: var(--line);
+  padding: 0;
   cursor: pointer;
   line-height: 1;
+  color: var(--line);
+  transition: color 0.15s;
 }
 
-.star.on { color: #e5a50a; }
+.highlighter.on {
+  color: #4dabf7;
+}
+
+.check {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--line);
+  border-radius: 6px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+  line-height: 1;
+  transition: all 0.15s;
+}
+
+.check.on {
+  color: #4dabf7;
+}
+
+/* 학습 완료한 카드는 흐리게 */
+.card.seen {
+  border-left-color: #a5d8ff;
+}
 
 .korean {
   margin: 8px 0 0;
