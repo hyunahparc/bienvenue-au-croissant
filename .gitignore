@@ -3,4 +3,6 @@ dist/
 .DS_Store
 *.log
 *.tsv
-*.md
+GENERATION_GUIDE.md
+TODO.md
+

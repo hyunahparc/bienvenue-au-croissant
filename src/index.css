@@ -27,8 +27,11 @@ body {
 
 .app {
   max-width: 760px;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 32px 20px 80px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -477,8 +480,8 @@ body {
 }
 
 .footer {
-  margin-top: 32px;
-  padding-top: 16px;
+  margin-top: auto;
+  padding-top: 32px;
   text-align: center;
   color: var(--muted);
   font-size: 0.78rem;
