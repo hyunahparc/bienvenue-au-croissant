@@ -324,6 +324,38 @@ body {
   color: var(--muted);
 }
 
+.speaker {
+  flex-shrink: 0;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  line-height: 1;
+  color: var(--muted);
+}
+
+.ex-speaker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: -3px;
+  width: 20px;
+  height: 20px;
+  margin-left: 4px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  line-height: 1;
+  color: var(--muted);
+}
+
 .highlighter {
   flex-shrink: 0;
   align-self: center;

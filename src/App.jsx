@@ -166,8 +166,11 @@ export default function App() {
 
         <div className="chips">
           <button
-            className={`chip ${pos === 'all' ? 'active' : ''}`}
-            onClick={() => setPos('all')}
+            className={`chip ${pos === 'all' && seenFilter === 'all' ? 'active' : ''}`}
+            onClick={() => {
+              setPos('all')
+              setSeenFilter('all')
+            }}
           >
             전체
           </button>
