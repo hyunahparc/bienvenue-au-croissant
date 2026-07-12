@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Noonnu Basic Gothic';
+  src: url('/fonts/NoonnuBasicGothicRegular.woff2') format('woff2'),
+    url('/fonts/NoonnuBasicGothicRegular.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+}
+
 :root {
   --bg: #faf6ee;
   --card: #fffdf8;
@@ -21,7 +29,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: 'Apple SD Gothic Neo', 'Pretendard', 'Noto Sans KR', sans-serif;
+  font-family: 'Pretendard Variable', 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
   line-height: 1.55;
 }
 
@@ -281,9 +289,9 @@ body {
 .french {
   flex: 1 1 auto;
   min-width: 0;
-  font-family: 'Bodoni 72', 'Didot', Georgia, serif;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-family: 'Noonnu Basic Gothic', 'Pretendard Variable', -apple-system, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 490;
   margin: 0;
   line-height: 1.25;
 }
@@ -408,7 +416,7 @@ body {
 
 .korean {
   margin: 8px 0 0;
-  font-size: 1.02rem;
+  font-size: 1.01rem;
 }
 
 .korean-sense {
@@ -428,8 +436,8 @@ body {
 
 .ex-fr {
   margin: 0;
-  font-style: italic;
-  font-family: Georgia, serif;
+  font-family: 'Pretendard Variable', 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+  font-weight: 390;
 }
 
 .ex-fr strong {
