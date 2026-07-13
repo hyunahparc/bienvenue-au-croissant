@@ -64,7 +64,7 @@ body {
 }
 
 .logo {
-  height: 1.15em;
+  height: 1.6em;
   width: auto;
   flex-shrink: 0;
 }
@@ -98,7 +98,7 @@ body {
   border-radius: 10px 10px 0 0;
   background: var(--tab-bg);
   color: #4d443a;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 0.95rem;
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
@@ -145,7 +145,7 @@ body {
   border: none;
   border-radius: 12px;
   background: var(--bg);
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: var(--ink);
 }
 
@@ -259,7 +259,7 @@ body {
   border: 1px solid var(--line);
   border-left: 4px solid var(--line);
   border-radius: 14px;
-  padding: 16px 18px;
+  padding: 14px 16px;
   transition: background 0.15s, border-left-color 0.15s;
 }
 
@@ -449,6 +449,57 @@ body {
   margin: 2px 0 0;
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.conjugation {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conjugation-toggle {
+  align-self: flex-end;
+  border: none;
+  background: none;
+  padding: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.conjugation-body {
+  margin-top: 8px;
+  padding: 14px 16px;
+  background: var(--card);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tense-block + .tense-block {
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.tense-label {
+  margin: 0 0 8px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #4dabf7;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.tense-forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 16px;
+}
+
+.conj-form {
+  font-size: 0.92rem;
+  line-height: 1.4;
 }
 
 .empty {
