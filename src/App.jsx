@@ -84,6 +84,11 @@ export default function App() {
   const currentPage = Math.min(page, totalPages)
   const paginated = visible.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
 
+  const selectLevel = (lv) => {
+    setLevel(lv)
+    setQuery('')
+  }
+
   const goToPage = (p) => {
     setPage(Math.min(Math.max(1, p), totalPages))
     // 리스트가 새 페이지 내용으로 다시 그려진 뒤에 스크롤해야
@@ -130,7 +135,7 @@ export default function App() {
               className={`level-tab ${level === lv ? 'active' : ''}`}
               disabled={!has}
               title={has ? undefined : '준비 중'}
-              onClick={() => setLevel(lv)}
+              onClick={() => selectLevel(lv)}
             >
               {lv}
             </button>
@@ -138,7 +143,7 @@ export default function App() {
         })}
         <button
           className={`level-tab highlight-tab ${isHighlightsView ? 'active' : ''}`}
-          onClick={() => setLevel('HIGHLIGHTS')}
+          onClick={() => selectLevel('HIGHLIGHTS')}
           title="모든 레벨의 형광펜 단어"
         >
           <HighlighterIcon />
