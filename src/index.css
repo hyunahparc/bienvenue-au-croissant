@@ -532,10 +532,35 @@ body {
 }
 
 .pager-status {
+  border: none;
+  background: none;
   color: var(--muted);
   font-size: 0.9rem;
   min-width: 60px;
   text-align: center;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.pager-status:hover {
+  text-decoration: underline;
+}
+
+.pager-input {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-family: inherit;
+  width: 60px;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.pager-input:focus {
+  outline: none;
+  border-color: var(--accent);
 }
 
 .footer {

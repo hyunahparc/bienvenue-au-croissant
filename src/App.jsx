@@ -34,6 +34,7 @@ export default function App() {
   const [seenFilter, setSeenFilter] = useState('all')
   const [showPosFilters, setShowPosFilters] = useState(false)
   const [page, setPage] = useState(1)
+  const [editingPage, setEditingPage] = useState(false)
   const { highlights, toggleHighlight, isHighlighted } = useHighlights()
   const { seen, toggleSeen, isSeen } = useSeen()
 
@@ -69,6 +70,7 @@ export default function App() {
 
   useEffect(() => {
     setPage(1)
+    setEditingPage(false)
   }, [level, query, pos, seenFilter])
 
   useEffect(() => {
@@ -249,7 +251,34 @@ export default function App() {
             >
               ← 이전
             </button>
-            <span className="pager-status">{currentPage} / {totalPages}</span>
+            {editingPage ? (
+              <input
+                type="number"
+                className="pager-input"
+                autoFocus
+                min={1}
+                max={totalPages}
+                defaultValue={currentPage}
+                onFocus={(e) => e.target.select()}
+                onBlur={(e) => {
+                  const p = parseInt(e.target.value, 10)
+                  if (!Number.isNaN(p)) goToPage(p)
+                  setEditingPage(false)
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') e.target.blur()
+                  if (e.key === 'Escape') setEditingPage(false)
+                }}
+              />
+            ) : (
+              <button
+                type="button"
+                className="pager-status"
+                onClick={() => setEditingPage(true)}
+              >
+                {currentPage} / {totalPages}
+              </button>
+            )}
             <button
               className="pager-btn"
               disabled={currentPage === totalPages}
@@ -261,14 +290,16 @@ export default function App() {
         )}
       </div>
 
-      <footer className="footer">
-        <p>© {new Date().getFullYear()} bienvenue au croissant. All rights reserved.</p>
-        <p>
-          Word frequency data: <a href="https://cental.uclouvain.be/cefrlex/flelex/download/" target="_blank" rel="noopener noreferrer">FLELex</a>
-          {' '}(Pintard, A. &amp; François, T. 2020) ·{' '}
-          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>
-        </p>
-      </footer>
+      {isHighlightsView && (
+        <footer className="footer">
+          <p>© {new Date().getFullYear()} bienvenue au croissant. All rights reserved.</p>
+          <p>
+            Word frequency data: <a href="https://cental.uclouvain.be/cefrlex/flelex/download/" target="_blank" rel="noopener noreferrer">FLELex</a>
+            {' '}(Pintard, A. &amp; François, T. 2020) ·{' '}
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>
+          </p>
+        </footer>
+      )}
     </div>
   )
 }
