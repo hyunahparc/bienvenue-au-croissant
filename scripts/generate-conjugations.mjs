@@ -14,10 +14,24 @@ for (const level of LEVELS) {
   }
 }
 
+// Lefff는 œ 합자를 oe로 표기한다(예: œuvrer는 'oeuvrer'로 등재). 우리 데이터의
+// œ 표제어를 놓치지 않도록, 정확한 키가 없으면 œ→oe로 바꿔 조회하고 반환된
+// 활용형은 다시 oe→œ로 되돌린다(해당 단어의 oe는 전부 œ에서 온 것이라 안전).
+function lookup(verb) {
+  if (lefff[verb]) return lefff[verb]
+  if (!verb.includes('œ')) return null
+  const raw = lefff[verb.replace(/œ/g, 'oe')]
+  if (!raw) return null
+  const restore = (arr) => arr?.map((f) => (typeof f === 'string' ? f.replace(/oe/g, 'œ') : f))
+  const fixed = {}
+  for (const key of Object.keys(raw)) fixed[key] = restore(raw[key])
+  return fixed
+}
+
 const conjugations = {}
 let missing = 0
 for (const verb of verbs) {
-  const info = lefff[verb]
+  const info = lookup(verb)
   if (!info) {
     missing++
     continue
